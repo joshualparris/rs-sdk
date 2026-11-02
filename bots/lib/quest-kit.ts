@@ -213,6 +213,9 @@ export async function walkToVarrock(c: Ctx, destX = 3253, destZ = 3398): Promise
   if ((sdk.getState()?.player?.worldZ ?? 0) > 9000) await wizardsTowerBasement(c, false);
   const p = sdk.getState()?.player;
   const wps: [number, number][] = [];
+  if (p && p.worldZ >= 3470 && p.worldZ < 3510 && p.worldX >= 3195 && p.worldX <= 3230 && destZ < 3470) {
+    wps.push([3212, 3465]);
+  }
   if (!p || p.worldZ < 3380) {
     if (!p || p.worldZ < 3350 || p.worldX < 3250) {
       if (p && p.worldX < 3180) wps.push([3222, 3219]);
@@ -220,6 +223,8 @@ export async function walkToVarrock(c: Ctx, destX = 3253, destZ = 3398): Promise
     }
     wps.push([3285, 3365]);
     if (destZ >= 3380) wps.push([3273, 3428]);
+  } else if (destZ < 3380) {
+    wps.push([3273, 3428], [3285, 3365]);
   }
   wps.push([destX, destZ]);
   return walkWaypoints(c, wps, 2);
@@ -229,6 +234,9 @@ export async function walkFromVarrockToLumbridge(c: Ctx, destX = 3222, destZ = 3
   const { sdk } = c;
   const p = sdk.getState()?.player;
   const wps: [number, number][] = [];
+  if (p && p.worldZ >= 3470 && p.worldZ < 3510 && p.worldX >= 3195 && p.worldX <= 3230) {
+    wps.push([3212, 3465]);
+  }
   if (p && p.worldZ >= 3350 && p.worldZ < 9000) {
     wps.push([3273, 3428], [3285, 3365], [3260, 3260]);
   }
@@ -303,7 +311,7 @@ export async function runQuests(dir: string, quests: Quest[]) {
         await bot.dismissBlockingUI();
       }
     }
-  }, { timeout: 20 * 60_000 });
+  }, { timeout: 45 * 60_000 });
 }
 
 // Empty the inventory into the Draynor bank, keeping only items matching `keep`. Equipment stays on.
@@ -312,6 +320,11 @@ export async function bankJunk(c: Ctx, keep: RegExp = /^(coins|shears|wool|ball 
   const junk = () => (sdk.getState()?.inventory ?? []).filter((i: any) => !keep.test(i.name));
   if (junk().length === 0) return true;
   if (lvl(sdk) > 0) await lumbridgeStairs(c, 0);
+  await exitWizardsTowerGround(c);
+  const p = sdk.getState()?.player;
+  if (p && p.worldZ > 3350 && p.worldZ < 9000 && p.worldX > 3130) {
+    await walkFromVarrockToLumbridge(c, 3092, 3243);
+  }
   await bot.walkTo(3092, 3243);
   for (let round = 0; round < 6 && junk().length > 0; round++) {
     if (!sdk.isBankOpen()) {
@@ -338,6 +351,10 @@ export async function withdrawFromDraynorBank(c: Ctx, patterns: RegExp[]) {
   if (missing().length === 0) return;
   if (lvl(sdk) > 0) await lumbridgeStairs(c, 0);
   await exitWizardsTowerGround(c);
+  const p = sdk.getState()?.player;
+  if (p && p.worldZ > 3350 && p.worldZ < 9000 && p.worldX > 3130) {
+    await walkFromVarrockToLumbridge(c, 3092, 3243);
+  }
   await bot.walkTo(3092, 3243, 2);
   for (let round = 0; round < 3 && missing().length > 0; round++) {
     if (!sdk.isBankOpen()) {

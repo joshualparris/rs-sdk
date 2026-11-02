@@ -12,4 +12,6 @@ import { haunted } from './ernest-the-chicken';
 import { hunt } from './pirates-treasure';
 import { squire } from './the-knights-sword';
 import { blackknight } from './black-knights-fortress';
-export const ALL = { cooks, sheep, runemysteries, romeojuliet, priest, prince, vampire, doric, hetty, gobdip, haunted, hunt, squire, blackknight };
+import { demon } from './demon-slayer';
+import { imp } from './imp-catcher';
+export const ALL = { cooks, sheep, runemysteries, romeojuliet, priest, prince, vampire, doric, hetty, gobdip, haunted, hunt, squire, blackknight, demon, imp };
