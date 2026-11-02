@@ -1,3 +1,11 @@
 import { cooks } from './cooks-assistant';
 import { sheep } from './sheep-shearer';
-export const ALL = { cooks, sheep };
+import { runemysteries } from './rune-mysteries';
+import { romeojuliet } from './romeo-and-juliet';
+import { priest } from './restless-ghost';
+import { prince } from './prince-ali-rescue';
+import { vampire } from './vampyre-slayer';
+import { doric } from './dorics-quest';
+import { hetty } from './witchs-potion';
+import { gobdip } from './goblin-diplomacy';
+export const ALL = { cooks, sheep, runemysteries, romeojuliet, priest, prince, vampire, doric, hetty, gobdip };
