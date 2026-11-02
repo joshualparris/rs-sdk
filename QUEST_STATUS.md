@@ -11,9 +11,9 @@
 | Prince Ali Rescue | `prince` | in progress | Written, ready to run after Vampyre Slayer |
 | Vampyre Slayer | `vampire` | in progress | Running on qb123333 |
 | Dragon Slayer I | `dragon` | pending | |
-| Doric's Quest | `doric` | pending | F2P |
+| Doric's Quest | `doric` | done | Proven on qb123333 & one-shot on fresh bot qb145109 (+36,750 Mining XP -> Level 40, 180 coins) |
 | Imp Catcher | `imp` | pending | F2P |
-| Witch's Potion | `hetty` | pending | F2P |
+| Witch's Potion | `hetty` | in progress | Verifying one-shot on fresh bot qb145614 |
 | Goblin Diplomacy | `gobdip` | pending | F2P |
 | Ernest the Chicken | `haunted` | pending | F2P |
 | Pirate's Treasure | `hunt` | pending | F2P |

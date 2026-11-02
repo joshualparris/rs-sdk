@@ -4,3 +4,4 @@
 - 2026-11-02T14:35:00+11:00 | Completed Rune Mysteries (verified on qb123333 & fresh bot qb142749) and Romeo & Juliet on qb123333; verifying Romeo & Juliet on fresh bot and running The Restless Ghost on qb123333.
 - 2026-11-02T14:40:30+11:00 | Verified Romeo & Juliet one-shot on fresh bot qb143519; running The Restless Ghost on qb123333.
 - 2026-11-02T14:48:30+11:00 | Completed & verified The Restless Ghost on qb123333 and fresh bot qb144315 (Prayer 37); running Vampyre Slayer on qb123333.
+- 2026-11-02T14:58:20+11:00 | Completed & verified Doric's Quest on qb123333 and fresh bot qb145109 (Mining 40, +180 gp); re-running Vampyre Slayer on qb123333 with combat training.
