@@ -7,9 +7,9 @@
 | X Marks the Spot | - | blocked | Modern OSRS quest (2019); does not exist in revision 225 server (`quest_hunt` / Pirate's Treasure is the 225 buried treasure quest) |
 | Rune Mysteries | `runemysteries` | done | Proven on qb123333 & one-shot on fresh bot qb142749 (Air talisman, Runecrafting unlocked) |
 | Romeo & Juliet | `romeojuliet` | done | Proven on qb123333 & one-shot on fresh bot qb143519 (5 Quest Points) |
-| The Restless Ghost | `priest` | in progress | Running on qb123333 |
-| Prince Ali Rescue | `prince` | pending | |
-| Vampyre Slayer | `vampire` | pending | |
+| The Restless Ghost | `priest` | done | Proven on qb123333 & one-shot on fresh bot qb144315 (+28,125 Prayer XP -> Level 37) |
+| Prince Ali Rescue | `prince` | in progress | Written, ready to run after Vampyre Slayer |
+| Vampyre Slayer | `vampire` | in progress | Running on qb123333 |
 | Dragon Slayer I | `dragon` | pending | |
 | Doric's Quest | `doric` | pending | F2P |
 | Imp Catcher | `imp` | pending | F2P |
