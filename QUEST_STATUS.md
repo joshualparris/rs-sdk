@@ -6,7 +6,7 @@
 | Sheep Shearer | `sheep` | done | Proven on qb123333 & one-shot on fresh bot qb135429 (+5,000 Crafting XP, 60 coins) |
 | X Marks the Spot | - | blocked | Modern OSRS quest (2019); does not exist in revision 225 server (`quest_hunt` / Pirate's Treasure is the 225 buried treasure quest) |
 | Rune Mysteries | `runemysteries` | done | Proven on qb123333 & one-shot on fresh bot qb142749 (Air talisman, Runecrafting unlocked) |
-| Romeo & Juliet | `romeojuliet` | in progress | Done on qb123333; verifying one-shot on fresh bot qb143519 |
+| Romeo & Juliet | `romeojuliet` | done | Proven on qb123333 & one-shot on fresh bot qb143519 (5 Quest Points) |
 | The Restless Ghost | `priest` | in progress | Running on qb123333 |
 | Prince Ali Rescue | `prince` | pending | |
 | Vampyre Slayer | `vampire` | pending | |
