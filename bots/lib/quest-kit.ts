@@ -24,8 +24,8 @@ export async function waitCond(pred: () => boolean, ms: number, interval = 300) 
   return pred();
 }
 
-// Click through a dialog, choosing the first option matching `want`, else "continue".
-export async function chat({ sdk }: Ctx, want: RegExp[] = [], max = 40) {
+// Click through a dialog, choosing the first option matching `want` (in `want` priority order), else "continue".
+export async function chat({ sdk }: Ctx, want: RegExp[] = [], max = 100) {
   let closed = 0;
   for (let i = 0; i < max; i++) {
     const d = sdk.getState()?.dialog;
@@ -35,7 +35,11 @@ export async function chat({ sdk }: Ctx, want: RegExp[] = [], max = 40) {
       continue;
     }
     closed = 0;
-    const opt = d.options.find((o: any) => want.some(w => w.test(o.text)));
+    let opt: any;
+    for (const w of want) {
+      opt = d.options.find((o: any) => w.test(o.text));
+      if (opt) break;
+    }
     await sdk.sendClickDialog(opt ? opt.index : 0);
     await sleep(350);
   }
@@ -88,6 +92,148 @@ export async function lumbridgeStairs(c: Ctx, targetLevel: 0 | 1 | 2): Promise<b
     }
   }
   return lvl(sdk) === targetLevel;
+}
+
+// Climb Juliet's house stairs at (3156,3435): bottom landing (3159,3435), top landing (3155,3435).
+// Note: Juliet's front door at (3160,3440) is a diagonal door (shape 9), so use sdk.sendWalk across it.
+export async function julietStairs(c: Ctx, targetLevel: 0 | 1): Promise<boolean> {
+  const { bot, sdk } = c;
+  if (targetLevel === 1) {
+    if (lvl(sdk) === 0) {
+      const p = sdk.getState()?.player;
+      if (!p || p.worldX > 3161 || p.worldZ > 3439) {
+        await bot.walkTo(3162, 3441, 2);
+      }
+      for (let i = 0; i < 4 && lvl(sdk) !== 1; i++) {
+        const d = (sdk.getState()?.nearbyLocs ?? []).find((l: any) => /door/i.test(l.name) && Math.hypot(l.x - 3160, l.z - 3440) <= 2 && (l.options ?? []).some((o: string) => /^open$/i.test(o)));
+        if (d) { await bot.interactLoc(d, /^open$/i); await sleep(900); }
+        await sdk.sendWalk(3159, 3435, true);
+        await sleep(1600);
+        await bot.interactLoc(/^staircase$/i, /climb-?up/i);
+        await waitCond(() => lvl(sdk) === 1, 6000, 400);
+      }
+    }
+    return lvl(sdk) === 1;
+  }
+  for (let i = 0; i < 4 && lvl(sdk) !== 0; i++) {
+    const w = await bot.walkTo(3155, 3435, 1);
+    if (!w?.success) { await openNearbyDoors(c, 3155, 3435, 2); await bot.walkTo(3155, 3435, 1); }
+    await bot.interactLoc(/^staircase$/i, /climb-?down/i);
+    await waitCond(() => lvl(sdk) === 0, 6000, 400);
+  }
+  for (let i = 0; i < 3; i++) {
+    const p = sdk.getState()?.player;
+    if (!p || p.level !== 0 || p.worldX < 3148 || p.worldX > 3164 || p.worldZ < 3426 || p.worldZ > 3440) break;
+    await sdk.sendWalk(3160, 3439, true);
+    await sleep(1200);
+    const d = (sdk.getState()?.nearbyLocs ?? []).find((l: any) => /door/i.test(l.name) && Math.hypot(l.x - 3160, l.z - 3440) <= 2 && (l.options ?? []).some((o: string) => /^open$/i.test(o)));
+    if (d) { await bot.interactLoc(d, /^open$/i); await sleep(900); }
+    await sdk.sendWalk(3163, 3441, true);
+    await sleep(1400);
+  }
+  return lvl(sdk) === 0;
+}
+
+export async function exitWizardsTowerGround(c: Ctx) {
+  const { bot, sdk } = c;
+  for (let i = 0; i < 4; i++) {
+    const p = sdk.getState()?.player;
+    if (!p || p.level !== 0 || p.worldX < 3102 || p.worldX > 3112 || p.worldZ < 3155 || p.worldZ > 3166) return;
+    const d1 = (sdk.getState()?.nearbyLocs ?? []).find((l: any) => /door/i.test(l.name) && Math.hypot(l.x - 3107, l.z - 3162) <= 2 && (l.options ?? []).some((o: string) => /^open$/i.test(o)));
+    if (d1) { await bot.interactLoc(d1, /^open$/i); await sleep(900); }
+    await sdk.sendWalk(3108, 3165, true);
+    await sleep(1400);
+    const d2 = (sdk.getState()?.nearbyLocs ?? []).find((l: any) => /door/i.test(l.name) && Math.hypot(l.x - 3109, l.z - 3166) <= 2 && (l.options ?? []).some((o: string) => /^open$/i.test(o)));
+    if (d2) { await bot.interactLoc(d2, /^open$/i); await sleep(900); }
+    await sdk.sendWalk(3109, 3168, true);
+    await sleep(1400);
+  }
+}
+
+// Enter (down=true) or exit (down=false) the Wizards' Tower basement (cellar z > 9000).
+export async function wizardsTowerBasement(c: Ctx, down: boolean): Promise<boolean> {
+  const { bot, sdk } = c;
+  const inCellar = () => (sdk.getState()?.player?.worldZ ?? 0) > 9000;
+  if (down === inCellar()) return true;
+  if (!down && inCellar()) {
+    for (let i = 0; i < 4 && inCellar(); i++) {
+      const w = await bot.walkTo(3104, 9576, 1);
+      if (!w?.success) {
+        await openNearbyDoors(c, 3108, 9570, 2);
+        await bot.walkTo(3104, 9576, 1);
+      }
+      await bot.interactLoc(/ladder/i, /climb-?up/i);
+      await waitCond(() => !inCellar(), 8000, 400);
+    }
+    if (!inCellar()) await exitWizardsTowerGround(c);
+    return !inCellar();
+  }
+  if (lvl(sdk) > 0) await lumbridgeStairs(c, 0);
+  await bot.walkTo(3109, 3168, 2);
+  for (let i = 0; i < 4 && !inCellar(); i++) {
+    const d2 = (sdk.getState()?.nearbyLocs ?? []).find((l: any) => /door/i.test(l.name) && Math.hypot(l.x - 3109, l.z - 3166) <= 2 && (l.options ?? []).some((o: string) => /^open$/i.test(o)));
+    if (d2) { await bot.interactLoc(d2, /^open$/i); await sleep(900); }
+    await sdk.sendWalk(3108, 3164, true);
+    await sleep(1400);
+    const d1 = (sdk.getState()?.nearbyLocs ?? []).find((l: any) => /door/i.test(l.name) && Math.hypot(l.x - 3107, l.z - 3162) <= 2 && (l.options ?? []).some((o: string) => /^open$/i.test(o)));
+    if (d1) { await bot.interactLoc(d1, /^open$/i); await sleep(900); }
+    await sdk.sendWalk(3105, 3162, true);
+    await sleep(1400);
+    const r = await bot.interactLoc(/ladder/i, /climb-?down/i);
+    log(c, `wizardsTower climb-down -> ${JSON.stringify(r)}`);
+    await waitCond(() => inCellar(), 8000, 400);
+  }
+  return inCellar();
+}
+
+export async function walkWaypoints(c: Ctx, pts: readonly (readonly [number, number])[], tol = 3): Promise<boolean> {
+  const { bot, sdk } = c;
+  await exitWizardsTowerGround(c);
+  for (const [x, z] of pts) {
+    for (let a = 0; a < 3; a++) {
+      const r = await bot.walkTo(x, z, tol);
+      const p = sdk.getState()?.player;
+      if (p && Math.hypot(p.worldX - x, p.worldZ - z) <= tol + 3) break;
+      if (!r?.success) {
+        await openNearbyDoors(c, undefined, undefined, 2);
+        await openNearbyDoors(c, x, z, 2);
+      }
+      await sleep(500);
+    }
+  }
+  const [lx, lz] = pts[pts.length - 1];
+  const p = sdk.getState()?.player;
+  return !!p && Math.hypot(p.worldX - lx, p.worldZ - lz) <= tol + 4;
+}
+
+// Safe route from Lumbridge/Draynor to Varrock via the East Gate (avoids Dark Wizards at 3227,3369 and Draynor Manor).
+export async function walkToVarrock(c: Ctx, destX = 3253, destZ = 3398): Promise<boolean> {
+  const { sdk } = c;
+  if (lvl(sdk) > 0) await lumbridgeStairs(c, 0);
+  if ((sdk.getState()?.player?.worldZ ?? 0) > 9000) await wizardsTowerBasement(c, false);
+  const p = sdk.getState()?.player;
+  const wps: [number, number][] = [];
+  if (!p || p.worldZ < 3380) {
+    if (!p || p.worldZ < 3350 || p.worldX < 3250) {
+      if (p && p.worldX < 3180) wps.push([3222, 3219]);
+      wps.push([3260, 3260]);
+    }
+    wps.push([3285, 3365]);
+    if (destZ >= 3380) wps.push([3273, 3428]);
+  }
+  wps.push([destX, destZ]);
+  return walkWaypoints(c, wps, 2);
+}
+
+export async function walkFromVarrockToLumbridge(c: Ctx, destX = 3222, destZ = 3219): Promise<boolean> {
+  const { sdk } = c;
+  const p = sdk.getState()?.player;
+  const wps: [number, number][] = [];
+  if (p && p.worldZ >= 3350 && p.worldZ < 9000) {
+    wps.push([3273, 3428], [3285, 3365], [3260, 3260]);
+  }
+  wps.push([destX, destZ]);
+  return walkWaypoints(c, wps, 2);
 }
 
 export async function pickupWithWait(c: Ctx, x: number, z: number, item: RegExp, waitSec = 25): Promise<boolean> {
@@ -184,4 +330,90 @@ export async function bankJunk(c: Ctx, keep: RegExp = /^(coins|shears|wool|ball 
   const left = junk().map((i: any) => i.name);
   if (left.length) log(c, `bank: still holding ${left.join(', ')}`);
   return left.length === 0;
+}
+
+export async function withdrawFromDraynorBank(c: Ctx, patterns: RegExp[]) {
+  const { bot, sdk } = c;
+  const missing = () => patterns.filter(p => !has(sdk, p) && !(sdk.getState()?.equipment ?? []).some((e: any) => p.test(e.name)));
+  if (missing().length === 0) return;
+  if (lvl(sdk) > 0) await lumbridgeStairs(c, 0);
+  await exitWizardsTowerGround(c);
+  await bot.walkTo(3092, 3243, 2);
+  for (let round = 0; round < 3 && missing().length > 0; round++) {
+    if (!sdk.isBankOpen()) {
+      const r = await bot.openBank();
+      if (!r?.success) { await sleep(800); continue; }
+      await sleep(600);
+    }
+    for (const pat of missing()) {
+      const bi = sdk.findBankItem(pat);
+      if (bi) {
+        await sdk.sendBankWithdraw(bi.slot, bi.count ?? 1);
+        await sleep(450);
+      }
+    }
+    break;
+  }
+  if (sdk.isBankOpen()) await bot.closeBank();
+}
+
+export async function combineItems(c: Ctx, a: RegExp, b: RegExp, result: RegExp, waitMs = 3000): Promise<boolean> {
+  const { sdk } = c;
+  if (has(sdk, result)) return true;
+  for (let i = 0; i < 3 && !has(sdk, result); i++) {
+    const ia = sdk.findInventoryItem(a);
+    const ib = sdk.findInventoryItem(b);
+    if (!ia || !ib) return false;
+    await sdk.sendUseItemOnItem(ia.slot, ib.slot);
+    if (await waitInv(sdk, result, 1200)) return true;
+    const ia2 = sdk.findInventoryItem(a);
+    const ib2 = sdk.findInventoryItem(b);
+    if (ia2 && ib2) await sdk.sendUseItemOnItem(ib2.slot, ia2.slot);
+    if (await waitInv(sdk, result, waitMs)) return true;
+  }
+  return has(sdk, result);
+}
+
+// Enter (down=true) or exit (down=false) the Draynor Manor vampire crypt (z > 9700) via the east warehouse doors.
+export async function draynorManorCrypt(c: Ctx, down: boolean): Promise<boolean> {
+  const { bot, sdk } = c;
+  const inCrypt = () => (sdk.getState()?.player?.worldZ ?? 0) > 9700;
+  if (down === inCrypt()) return true;
+  if (!down && inCrypt()) {
+    for (let i = 0; i < 4 && inCrypt(); i++) {
+      await bot.walkTo(3077, 9769, 2);
+      await bot.interactLoc(/stairs/i, /walk-?up|climb-?up/i);
+      await waitCond(() => !inCrypt(), 6000, 400);
+    }
+    // Exit SE room -> warehouse -> courtyard via (3119,3356) and (3123,3360)
+    for (let i = 0; i < 3; i++) {
+      const p = sdk.getState()?.player;
+      if (!p || p.worldZ > 3360) break;
+      await sdk.sendWalk(3119, 3356, true);
+      await sleep(1200);
+      const d1 = (sdk.getState()?.nearbyLocs ?? []).find((l: any) => /door/i.test(l.name) && Math.hypot(l.x - 3119, l.z - 3356) <= 2 && (l.options ?? []).some((o: string) => /^open$/i.test(o)));
+      if (d1) { await bot.interactLoc(d1, /^open$/i); await sleep(900); }
+      await sdk.sendWalk(3123, 3359, true);
+      await sleep(1400);
+      const d2 = (sdk.getState()?.nearbyLocs ?? []).find((l: any) => /door/i.test(l.name) && Math.hypot(l.x - 3123, l.z - 3360) <= 2 && (l.options ?? []).some((o: string) => /^open$/i.test(o)));
+      if (d2) { await bot.interactLoc(d2, /^open$/i); await sleep(900); }
+      await sdk.sendWalk(3123, 3362, true);
+      await sleep(1400);
+    }
+    return !inCrypt();
+  }
+  await bot.walkTo(3123, 3361, 1);
+  for (let i = 0; i < 4 && !inCrypt(); i++) {
+    const d2 = (sdk.getState()?.nearbyLocs ?? []).find((l: any) => /door/i.test(l.name) && Math.hypot(l.x - 3123, l.z - 3360) <= 2 && (l.options ?? []).some((o: string) => /^open$/i.test(o)));
+    if (d2) { await bot.interactLoc(d2, /^open$/i); await sleep(900); }
+    await sdk.sendWalk(3120, 3356, true);
+    await sleep(1400);
+    const d1 = (sdk.getState()?.nearbyLocs ?? []).find((l: any) => /door/i.test(l.name) && Math.hypot(l.x - 3119, l.z - 3356) <= 2 && (l.options ?? []).some((o: string) => /^open$/i.test(o)));
+    if (d1) { await bot.interactLoc(d1, /^open$/i); await sleep(900); }
+    await sdk.sendWalk(3116, 3356, true);
+    await sleep(1400);
+    await bot.interactLoc(/stairs/i, /walk-?down|climb-?down/i);
+    await waitCond(() => inCrypt(), 6000, 400);
+  }
+  return inCrypt();
 }

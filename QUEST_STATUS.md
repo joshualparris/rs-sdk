@@ -5,9 +5,9 @@
 | Cook's Assistant | `cooks` | done | Proven on qb123333 (+7,500 Cooking XP) |
 | Sheep Shearer | `sheep` | done | Proven on qb123333 & one-shot on fresh bot qb135429 (+5,000 Crafting XP, 60 coins) |
 | X Marks the Spot | - | blocked | Modern OSRS quest (2019); does not exist in revision 225 server (`quest_hunt` / Pirate's Treasure is the 225 buried treasure quest) |
-| Rune Mysteries | `runemysteries` | in progress | Next up |
-| Romeo & Juliet | `romeojuliet` | pending | |
-| The Restless Ghost | `priest` | pending | |
+| Rune Mysteries | `runemysteries` | done | Proven on qb123333 & one-shot on fresh bot qb142749 (Air talisman, Runecrafting unlocked) |
+| Romeo & Juliet | `romeojuliet` | in progress | Done on qb123333; verifying one-shot on fresh bot qb143519 |
+| The Restless Ghost | `priest` | in progress | Running on qb123333 |
 | Prince Ali Rescue | `prince` | pending | |
 | Vampyre Slayer | `vampire` | pending | |
 | Dragon Slayer I | `dragon` | pending | |
