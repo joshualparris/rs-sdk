@@ -1,0 +1,871 @@
+{
+ "quest": "Black Knights' Fortress",
+ "step": "prep-and-start",
+ "time": "2026-11-02T05:35:24.275Z",
+ "error": "Error: Script timeout after 1200000ms\n    at <anonymous> (/home/josh/dev/JoshRS-source/rs-sdk/sdk/runner.ts:396:81)",
+ "player": {
+  "name": "Qb123333",
+  "combatLevel": 42,
+  "hp": 19,
+  "maxHp": 19,
+  "x": 4928,
+  "z": 7901,
+  "worldX": 3214,
+  "worldZ": 3477,
+  "level": 0,
+  "runEnergy": 100,
+  "runWeight": 16,
+  "animId": -1,
+  "spotanimId": -1,
+  "combat": {
+   "inCombat": false,
+   "targetIndex": -1,
+   "targetType": "none",
+   "lastDamageTick": 25494
+  },
+  "isDead": false,
+  "lifeId": 2,
+  "respawnCount": 1,
+  "lastDeathTick": 12872
+ },
+ "skills": [
+  {
+   "name": "Attack",
+   "level": 68,
+   "baseLevel": 68,
+   "experience": 122185
+  },
+  {
+   "name": "Defence",
+   "level": 13,
+   "baseLevel": 13,
+   "experience": 1600
+  },
+  {
+   "name": "Strength",
+   "level": 19,
+   "baseLevel": 19,
+   "experience": 2950
+  },
+  {
+   "name": "Hitpoints",
+   "level": 19,
+   "baseLevel": 19,
+   "experience": 2940
+  },
+  {
+   "name": "Ranged",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Prayer",
+   "level": 47,
+   "baseLevel": 47,
+   "experience": 28125
+  },
+  {
+   "name": "Magic",
+   "level": 31,
+   "baseLevel": 31,
+   "experience": 8125
+  },
+  {
+   "name": "Cooking",
+   "level": 30,
+   "baseLevel": 30,
+   "experience": 7500
+  },
+  {
+   "name": "Woodcutting",
+   "level": 17,
+   "baseLevel": 17,
+   "experience": 2500
+  },
+  {
+   "name": "Fletching",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Fishing",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Firemaking",
+   "level": 22,
+   "baseLevel": 22,
+   "experience": 4000
+  },
+  {
+   "name": "Crafting",
+   "level": 25,
+   "baseLevel": 25,
+   "experience": 5000
+  },
+  {
+   "name": "Smithing",
+   "level": 2,
+   "baseLevel": 2,
+   "experience": 155
+  },
+  {
+   "name": "Mining",
+   "level": 52,
+   "baseLevel": 52,
+   "experience": 38750
+  },
+  {
+   "name": "Herblore",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Agility",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Thieving",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Stat18",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Stat19",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Runecraft",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  }
+ ],
+ "inventory": [
+  "Bronze pickaxe",
+  "Coins x377",
+  "Hammer",
+  "Pie dish",
+  "Bucket of water",
+  "Pot of flour",
+  "Redberries",
+  "Copper ore",
+  "Tin ore"
+ ],
+ "locs": [
+  {
+   "n": "Door",
+   "x": 3215,
+   "z": 3477,
+   "id": 1536,
+   "o": [
+    "Open"
+   ]
+  },
+  {
+   "n": "Plaque",
+   "x": 3211,
+   "z": 3476,
+   "id": 970,
+   "o": [
+    "Read"
+   ]
+  },
+  {
+   "n": "Flowers",
+   "x": 3217,
+   "z": 3480,
+   "id": 1196,
+   "o": []
+  },
+  {
+   "n": "Suit of armour",
+   "x": 3210,
+   "z": 3476,
+   "id": 820,
+   "o": []
+  },
+  {
+   "n": "Staircase",
+   "x": 3212,
+   "z": 3473,
+   "id": 1722,
+   "o": [
+    "Climb-up"
+   ]
+  },
+  {
+   "n": "Flowers",
+   "x": 3217,
+   "z": 3481,
+   "id": 1195,
+   "o": []
+  },
+  {
+   "n": "Candles",
+   "x": 3218,
+   "z": 3479,
+   "id": 202,
+   "o": []
+  },
+  {
+   "n": "Suit of armour",
+   "x": 3218,
+   "z": 3480,
+   "id": 820,
+   "o": []
+  },
+  {
+   "n": "Cabinet",
+   "x": 3218,
+   "z": 3481,
+   "id": 347,
+   "o": []
+  },
+  {
+   "n": "Tropical tree",
+   "x": 3212,
+   "z": 3482,
+   "id": 1326,
+   "o": []
+  },
+  {
+   "n": "Flowerbed",
+   "x": 3216,
+   "z": 3482,
+   "id": 1199,
+   "o": []
+  },
+  {
+   "n": "Flowers",
+   "x": 3217,
+   "z": 3482,
+   "id": 1196,
+   "o": []
+  },
+  {
+   "n": "Cabinet",
+   "x": 3218,
+   "z": 3482,
+   "id": 346,
+   "o": []
+  },
+  {
+   "n": "Door",
+   "x": 3219,
+   "z": 3472,
+   "id": 1536,
+   "o": [
+    "Open"
+   ]
+  },
+  {
+   "n": "Axe cabinet",
+   "x": 3219,
+   "z": 3476,
+   "id": 838,
+   "o": []
+  },
+  {
+   "n": "Sunflowers",
+   "x": 3208,
+   "z": 3480,
+   "id": 1191,
+   "o": []
+  },
+  {
+   "n": "Statue",
+   "x": 3209,
+   "z": 3471,
+   "id": 576,
+   "o": []
+  },
+  {
+   "n": "Suit of armour",
+   "x": 3211,
+   "z": 3471,
+   "id": 820,
+   "o": []
+  },
+  {
+   "n": "Large door",
+   "x": 3212,
+   "z": 3471,
+   "id": 1517,
+   "o": [
+    "Close"
+   ]
+  },
+  {
+   "n": "Large door",
+   "x": 3213,
+   "z": 3471,
+   "id": 1520,
+   "o": [
+    "Close"
+   ]
+  },
+  {
+   "n": "Suit of armour",
+   "x": 3214,
+   "z": 3471,
+   "id": 820,
+   "o": []
+  },
+  {
+   "n": "Statue",
+   "x": 3216,
+   "z": 3471,
+   "id": 576,
+   "o": []
+  },
+  {
+   "n": "Sunflowers",
+   "x": 3216,
+   "z": 3483,
+   "id": 1191,
+   "o": []
+  },
+  {
+   "n": "Flowers",
+   "x": 3217,
+   "z": 3483,
+   "id": 1196,
+   "o": []
+  },
+  {
+   "n": "Cabinet",
+   "x": 3218,
+   "z": 3483,
+   "id": 347,
+   "o": []
+  },
+  {
+   "n": "Suit of armour",
+   "x": 3220,
+   "z": 3475,
+   "id": 820,
+   "o": []
+  },
+  {
+   "n": "Candles",
+   "x": 3207,
+   "z": 3479,
+   "id": 203,
+   "o": []
+  },
+  {
+   "n": "Axe cabinet",
+   "x": 3207,
+   "z": 3480,
+   "id": 838,
+   "o": []
+  },
+  {
+   "n": "Sword cabinet",
+   "x": 3207,
+   "z": 3484,
+   "id": 835,
+   "o": []
+  },
+  {
+   "n": "Flowerbed",
+   "x": 3208,
+   "z": 3484,
+   "id": 1199,
+   "o": []
+  },
+  {
+   "n": "Sunflowers",
+   "x": 3216,
+   "z": 3484,
+   "id": 1191,
+   "o": []
+  },
+  {
+   "n": "Flowers",
+   "x": 3217,
+   "z": 3484,
+   "id": 1195,
+   "o": []
+  },
+  {
+   "n": "Suit of armour",
+   "x": 3218,
+   "z": 3484,
+   "id": 820,
+   "o": []
+  },
+  {
+   "n": "Sword cabinet",
+   "x": 3221,
+   "z": 3478,
+   "id": 835,
+   "o": []
+  },
+  {
+   "n": "Chair",
+   "x": 3221,
+   "z": 3481,
+   "id": 1091,
+   "o": []
+  },
+  {
+   "n": "Table",
+   "x": 3221,
+   "z": 3482,
+   "id": 597,
+   "o": []
+  },
+  {
+   "n": "Door",
+   "x": 3206,
+   "z": 3472,
+   "id": 1536,
+   "o": [
+    "Open"
+   ]
+  },
+  {
+   "n": "Suit of armour",
+   "x": 3206,
+   "z": 3475,
+   "id": 820,
+   "o": []
+  },
+  {
+   "n": "Standard",
+   "x": 3208,
+   "z": 3469,
+   "id": 868,
+   "o": []
+  },
+  {
+   "n": "Flowers",
+   "x": 3208,
+   "z": 3485,
+   "id": 1196,
+   "o": []
+  },
+  {
+   "n": "Standard",
+   "x": 3209,
+   "z": 3469,
+   "id": 868,
+   "o": []
+  },
+  {
+   "n": "Statue of a king",
+   "x": 3211,
+   "z": 3469,
+   "id": 563,
+   "o": []
+  },
+  {
+   "n": "Statue of a king",
+   "x": 3214,
+   "z": 3469,
+   "id": 563,
+   "o": []
+  },
+  {
+   "n": "Standard",
+   "x": 3216,
+   "z": 3469,
+   "id": 868,
+   "o": []
+  },
+  {
+   "n": "Standard",
+   "x": 3217,
+   "z": 3469,
+   "id": 868,
+   "o": []
+  },
+  {
+   "n": "Flowers",
+   "x": 3217,
+   "z": 3485,
+   "id": 1195,
+   "o": []
+  },
+  {
+   "n": "Suit of armour",
+   "x": 3221,
+   "z": 3469,
+   "id": 820,
+   "o": []
+  },
+  {
+   "n": "Throne",
+   "x": 3222,
+   "z": 3470,
+   "id": 1099,
+   "o": []
+  },
+  {
+   "n": "Throne",
+   "x": 3222,
+   "z": 3481,
+   "id": 1099,
+   "o": []
+  },
+  {
+   "n": "Candles",
+   "x": 3205,
+   "z": 3479,
+   "id": 203,
+   "o": []
+  },
+  {
+   "n": "Candles",
+   "x": 3205,
+   "z": 3486,
+   "id": 203,
+   "o": []
+  },
+  {
+   "n": "Candles",
+   "x": 3207,
+   "z": 3486,
+   "id": 203,
+   "o": []
+  },
+  {
+   "n": "Flowers",
+   "x": 3208,
+   "z": 3486,
+   "id": 1195,
+   "o": []
+  },
+  {
+   "n": "Flowers",
+   "x": 3217,
+   "z": 3486,
+   "id": 1195,
+   "o": []
+  },
+  {
+   "n": "Chair",
+   "x": 3219,
+   "z": 3486,
+   "id": 1091,
+   "o": []
+  },
+  {
+   "n": "Table",
+   "x": 3220,
+   "z": 3486,
+   "id": 596,
+   "o": []
+  },
+  {
+   "n": "Chair",
+   "x": 3221,
+   "z": 3486,
+   "id": 1091,
+   "o": []
+  },
+  {
+   "n": "Suit of armour",
+   "x": 3223,
+   "z": 3469,
+   "id": 820,
+   "o": []
+  },
+  {
+   "n": "Door",
+   "x": 3223,
+   "z": 3479,
+   "id": 1536,
+   "o": [
+    "Open"
+   ]
+  },
+  {
+   "n": "Throne",
+   "x": 3223,
+   "z": 3481,
+   "id": 1099,
+   "o": []
+  }
+ ],
+ "npcs": [
+  {
+   "n": "Monk of Zamorak",
+   "id": 189,
+   "idx": 3014,
+   "x": 3212,
+   "z": 3476,
+   "o": [
+    "Attack"
+   ]
+  },
+  {
+   "n": "King Roald",
+   "id": 648,
+   "idx": 3018,
+   "x": 3223,
+   "z": 3475,
+   "o": [
+    "Talk-to"
+   ]
+  },
+  {
+   "n": "Warrior woman",
+   "id": 15,
+   "idx": 3008,
+   "x": 3206,
+   "z": 3488,
+   "o": [
+    "Attack",
+    "Pickpocket"
+   ]
+  },
+  {
+   "n": "Sir Prysin",
+   "id": 883,
+   "idx": 3006,
+   "x": 3204,
+   "z": 3471,
+   "o": [
+    "Talk-to"
+   ]
+  },
+  {
+   "n": "Guard",
+   "id": 9,
+   "idx": 3016,
+   "x": 3213,
+   "z": 3466,
+   "o": [
+    "Attack",
+    "Pickpocket"
+   ]
+  },
+  {
+   "n": "Reldo",
+   "id": 647,
+   "idx": 3010,
+   "x": 3208,
+   "z": 3490,
+   "o": [
+    "Talk-to"
+   ]
+  },
+  {
+   "n": "Warrior woman",
+   "id": 15,
+   "idx": 3005,
+   "x": 3201,
+   "z": 3485,
+   "o": [
+    "Attack",
+    "Pickpocket"
+   ]
+  },
+  {
+   "n": "Guard",
+   "id": 9,
+   "idx": 3009,
+   "x": 3205,
+   "z": 3464,
+   "o": [
+    "Attack",
+    "Pickpocket"
+   ]
+  },
+  {
+   "n": "Guard",
+   "id": 9,
+   "idx": 3013,
+   "x": 3215,
+   "z": 3464,
+   "o": [
+    "Attack",
+    "Pickpocket"
+   ]
+  },
+  {
+   "n": "Guard",
+   "id": 9,
+   "idx": 3012,
+   "x": 3211,
+   "z": 3463,
+   "o": [
+    "Attack",
+    "Pickpocket"
+   ]
+  },
+  {
+   "n": "Guard",
+   "id": 9,
+   "idx": 3011,
+   "x": 3210,
+   "z": 3462,
+   "o": [
+    "Attack",
+    "Pickpocket"
+   ]
+  }
+ ],
+ "ground": [],
+ "dialog": {
+  "isOpen": false,
+  "options": [],
+  "isWaiting": false,
+  "allComponents": []
+ },
+ "interface": {
+  "isOpen": false,
+  "interfaceId": -1,
+  "options": [],
+  "debugInfo": []
+ },
+ "modalOpen": false,
+ "modalInterface": -1,
+ "messages": [
+  {
+   "type": 0,
+   "text": "You buy a pint of beer.",
+   "sender": "",
+   "tick": 26450,
+   "observationId": 33116,
+   "fromSelf": false
+  },
+  {
+   "type": 0,
+   "text": "You swing your pick at the rock.",
+   "sender": "",
+   "tick": 26525,
+   "observationId": 33218,
+   "fromSelf": false
+  },
+  {
+   "type": 0,
+   "text": "You manage to mine some copper.",
+   "sender": "",
+   "tick": 26533,
+   "observationId": 33225,
+   "fromSelf": false
+  },
+  {
+   "type": 0,
+   "text": "You swing your pick at the rock.",
+   "sender": "",
+   "tick": 26535,
+   "observationId": 33229,
+   "fromSelf": false
+  },
+  {
+   "type": 0,
+   "text": "You manage to mine some tin.",
+   "sender": "",
+   "tick": 26543,
+   "observationId": 33236,
+   "fromSelf": false
+  },
+  {
+   "type": 0,
+   "text": "You swing your axe at the tree.",
+   "sender": "",
+   "tick": 26867,
+   "observationId": 33701,
+   "fromSelf": false
+  },
+  {
+   "type": 0,
+   "text": "You get some logs.",
+   "sender": "",
+   "tick": 26868,
+   "observationId": 33703,
+   "fromSelf": false
+  },
+  {
+   "type": 0,
+   "text": "Congratulations, you just advanced a woodcutting level.",
+   "sender": "",
+   "tick": 26870,
+   "observationId": 33704,
+   "fromSelf": false
+  },
+  {
+   "type": 0,
+   "text": "You attempt to light the logs.",
+   "sender": "",
+   "tick": 26904,
+   "observationId": 33746,
+   "fromSelf": false
+  },
+  {
+   "type": 0,
+   "text": "The fire catches and the logs begin to burn.",
+   "sender": "",
+   "tick": 26908,
+   "observationId": 33750,
+   "fromSelf": false
+  },
+  {
+   "type": 0,
+   "text": "Congratulations, you just advanced a fire making level.",
+   "sender": "",
+   "tick": 26908,
+   "observationId": 33750,
+   "fromSelf": false
+  },
+  {
+   "type": 0,
+   "text": "You fill a pot with the last of the flour in the bin.",
+   "sender": "",
+   "tick": 26920,
+   "observationId": 33769,
+   "fromSelf": false
+  },
+  {
+   "type": 0,
+   "text": "You fill the bucket from the sink.",
+   "sender": "",
+   "tick": 27014,
+   "observationId": 33903,
+   "fromSelf": false
+  },
+  {
+   "type": 0,
+   "text": "You pick an onion.",
+   "sender": "",
+   "tick": 27086,
+   "observationId": 34007,
+   "fromSelf": false
+  },
+  {
+   "type": 0,
+   "text": "You pick an onion.",
+   "sender": "",
+   "tick": 27089,
+   "observationId": 34011,
+   "fromSelf": false
+  }
+ ],
+ "opFeedback": {
+  "mapFlagUnsetCount": 4625,
+  "lastMapFlagUnsetTick": 28313,
+  "opRejectedCount": 1073,
+  "lastOpRejectedTick": 28282
+ },
+ "chat": []
+}

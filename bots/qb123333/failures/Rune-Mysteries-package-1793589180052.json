@@ -1,0 +1,594 @@
+{
+ "quest": "Rune Mysteries",
+ "step": "package",
+ "time": "2026-11-02T03:13:00.052Z",
+ "player": {
+  "name": "Qb123333",
+  "combatLevel": 3,
+  "hp": 10,
+  "maxHp": 10,
+  "x": 6336,
+  "z": 6080,
+  "worldX": 3105,
+  "worldZ": 9575,
+  "level": 0,
+  "runEnergy": 100,
+  "runWeight": 0,
+  "animId": -1,
+  "spotanimId": -1,
+  "combat": {
+   "inCombat": false,
+   "targetIndex": -1,
+   "targetType": "none",
+   "lastDamageTick": 6311
+  },
+  "isDead": false,
+  "lifeId": 1,
+  "respawnCount": 0,
+  "lastDeathTick": null
+ },
+ "skills": [
+  {
+   "name": "Attack",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Defence",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Strength",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Hitpoints",
+   "level": 10,
+   "baseLevel": 10,
+   "experience": 980
+  },
+  {
+   "name": "Ranged",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Prayer",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Magic",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Cooking",
+   "level": 30,
+   "baseLevel": 30,
+   "experience": 7500
+  },
+  {
+   "name": "Woodcutting",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Fletching",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Fishing",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Firemaking",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Crafting",
+   "level": 25,
+   "baseLevel": 25,
+   "experience": 5000
+  },
+  {
+   "name": "Smithing",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Mining",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Herblore",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Agility",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Thieving",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Stat18",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Stat19",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Runecraft",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  }
+ ],
+ "inventory": [
+  "Coins x60",
+  "Air talisman",
+  "Shears"
+ ],
+ "locs": [
+  {
+   "n": "Standing torch",
+   "x": 3104,
+   "z": 9574,
+   "id": 724,
+   "o": []
+  },
+  {
+   "n": "Hanging banner",
+   "x": 3105,
+   "z": 9574,
+   "id": 899,
+   "o": []
+  },
+  {
+   "n": "Hanging banner",
+   "x": 3106,
+   "z": 9574,
+   "id": 901,
+   "o": []
+  },
+  {
+   "n": "Ladder",
+   "x": 3103,
+   "z": 9576,
+   "id": 2148,
+   "o": [
+    "Climb-up"
+   ]
+  },
+  {
+   "n": "Statue",
+   "x": 3102,
+   "z": 9574,
+   "id": 575,
+   "o": []
+  },
+  {
+   "n": "Door",
+   "x": 3107,
+   "z": 9570,
+   "id": 1531,
+   "o": [
+    "Close"
+   ]
+  },
+  {
+   "n": "Candles",
+   "x": 3110,
+   "z": 9571,
+   "id": 203,
+   "o": []
+  },
+  {
+   "n": "Candles",
+   "x": 3110,
+   "z": 9576,
+   "id": 203,
+   "o": []
+  },
+  {
+   "n": "Bed",
+   "x": 3099,
+   "z": 9572,
+   "id": 427,
+   "o": []
+  },
+  {
+   "n": "Stool",
+   "x": 3104,
+   "z": 9569,
+   "id": 1102,
+   "o": []
+  },
+  {
+   "n": "Stool",
+   "x": 3105,
+   "z": 9569,
+   "id": 1102,
+   "o": []
+  },
+  {
+   "n": "Statue",
+   "x": 3098,
+   "z": 9574,
+   "id": 575,
+   "o": []
+  },
+  {
+   "n": "Table",
+   "x": 3103,
+   "z": 9568,
+   "id": 603,
+   "o": []
+  },
+  {
+   "n": "Stool",
+   "x": 3103,
+   "z": 9567,
+   "id": 1102,
+   "o": []
+  },
+  {
+   "n": "Stool",
+   "x": 3104,
+   "z": 9567,
+   "id": 1102,
+   "o": []
+  },
+  {
+   "n": "Bookcase",
+   "x": 3096,
+   "z": 9566,
+   "id": 381,
+   "o": [
+    "Search"
+   ]
+  },
+  {
+   "n": "Bookcase",
+   "x": 3096,
+   "z": 9571,
+   "id": 380,
+   "o": [
+    "Search"
+   ]
+  },
+  {
+   "n": "Standing torch",
+   "x": 3096,
+   "z": 9574,
+   "id": 724,
+   "o": []
+  },
+  {
+   "n": "Bookcase",
+   "x": 3098,
+   "z": 9566,
+   "id": 381,
+   "o": [
+    "Search"
+   ]
+  },
+  {
+   "n": "Warehouse shelves",
+   "x": 3104,
+   "z": 9566,
+   "id": 1016,
+   "o": []
+  },
+  {
+   "n": "Warehouse shelves",
+   "x": 3105,
+   "z": 9566,
+   "id": 1017,
+   "o": []
+  },
+  {
+   "n": "Candles",
+   "x": 3110,
+   "z": 9566,
+   "id": 203,
+   "o": []
+  },
+  {
+   "n": "Table",
+   "x": 3114,
+   "z": 9567,
+   "id": 595,
+   "o": []
+  },
+  {
+   "n": "Bench",
+   "x": 3114,
+   "z": 9569,
+   "id": 1106,
+   "o": []
+  },
+  {
+   "n": "Table",
+   "x": 3117,
+   "z": 9567,
+   "id": 595,
+   "o": []
+  },
+  {
+   "n": "Bench",
+   "x": 3117,
+   "z": 9569,
+   "id": 1106,
+   "o": []
+  },
+  {
+   "n": "Table",
+   "x": 3106,
+   "z": 9562,
+   "id": 595,
+   "o": []
+  },
+  {
+   "n": "Drawers",
+   "x": 3116,
+   "z": 9562,
+   "id": 350,
+   "o": [
+    "Open"
+   ]
+  },
+  {
+   "n": "Drawers",
+   "x": 3118,
+   "z": 9564,
+   "id": 350,
+   "o": [
+    "Open"
+   ]
+  },
+  {
+   "n": "Candles",
+   "x": 3110,
+   "z": 9561,
+   "id": 203,
+   "o": []
+  },
+  {
+   "n": "Drawers",
+   "x": 3118,
+   "z": 9561,
+   "id": 350,
+   "o": [
+    "Open"
+   ]
+  },
+  {
+   "n": "Drawers",
+   "x": 3120,
+   "z": 9564,
+   "id": 350,
+   "o": [
+    "Open"
+   ]
+  }
+ ],
+ "npcs": [
+  {
+   "n": "Sedridor",
+   "id": 300,
+   "idx": 5303,
+   "x": 3104,
+   "z": 9575,
+   "o": [
+    "Talk-to",
+    "Teleport"
+   ]
+  },
+  {
+   "n": "Chicken",
+   "id": 41,
+   "idx": 5305,
+   "x": 3108,
+   "z": 9569,
+   "o": [
+    "Attack"
+   ]
+  },
+  {
+   "n": "Wizard",
+   "id": 13,
+   "idx": 5304,
+   "x": 3112,
+   "z": 9562,
+   "o": [
+    "Attack"
+   ]
+  }
+ ],
+ "ground": [
+  {
+   "id": 553,
+   "name": "Skull",
+   "count": 1,
+   "x": 3120,
+   "z": 9567,
+   "distance": 15,
+   "reachable": false
+  }
+ ],
+ "dialog": {
+  "isOpen": false,
+  "options": [],
+  "isWaiting": false,
+  "allComponents": []
+ },
+ "interface": {
+  "isOpen": false,
+  "interfaceId": -1,
+  "options": [],
+  "debugInfo": []
+ },
+ "modalOpen": false,
+ "modalInterface": -1,
+ "messages": [
+  {
+   "type": 0,
+   "text": "I can't reach that!",
+   "sender": "",
+   "tick": 6443,
+   "observationId": 7310,
+   "fromSelf": false
+  },
+  {
+   "type": 0,
+   "text": "I can't reach that!",
+   "sender": "",
+   "tick": 6446,
+   "observationId": 7314,
+   "fromSelf": false
+  },
+  {
+   "type": 0,
+   "text": "I can't reach that!",
+   "sender": "",
+   "tick": 6447,
+   "observationId": 7318,
+   "fromSelf": false
+  },
+  {
+   "type": 0,
+   "text": "I can't reach that!",
+   "sender": "",
+   "tick": 6468,
+   "observationId": 7340,
+   "fromSelf": false
+  },
+  {
+   "type": 0,
+   "text": "I can't reach that!",
+   "sender": "",
+   "tick": 6471,
+   "observationId": 7344,
+   "fromSelf": false
+  },
+  {
+   "type": 0,
+   "text": "I can't reach that!",
+   "sender": "",
+   "tick": 6473,
+   "observationId": 7348,
+   "fromSelf": false
+  },
+  {
+   "type": 0,
+   "text": "I can't reach that!",
+   "sender": "",
+   "tick": 6493,
+   "observationId": 7370,
+   "fromSelf": false
+  },
+  {
+   "type": 0,
+   "text": "I can't reach that!",
+   "sender": "",
+   "tick": 6495,
+   "observationId": 7374,
+   "fromSelf": false
+  },
+  {
+   "type": 0,
+   "text": "I can't reach that!",
+   "sender": "",
+   "tick": 6497,
+   "observationId": 7378,
+   "fromSelf": false
+  },
+  {
+   "type": 0,
+   "text": "I can't reach that!",
+   "sender": "",
+   "tick": 6519,
+   "observationId": 7400,
+   "fromSelf": false
+  },
+  {
+   "type": 0,
+   "text": "I can't reach that!",
+   "sender": "",
+   "tick": 6521,
+   "observationId": 7405,
+   "fromSelf": false
+  },
+  {
+   "type": 0,
+   "text": "I can't reach that!",
+   "sender": "",
+   "tick": 6525,
+   "observationId": 7410,
+   "fromSelf": false
+  },
+  {
+   "type": 0,
+   "text": "I can't reach that!",
+   "sender": "",
+   "tick": 6546,
+   "observationId": 7432,
+   "fromSelf": false
+  },
+  {
+   "type": 0,
+   "text": "I can't reach that!",
+   "sender": "",
+   "tick": 6548,
+   "observationId": 7437,
+   "fromSelf": false
+  },
+  {
+   "type": 0,
+   "text": "I can't reach that!",
+   "sender": "",
+   "tick": 6551,
+   "observationId": 7441,
+   "fromSelf": false
+  }
+ ],
+ "opFeedback": {
+  "mapFlagUnsetCount": 487,
+  "lastMapFlagUnsetTick": 6935,
+  "opRejectedCount": 38,
+  "lastOpRejectedTick": 6865
+ },
+ "chat": []
+}

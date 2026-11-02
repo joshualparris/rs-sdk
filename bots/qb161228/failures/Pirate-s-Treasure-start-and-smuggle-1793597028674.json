@@ -1,0 +1,761 @@
+{
+ "quest": "Pirate's Treasure",
+ "step": "start-and-smuggle",
+ "time": "2026-11-02T05:23:48.673Z",
+ "player": {
+  "name": "Qb161228",
+  "combatLevel": 14,
+  "hp": 12,
+  "maxHp": 19,
+  "x": 2752,
+  "z": 7104,
+  "worldX": 2925,
+  "worldZ": 3143,
+  "level": 0,
+  "runEnergy": 100,
+  "runWeight": 4,
+  "animId": -1,
+  "spotanimId": -1,
+  "combat": {
+   "inCombat": false,
+   "targetIndex": -1,
+   "targetType": "none",
+   "lastDamageTick": 1469
+  },
+  "isDead": false,
+  "lifeId": 1,
+  "respawnCount": 0,
+  "lastDeathTick": null
+ },
+ "skills": [
+  {
+   "name": "Attack",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Defence",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Strength",
+   "level": 27,
+   "baseLevel": 27,
+   "experience": 6000
+  },
+  {
+   "name": "Hitpoints",
+   "level": 12,
+   "baseLevel": 19,
+   "experience": 2930
+  },
+  {
+   "name": "Ranged",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Prayer",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Magic",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Cooking",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Woodcutting",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Fletching",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Fishing",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Firemaking",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Crafting",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Smithing",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Mining",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Herblore",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Agility",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Thieving",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Stat18",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Stat19",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Runecraft",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  }
+ ],
+ "inventory": [
+  "Coins x34",
+  "White apron"
+ ],
+ "locs": [
+  {
+   "n": "Shelves",
+   "x": 2924,
+   "z": 3142,
+   "id": 1011,
+   "o": []
+  },
+  {
+   "n": "Bar pumps",
+   "x": 2924,
+   "z": 3144,
+   "id": 885,
+   "o": []
+  },
+  {
+   "n": "Shelves",
+   "x": 2925,
+   "z": 3142,
+   "id": 1012,
+   "o": []
+  },
+  {
+   "n": "Bar pumps",
+   "x": 2925,
+   "z": 3144,
+   "id": 885,
+   "o": []
+  },
+  {
+   "n": "Shelves",
+   "x": 2926,
+   "z": 3142,
+   "id": 1010,
+   "o": []
+  },
+  {
+   "n": "Counter",
+   "x": 2926,
+   "z": 3144,
+   "id": 612,
+   "o": []
+  },
+  {
+   "n": "Creeping plant",
+   "x": 2923,
+   "z": 3141,
+   "id": 1184,
+   "o": []
+  },
+  {
+   "n": "Counter",
+   "x": 2923,
+   "z": 3143,
+   "id": 612,
+   "o": []
+  },
+  {
+   "n": "Stool",
+   "x": 2923,
+   "z": 3145,
+   "id": 1102,
+   "o": []
+  },
+  {
+   "n": "Jungle plant",
+   "x": 2924,
+   "z": 3141,
+   "id": 1390,
+   "o": []
+  },
+  {
+   "n": "Stool",
+   "x": 2924,
+   "z": 3145,
+   "id": 1102,
+   "o": []
+  },
+  {
+   "n": "Creeping plant",
+   "x": 2925,
+   "z": 3141,
+   "id": 1184,
+   "o": []
+  },
+  {
+   "n": "Stool",
+   "x": 2926,
+   "z": 3145,
+   "id": 1102,
+   "o": []
+  },
+  {
+   "n": "Jungle plant",
+   "x": 2927,
+   "z": 3141,
+   "id": 1390,
+   "o": []
+  },
+  {
+   "n": "Stool",
+   "x": 2927,
+   "z": 3145,
+   "id": 1102,
+   "o": []
+  },
+  {
+   "n": "Creeping plant",
+   "x": 2928,
+   "z": 3141,
+   "id": 1184,
+   "o": []
+  },
+  {
+   "n": "Jungle plant",
+   "x": 2921,
+   "z": 3141,
+   "id": 1390,
+   "o": []
+  },
+  {
+   "n": "Barrel",
+   "x": 2921,
+   "z": 3142,
+   "id": 362,
+   "o": []
+  },
+  {
+   "n": "Stool",
+   "x": 2921,
+   "z": 3143,
+   "id": 1102,
+   "o": []
+  },
+  {
+   "n": "Hanging wheel",
+   "x": 2925,
+   "z": 3147,
+   "id": 967,
+   "o": []
+  },
+  {
+   "n": "Stool",
+   "x": 2928,
+   "z": 3147,
+   "id": 1102,
+   "o": []
+  },
+  {
+   "n": "Jungle plant",
+   "x": 2929,
+   "z": 3141,
+   "id": 1390,
+   "o": []
+  },
+  {
+   "n": "Stool",
+   "x": 2929,
+   "z": 3146,
+   "id": 1102,
+   "o": []
+  },
+  {
+   "n": "Table",
+   "x": 2929,
+   "z": 3147,
+   "id": 598,
+   "o": []
+  },
+  {
+   "n": "Jungle plant",
+   "x": 2920,
+   "z": 3140,
+   "id": 1390,
+   "o": []
+  },
+  {
+   "n": "Barrel",
+   "x": 2920,
+   "z": 3142,
+   "id": 362,
+   "o": []
+  },
+  {
+   "n": "Picnic bench",
+   "x": 2920,
+   "z": 3147,
+   "id": 611,
+   "o": []
+  },
+  {
+   "n": "Creeping plant",
+   "x": 2925,
+   "z": 3148,
+   "id": 1184,
+   "o": []
+  },
+  {
+   "n": "Sign",
+   "x": 2925,
+   "z": 3148,
+   "id": 1078,
+   "o": []
+  },
+  {
+   "n": "Jungle plant",
+   "x": 2926,
+   "z": 3148,
+   "id": 1390,
+   "o": []
+  },
+  {
+   "n": "Fishing net",
+   "x": 2926,
+   "z": 3148,
+   "id": 969,
+   "o": []
+  },
+  {
+   "n": "Creeping plant",
+   "x": 2927,
+   "z": 3148,
+   "id": 1184,
+   "o": []
+  },
+  {
+   "n": "Jungle plant",
+   "x": 2928,
+   "z": 3148,
+   "id": 1390,
+   "o": []
+  },
+  {
+   "n": "Fishing net",
+   "x": 2928,
+   "z": 3148,
+   "id": 969,
+   "o": []
+  },
+  {
+   "n": "Creeping plant",
+   "x": 2929,
+   "z": 3148,
+   "id": 1184,
+   "o": []
+  },
+  {
+   "n": "Jungle plant",
+   "x": 2930,
+   "z": 3141,
+   "id": 1390,
+   "o": []
+  },
+  {
+   "n": "Barrel",
+   "x": 2930,
+   "z": 3143,
+   "id": 362,
+   "o": []
+  },
+  {
+   "n": "Barrel",
+   "x": 2930,
+   "z": 3144,
+   "id": 362,
+   "o": []
+  },
+  {
+   "n": "Creeping plant",
+   "x": 2930,
+   "z": 3148,
+   "id": 1184,
+   "o": []
+  },
+  {
+   "n": "Jungle plant",
+   "x": 2919,
+   "z": 3140,
+   "id": 1398,
+   "o": []
+  },
+  {
+   "n": "Stool",
+   "x": 2919,
+   "z": 3144,
+   "id": 1102,
+   "o": []
+  },
+  {
+   "n": "Creeping plant",
+   "x": 2924,
+   "z": 3149,
+   "id": 1184,
+   "o": []
+  },
+  {
+   "n": "Jungle plant",
+   "x": 2925,
+   "z": 3149,
+   "id": 1390,
+   "o": []
+  },
+  {
+   "n": "Jungle plant",
+   "x": 2926,
+   "z": 3149,
+   "id": 1390,
+   "o": []
+  },
+  {
+   "n": "Jungle plant",
+   "x": 2927,
+   "z": 3149,
+   "id": 1390,
+   "o": []
+  },
+  {
+   "n": "Creeping plant",
+   "x": 2929,
+   "z": 3149,
+   "id": 1184,
+   "o": []
+  },
+  {
+   "n": "Jungle plant",
+   "x": 2930,
+   "z": 3149,
+   "id": 1390,
+   "o": []
+  },
+  {
+   "n": "Tree",
+   "x": 2931,
+   "z": 3139,
+   "id": 1304,
+   "o": []
+  },
+  {
+   "n": "Jungle plant",
+   "x": 2931,
+   "z": 3141,
+   "id": 1399,
+   "o": []
+  },
+  {
+   "n": "Jungle plant",
+   "x": 2931,
+   "z": 3142,
+   "id": 1400,
+   "o": []
+  },
+  {
+   "n": "Fern",
+   "x": 2931,
+   "z": 3144,
+   "id": 1298,
+   "o": []
+  },
+  {
+   "n": "Fern",
+   "x": 2931,
+   "z": 3145,
+   "id": 1298,
+   "o": []
+  },
+  {
+   "n": "Small fern",
+   "x": 2931,
+   "z": 3146,
+   "id": 1173,
+   "o": []
+  },
+  {
+   "n": "Creeping plant",
+   "x": 2931,
+   "z": 3147,
+   "id": 1184,
+   "o": []
+  },
+  {
+   "n": "Creeping plant",
+   "x": 2918,
+   "z": 3141,
+   "id": 1184,
+   "o": []
+  },
+  {
+   "n": "Flowerbed",
+   "x": 2918,
+   "z": 3149,
+   "id": 1200,
+   "o": []
+  },
+  {
+   "n": "Creeping plant",
+   "x": 2918,
+   "z": 3150,
+   "id": 1184,
+   "o": []
+  },
+  {
+   "n": "Jungle plant",
+   "x": 2919,
+   "z": 3150,
+   "id": 1390,
+   "o": []
+  },
+  {
+   "n": "Creeping plant",
+   "x": 2920,
+   "z": 3150,
+   "id": 1184,
+   "o": []
+  },
+  {
+   "n": "Jungle plant",
+   "x": 2925,
+   "z": 3150,
+   "id": 1390,
+   "o": []
+  }
+ ],
+ "npcs": [
+  {
+   "n": "Zambo",
+   "id": 568,
+   "idx": 5537,
+   "x": 2926,
+   "z": 3143,
+   "o": [
+    "Talk-to",
+    "Trade"
+   ]
+  },
+  {
+   "n": "Luthas",
+   "id": 379,
+   "idx": 5541,
+   "x": 2936,
+   "z": 3152,
+   "o": [
+    "Talk-to"
+   ]
+  }
+ ],
+ "ground": [
+  {
+   "id": 556,
+   "name": "Air rune",
+   "count": 1,
+   "x": 2938,
+   "z": 3158,
+   "distance": 15,
+   "reachable": true
+  }
+ ],
+ "dialog": {
+  "isOpen": false,
+  "options": [],
+  "isWaiting": false,
+  "allComponents": []
+ },
+ "interface": {
+  "isOpen": false,
+  "interfaceId": -1,
+  "options": [],
+  "debugInfo": []
+ },
+ "modalOpen": false,
+ "modalInterface": -1,
+ "messages": [
+  {
+   "type": 0,
+   "text": "I can't reach that!",
+   "sender": "",
+   "tick": 842,
+   "observationId": 1078,
+   "fromSelf": false
+  },
+  {
+   "type": 0,
+   "text": "I can't reach that!",
+   "sender": "",
+   "tick": 845,
+   "observationId": 1083,
+   "fromSelf": false
+  },
+  {
+   "type": 0,
+   "text": "I can't reach that!",
+   "sender": "",
+   "tick": 850,
+   "observationId": 1089,
+   "fromSelf": false
+  },
+  {
+   "type": 0,
+   "text": "I can't reach that!",
+   "sender": "",
+   "tick": 852,
+   "observationId": 1094,
+   "fromSelf": false
+  },
+  {
+   "type": 0,
+   "text": "I can't reach that!",
+   "sender": "",
+   "tick": 856,
+   "observationId": 1099,
+   "fromSelf": false
+  },
+  {
+   "type": 0,
+   "text": "Congratulations, you just advanced a hitpoints level.",
+   "sender": "",
+   "tick": 861,
+   "observationId": 1105,
+   "fromSelf": false
+  },
+  {
+   "type": 0,
+   "text": "I can't reach that!",
+   "sender": "",
+   "tick": 862,
+   "observationId": 1106,
+   "fromSelf": false
+  },
+  {
+   "type": 0,
+   "text": "I can't reach that!",
+   "sender": "",
+   "tick": 865,
+   "observationId": 1111,
+   "fromSelf": false
+  },
+  {
+   "type": 0,
+   "text": "I can't reach that!",
+   "sender": "",
+   "tick": 868,
+   "observationId": 1116,
+   "fromSelf": false
+  },
+  {
+   "type": 0,
+   "text": "I can't reach that!",
+   "sender": "",
+   "tick": 873,
+   "observationId": 1122,
+   "fromSelf": false
+  },
+  {
+   "type": 0,
+   "text": "I can't reach that!",
+   "sender": "",
+   "tick": 877,
+   "observationId": 1128,
+   "fromSelf": false
+  },
+  {
+   "type": 0,
+   "text": "I can't reach that!",
+   "sender": "",
+   "tick": 881,
+   "observationId": 1134,
+   "fromSelf": false
+  },
+  {
+   "type": 0,
+   "text": "Congratulations, you just advanced a strength level.",
+   "sender": "",
+   "tick": 925,
+   "observationId": 1198,
+   "fromSelf": false
+  },
+  {
+   "type": 0,
+   "text": "You pay the 30 coins...",
+   "sender": "",
+   "tick": 1591,
+   "observationId": 2117,
+   "fromSelf": false
+  },
+  {
+   "type": 0,
+   "text": "and board the ship.",
+   "sender": "",
+   "tick": 1591,
+   "observationId": 2117,
+   "fromSelf": false
+  }
+ ],
+ "opFeedback": {
+  "mapFlagUnsetCount": 884,
+  "lastMapFlagUnsetTick": 1651,
+  "opRejectedCount": 617,
+  "lastOpRejectedTick": 1651
+ },
+ "chat": []
+}

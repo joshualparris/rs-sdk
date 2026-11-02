@@ -1,0 +1,873 @@
+{
+ "quest": "Goblin Diplomacy",
+ "step": "dyes",
+ "time": "2026-11-02T04:38:51.451Z",
+ "player": {
+  "name": "Qb152711",
+  "combatLevel": 3,
+  "hp": 10,
+  "maxHp": 10,
+  "x": 9024,
+  "z": 4544,
+  "worldX": 3086,
+  "worldZ": 3259,
+  "level": 0,
+  "runEnergy": 100,
+  "runWeight": 9,
+  "animId": -1,
+  "spotanimId": -1,
+  "combat": {
+   "inCombat": false,
+   "targetIndex": -1,
+   "targetType": "none",
+   "lastDamageTick": 1083
+  },
+  "isDead": false,
+  "lifeId": 1,
+  "respawnCount": 0,
+  "lastDeathTick": null
+ },
+ "skills": [
+  {
+   "name": "Attack",
+   "level": 2,
+   "baseLevel": 2,
+   "experience": 100
+  },
+  {
+   "name": "Defence",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Strength",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Hitpoints",
+   "level": 10,
+   "baseLevel": 10,
+   "experience": 1012
+  },
+  {
+   "name": "Ranged",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Prayer",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Magic",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Cooking",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Woodcutting",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Fletching",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Fishing",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Firemaking",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Crafting",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Smithing",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Mining",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Herblore",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Agility",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Thieving",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Stat18",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Stat19",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Runecraft",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  }
+ ],
+ "inventory": [
+  "Red dye",
+  "Onion",
+  "Onion",
+  "Cabbage",
+  "Cabbage",
+  "Cabbage",
+  "Cabbage",
+  "Cabbage",
+  "Cabbage",
+  "Cabbage",
+  "Cabbage",
+  "Cabbage",
+  "Cabbage",
+  "Cabbage",
+  "Cabbage",
+  "Woad leaf x2"
+ ],
+ "locs": [
+  {
+   "n": "Cauldron",
+   "x": 3084,
+   "z": 3257,
+   "id": 692,
+   "o": []
+  },
+  {
+   "n": "Table",
+   "x": 3084,
+   "z": 3261,
+   "id": 605,
+   "o": []
+  },
+  {
+   "n": "Table",
+   "x": 3087,
+   "z": 3261,
+   "id": 605,
+   "o": []
+  },
+  {
+   "n": "Mystical wall chart",
+   "x": 3088,
+   "z": 3259,
+   "id": 908,
+   "o": []
+  },
+  {
+   "n": "Chair",
+   "x": 3088,
+   "z": 3261,
+   "id": 1088,
+   "o": []
+  },
+  {
+   "n": "Wardrobe",
+   "x": 3083,
+   "z": 3256,
+   "id": 388,
+   "o": [
+    "Open"
+   ]
+  },
+  {
+   "n": "Standing torch",
+   "x": 3083,
+   "z": 3257,
+   "id": 724,
+   "o": []
+  },
+  {
+   "n": "Wardrobe",
+   "x": 3083,
+   "z": 3258,
+   "id": 388,
+   "o": [
+    "Open"
+   ]
+  },
+  {
+   "n": "Standing torch",
+   "x": 3083,
+   "z": 3259,
+   "id": 724,
+   "o": []
+  },
+  {
+   "n": "Wardrobe",
+   "x": 3083,
+   "z": 3260,
+   "id": 388,
+   "o": [
+    "Open"
+   ]
+  },
+  {
+   "n": "Charms",
+   "x": 3083,
+   "z": 3261,
+   "id": 907,
+   "o": []
+  },
+  {
+   "n": "Broom",
+   "x": 3086,
+   "z": 3256,
+   "id": 693,
+   "o": []
+  },
+  {
+   "n": "Mirror",
+   "x": 3087,
+   "z": 3256,
+   "id": 689,
+   "o": []
+  },
+  {
+   "n": "Crate",
+   "x": 3089,
+   "z": 3256,
+   "id": 358,
+   "o": [
+    "Search"
+   ]
+  },
+  {
+   "n": "Crate",
+   "x": 3089,
+   "z": 3257,
+   "id": 357,
+   "o": [
+    "Search"
+   ]
+  },
+  {
+   "n": "Door",
+   "x": 3089,
+   "z": 3258,
+   "id": 1531,
+   "o": [
+    "Close"
+   ]
+  },
+  {
+   "n": "Charms",
+   "x": 3089,
+   "z": 3259,
+   "id": 907,
+   "o": []
+  },
+  {
+   "n": "Barrel",
+   "x": 3089,
+   "z": 3261,
+   "id": 362,
+   "o": []
+  },
+  {
+   "n": "Crate",
+   "x": 3089,
+   "z": 3262,
+   "id": 357,
+   "o": [
+    "Search"
+   ]
+  },
+  {
+   "n": "Stool",
+   "x": 3087,
+   "z": 3255,
+   "id": 1102,
+   "o": []
+  },
+  {
+   "n": "Shelves",
+   "x": 3089,
+   "z": 3255,
+   "id": 1014,
+   "o": []
+  },
+  {
+   "n": "Crate",
+   "x": 3089,
+   "z": 3263,
+   "id": 358,
+   "o": [
+    "Search"
+   ]
+  },
+  {
+   "n": "Cooking shelves",
+   "x": 3090,
+   "z": 3255,
+   "id": 1013,
+   "o": []
+  },
+  {
+   "n": "Barrel",
+   "x": 3090,
+   "z": 3256,
+   "id": 362,
+   "o": []
+  },
+  {
+   "n": "Cart",
+   "x": 3090,
+   "z": 3261,
+   "id": 307,
+   "o": []
+  },
+  {
+   "n": "Barrel",
+   "x": 3090,
+   "z": 3263,
+   "id": 362,
+   "o": []
+  },
+  {
+   "n": "Bench",
+   "x": 3084,
+   "z": 3254,
+   "id": 1106,
+   "o": []
+  },
+  {
+   "n": "Table",
+   "x": 3088,
+   "z": 3254,
+   "id": 604,
+   "o": []
+  },
+  {
+   "n": "Stool",
+   "x": 3089,
+   "z": 3254,
+   "id": 1102,
+   "o": []
+  },
+  {
+   "n": "Barrel",
+   "x": 3091,
+   "z": 3263,
+   "id": 362,
+   "o": []
+  },
+  {
+   "n": "Tree",
+   "x": 3081,
+   "z": 3265,
+   "id": 1276,
+   "o": [
+    "Chop down"
+   ]
+  },
+  {
+   "n": "Stool",
+   "x": 3087,
+   "z": 3253,
+   "id": 1102,
+   "o": []
+  },
+  {
+   "n": "Warehouse shelves",
+   "x": 3090,
+   "z": 3265,
+   "id": 1015,
+   "o": []
+  },
+  {
+   "n": "Warehouse shelves",
+   "x": 3091,
+   "z": 3265,
+   "id": 1017,
+   "o": []
+  },
+  {
+   "n": "Door",
+   "x": 3092,
+   "z": 3255,
+   "id": 1530,
+   "o": [
+    "Open"
+   ]
+  },
+  {
+   "n": "Warehouse shelves",
+   "x": 3092,
+   "z": 3265,
+   "id": 1016,
+   "o": []
+  },
+  {
+   "n": "Market stall",
+   "x": 3079,
+   "z": 3253,
+   "id": 634,
+   "o": []
+  },
+  {
+   "n": "Tree",
+   "x": 3084,
+   "z": 3266,
+   "id": 1278,
+   "o": [
+    "Chop down"
+   ]
+  },
+  {
+   "n": "Barrel",
+   "x": 3088,
+   "z": 3266,
+   "id": 362,
+   "o": []
+  },
+  {
+   "n": "Tree",
+   "x": 3079,
+   "z": 3267,
+   "id": 1276,
+   "o": [
+    "Chop down"
+   ]
+  },
+  {
+   "n": "Crate",
+   "x": 3087,
+   "z": 3251,
+   "id": 357,
+   "o": [
+    "Search"
+   ]
+  },
+  {
+   "n": "Barrel",
+   "x": 3088,
+   "z": 3267,
+   "id": 362,
+   "o": []
+  },
+  {
+   "n": "Stool",
+   "x": 3089,
+   "z": 3267,
+   "id": 1102,
+   "o": []
+  },
+  {
+   "n": "Staircase",
+   "x": 3090,
+   "z": 3251,
+   "id": 1722,
+   "o": [
+    "Climb-up"
+   ]
+  },
+  {
+   "n": "Table",
+   "x": 3090,
+   "z": 3267,
+   "id": 598,
+   "o": []
+  },
+  {
+   "n": "Shelves",
+   "x": 3094,
+   "z": 3254,
+   "id": 1014,
+   "o": []
+  },
+  {
+   "n": "Cooking shelves",
+   "x": 3094,
+   "z": 3255,
+   "id": 1013,
+   "o": []
+  },
+  {
+   "n": "Barrel",
+   "x": 3094,
+   "z": 3265,
+   "id": 362,
+   "o": []
+  },
+  {
+   "n": "Crate",
+   "x": 3094,
+   "z": 3267,
+   "id": 357,
+   "o": [
+    "Search"
+   ]
+  },
+  {
+   "n": "Fern",
+   "x": 3077,
+   "z": 3262,
+   "id": 1298,
+   "o": []
+  },
+  {
+   "n": "Warehouse shelves",
+   "x": 3089,
+   "z": 3268,
+   "id": 1015,
+   "o": []
+  },
+  {
+   "n": "Stool",
+   "x": 3090,
+   "z": 3268,
+   "id": 1102,
+   "o": []
+  },
+  {
+   "n": "Door",
+   "x": 3092,
+   "z": 3268,
+   "id": 1530,
+   "o": [
+    "Open"
+   ]
+  },
+  {
+   "n": "Crate",
+   "x": 3094,
+   "z": 3268,
+   "id": 358,
+   "o": [
+    "Search"
+   ]
+  },
+  {
+   "n": "Barrel",
+   "x": 3095,
+   "z": 3265,
+   "id": 362,
+   "o": []
+  },
+  {
+   "n": "Barrel",
+   "x": 3095,
+   "z": 3266,
+   "id": 364,
+   "o": []
+  },
+  {
+   "n": "Warehouse shelves",
+   "x": 3095,
+   "z": 3267,
+   "id": 1016,
+   "o": []
+  },
+  {
+   "n": "Crate",
+   "x": 3095,
+   "z": 3268,
+   "id": 357,
+   "o": [
+    "Search"
+   ]
+  },
+  {
+   "n": "Tree",
+   "x": 3076,
+   "z": 3269,
+   "id": 1276,
+   "o": [
+    "Chop down"
+   ]
+  },
+  {
+   "n": "Tree",
+   "x": 3084,
+   "z": 3269,
+   "id": 1276,
+   "o": [
+    "Chop down"
+   ]
+  }
+ ],
+ "npcs": [
+  {
+   "n": "Aggie",
+   "id": 922,
+   "idx": 4298,
+   "x": 3086,
+   "z": 3258,
+   "o": [
+    "Talk-to"
+   ]
+  },
+  {
+   "n": "Diango",
+   "id": 970,
+   "idx": 4293,
+   "x": 3078,
+   "z": 3251,
+   "o": [
+    "Talk-to",
+    "Trade"
+   ]
+  },
+  {
+   "n": "Morgan",
+   "id": 755,
+   "idx": 4313,
+   "x": 3098,
+   "z": 3266,
+   "o": [
+    "Talk-to"
+   ]
+  },
+  {
+   "n": "Banker",
+   "id": 494,
+   "idx": 4302,
+   "x": 3090,
+   "z": 3245,
+   "o": [
+    "Talk-to",
+    "Bank"
+   ]
+  },
+  {
+   "n": "Ned",
+   "id": 918,
+   "idx": 4303,
+   "x": 3101,
+   "z": 3258,
+   "o": [
+    "Talk-to"
+   ]
+  }
+ ],
+ "ground": [
+  {
+   "id": 1985,
+   "name": "Cheese",
+   "count": 1,
+   "x": 3084,
+   "z": 3261,
+   "distance": 2,
+   "reachable": false
+  },
+  {
+   "id": 1982,
+   "name": "Tomato",
+   "count": 1,
+   "x": 3087,
+   "z": 3261,
+   "distance": 2,
+   "reachable": false
+  },
+  {
+   "id": 1511,
+   "name": "Logs",
+   "count": 1,
+   "x": 3089,
+   "z": 3265,
+   "distance": 6,
+   "reachable": false
+  },
+  {
+   "id": 1511,
+   "name": "Logs",
+   "count": 1,
+   "x": 3089,
+   "z": 3266,
+   "distance": 7,
+   "reachable": false
+  }
+ ],
+ "dialog": {
+  "isOpen": false,
+  "options": [],
+  "isWaiting": false,
+  "allComponents": []
+ },
+ "interface": {
+  "isOpen": false,
+  "interfaceId": -1,
+  "options": [],
+  "debugInfo": []
+ },
+ "modalOpen": false,
+ "modalInterface": -1,
+ "messages": [
+  {
+   "type": 0,
+   "text": "You pick an onion.",
+   "sender": "",
+   "tick": 1222,
+   "observationId": 1798,
+   "fromSelf": false
+  },
+  {
+   "type": 0,
+   "text": "You pick a cabbage.",
+   "sender": "",
+   "tick": 1324,
+   "observationId": 1926,
+   "fromSelf": false
+  },
+  {
+   "type": 0,
+   "text": "You pick a cabbage.",
+   "sender": "",
+   "tick": 1329,
+   "observationId": 1932,
+   "fromSelf": false
+  },
+  {
+   "type": 0,
+   "text": "You pick a cabbage.",
+   "sender": "",
+   "tick": 1334,
+   "observationId": 1938,
+   "fromSelf": false
+  },
+  {
+   "type": 0,
+   "text": "You pick a cabbage.",
+   "sender": "",
+   "tick": 1339,
+   "observationId": 1944,
+   "fromSelf": false
+  },
+  {
+   "type": 0,
+   "text": "You pick a cabbage.",
+   "sender": "",
+   "tick": 1345,
+   "observationId": 1951,
+   "fromSelf": false
+  },
+  {
+   "type": 0,
+   "text": "You pick a cabbage.",
+   "sender": "",
+   "tick": 1351,
+   "observationId": 1958,
+   "fromSelf": false
+  },
+  {
+   "type": 0,
+   "text": "You pick a cabbage.",
+   "sender": "",
+   "tick": 1355,
+   "observationId": 1964,
+   "fromSelf": false
+  },
+  {
+   "type": 0,
+   "text": "You pick a cabbage.",
+   "sender": "",
+   "tick": 1362,
+   "observationId": 1971,
+   "fromSelf": false
+  },
+  {
+   "type": 0,
+   "text": "You pick a cabbage.",
+   "sender": "",
+   "tick": 1367,
+   "observationId": 1977,
+   "fromSelf": false
+  },
+  {
+   "type": 0,
+   "text": "You pick a cabbage.",
+   "sender": "",
+   "tick": 1372,
+   "observationId": 1983,
+   "fromSelf": false
+  },
+  {
+   "type": 0,
+   "text": "You pick a cabbage.",
+   "sender": "",
+   "tick": 1378,
+   "observationId": 1990,
+   "fromSelf": false
+  },
+  {
+   "type": 0,
+   "text": "You pick a cabbage.",
+   "sender": "",
+   "tick": 1383,
+   "observationId": 1996,
+   "fromSelf": false
+  },
+  {
+   "type": 0,
+   "text": "You give Wyson 20 coins.",
+   "sender": "",
+   "tick": 1485,
+   "observationId": 2142,
+   "fromSelf": false
+  },
+  {
+   "type": 0,
+   "text": "Wyson the gardener gives you some woad leaves.",
+   "sender": "",
+   "tick": 1486,
+   "observationId": 2142,
+   "fromSelf": false
+  }
+ ],
+ "opFeedback": {
+  "mapFlagUnsetCount": 745,
+  "lastMapFlagUnsetTick": 1649,
+  "opRejectedCount": 466,
+  "lastOpRejectedTick": 1537
+ },
+ "chat": []
+}

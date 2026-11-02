@@ -1,0 +1,807 @@
+{
+ "quest": "Prince Ali Rescue",
+ "step": "varrock-items",
+ "time": "2026-11-02T04:16:13.540Z",
+ "player": {
+  "name": "Qb150847",
+  "combatLevel": 3,
+  "hp": 10,
+  "maxHp": 10,
+  "x": 7744,
+  "z": 7488,
+  "worldX": 3212,
+  "worldZ": 3426,
+  "level": 0,
+  "runEnergy": 100,
+  "runWeight": 7,
+  "animId": -1,
+  "spotanimId": -1,
+  "combat": {
+   "inCombat": false,
+   "targetIndex": -1,
+   "targetType": "none",
+   "lastDamageTick": 232
+  },
+  "isDead": false,
+  "lifeId": 1,
+  "respawnCount": 0,
+  "lastDeathTick": null
+ },
+ "skills": [
+  {
+   "name": "Attack",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Defence",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Strength",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Hitpoints",
+   "level": 10,
+   "baseLevel": 10,
+   "experience": 980
+  },
+  {
+   "name": "Ranged",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Prayer",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Magic",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Cooking",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Woodcutting",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Fletching",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Fishing",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Firemaking",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Crafting",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Smithing",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Mining",
+   "level": 2,
+   "baseLevel": 2,
+   "experience": 125
+  },
+  {
+   "name": "Herblore",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Agility",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Thieving",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Stat18",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Stat19",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Runecraft",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  }
+ ],
+ "inventory": [
+  "Bronze axe",
+  "Tinderbox",
+  "Coins x3",
+  "Clay",
+  "Bucket",
+  "Pot",
+  "Pink skirt",
+  "Bronze pickaxe"
+ ],
+ "locs": [
+  {
+   "n": "Water",
+   "x": 3212,
+   "z": 3427,
+   "id": 43,
+   "o": []
+  },
+  {
+   "n": "Statue",
+   "x": 3213,
+   "z": 3426,
+   "id": 574,
+   "o": []
+  },
+  {
+   "n": "Water",
+   "x": 3213,
+   "z": 3427,
+   "id": 43,
+   "o": []
+  },
+  {
+   "n": "Water",
+   "x": 3211,
+   "z": 3428,
+   "id": 43,
+   "o": []
+  },
+  {
+   "n": "Water",
+   "x": 3213,
+   "z": 3428,
+   "id": 43,
+   "o": []
+  },
+  {
+   "n": "Water",
+   "x": 3214,
+   "z": 3427,
+   "id": 43,
+   "o": []
+  },
+  {
+   "n": "Statue",
+   "x": 3210,
+   "z": 3429,
+   "id": 575,
+   "o": []
+  },
+  {
+   "n": "Water",
+   "x": 3211,
+   "z": 3429,
+   "id": 43,
+   "o": []
+  },
+  {
+   "n": "Water",
+   "x": 3212,
+   "z": 3429,
+   "id": 43,
+   "o": []
+  },
+  {
+   "n": "Water",
+   "x": 3214,
+   "z": 3429,
+   "id": 43,
+   "o": []
+  },
+  {
+   "n": "Water",
+   "x": 3215,
+   "z": 3428,
+   "id": 43,
+   "o": []
+  },
+  {
+   "n": "Water",
+   "x": 3215,
+   "z": 3429,
+   "id": 43,
+   "o": []
+  },
+  {
+   "n": "Water",
+   "x": 3211,
+   "z": 3430,
+   "id": 43,
+   "o": []
+  },
+  {
+   "n": "Water",
+   "x": 3213,
+   "z": 3430,
+   "id": 43,
+   "o": []
+  },
+  {
+   "n": "Water",
+   "x": 3215,
+   "z": 3430,
+   "id": 43,
+   "o": []
+  },
+  {
+   "n": "Statue",
+   "x": 3216,
+   "z": 3429,
+   "id": 576,
+   "o": []
+  },
+  {
+   "n": "Water",
+   "x": 3212,
+   "z": 3431,
+   "id": 43,
+   "o": []
+  },
+  {
+   "n": "Water",
+   "x": 3213,
+   "z": 3431,
+   "id": 43,
+   "o": []
+  },
+  {
+   "n": "Water",
+   "x": 3214,
+   "z": 3431,
+   "id": 43,
+   "o": []
+  },
+  {
+   "n": "Clothes model",
+   "x": 3206,
+   "z": 3420,
+   "id": 694,
+   "o": []
+  },
+  {
+   "n": "Statue",
+   "x": 3213,
+   "z": 3432,
+   "id": 575,
+   "o": []
+  },
+  {
+   "n": "Clothes model",
+   "x": 3205,
+   "z": 3419,
+   "id": 695,
+   "o": []
+  },
+  {
+   "n": "Candles",
+   "x": 3205,
+   "z": 3420,
+   "id": 202,
+   "o": []
+  },
+  {
+   "n": "Door",
+   "x": 3205,
+   "z": 3432,
+   "id": 1534,
+   "o": [
+    "Close"
+   ]
+  },
+  {
+   "n": "Door",
+   "x": 3209,
+   "z": 3419,
+   "id": 1534,
+   "o": [
+    "Close"
+   ]
+  },
+  {
+   "n": "Crate",
+   "x": 3214,
+   "z": 3419,
+   "id": 354,
+   "o": [
+    "Search"
+   ]
+  },
+  {
+   "n": "Crate",
+   "x": 3215,
+   "z": 3419,
+   "id": 355,
+   "o": [
+    "Search"
+   ]
+  },
+  {
+   "n": "Crate",
+   "x": 3216,
+   "z": 3419,
+   "id": 355,
+   "o": [
+    "Search"
+   ]
+  },
+  {
+   "n": "Door",
+   "x": 3217,
+   "z": 3419,
+   "id": 1534,
+   "o": [
+    "Close"
+   ]
+  },
+  {
+   "n": "Crate",
+   "x": 3219,
+   "z": 3419,
+   "id": 355,
+   "o": [
+    "Search"
+   ]
+  },
+  {
+   "n": "Crate",
+   "x": 3219,
+   "z": 3420,
+   "id": 366,
+   "o": [
+    "Search"
+   ]
+  },
+  {
+   "n": "Clothes model",
+   "x": 3204,
+   "z": 3418,
+   "id": 694,
+   "o": []
+  },
+  {
+   "n": "Standing torch",
+   "x": 3204,
+   "z": 3422,
+   "id": 724,
+   "o": []
+  },
+  {
+   "n": "Crate",
+   "x": 3204,
+   "z": 3434,
+   "id": 355,
+   "o": [
+    "Search"
+   ]
+  },
+  {
+   "n": "Warehouse shelves",
+   "x": 3218,
+   "z": 3418,
+   "id": 1016,
+   "o": []
+  },
+  {
+   "n": "Warehouse shelves",
+   "x": 3220,
+   "z": 3418,
+   "id": 1015,
+   "o": []
+  },
+  {
+   "n": "Crate",
+   "x": 3220,
+   "z": 3419,
+   "id": 355,
+   "o": [
+    "Search"
+   ]
+  },
+  {
+   "n": "Market stall",
+   "x": 3220,
+   "z": 3425,
+   "id": 634,
+   "o": []
+  },
+  {
+   "n": "Market stall",
+   "x": 3220,
+   "z": 3431,
+   "id": 634,
+   "o": []
+  },
+  {
+   "n": "Candles",
+   "x": 3203,
+   "z": 3418,
+   "id": 202,
+   "o": []
+  },
+  {
+   "n": "Crystal ball",
+   "x": 3203,
+   "z": 3425,
+   "id": 589,
+   "o": []
+  },
+  {
+   "n": "Crate",
+   "x": 3204,
+   "z": 3435,
+   "id": 354,
+   "o": [
+    "Search"
+   ]
+  },
+  {
+   "n": "Clothes model",
+   "x": 3208,
+   "z": 3417,
+   "id": 694,
+   "o": []
+  },
+  {
+   "n": "Bookcase",
+   "x": 3213,
+   "z": 3417,
+   "id": 381,
+   "o": [
+    "Search"
+   ]
+  },
+  {
+   "n": "Warehouse shelves",
+   "x": 3218,
+   "z": 3417,
+   "id": 1016,
+   "o": []
+  },
+  {
+   "n": "Warehouse shelves",
+   "x": 3220,
+   "z": 3417,
+   "id": 1016,
+   "o": []
+  },
+  {
+   "n": "Ladder",
+   "x": 3202,
+   "z": 3416,
+   "id": 1750,
+   "o": [
+    "Climb-up"
+   ]
+  },
+  {
+   "n": "Standing torch",
+   "x": 3202,
+   "z": 3422,
+   "id": 724,
+   "o": []
+  },
+  {
+   "n": "Stool",
+   "x": 3202,
+   "z": 3426,
+   "id": 1102,
+   "o": []
+  },
+  {
+   "n": "Table",
+   "x": 3202,
+   "z": 3431,
+   "id": 594,
+   "o": []
+  },
+  {
+   "n": "Ladder",
+   "x": 3202,
+   "z": 3434,
+   "id": 1747,
+   "o": [
+    "Climb-up"
+   ]
+  },
+  {
+   "n": "Stool",
+   "x": 3202,
+   "z": 3436,
+   "id": 1102,
+   "o": []
+  },
+  {
+   "n": "Potted plant",
+   "x": 3208,
+   "z": 3416,
+   "id": 1158,
+   "o": []
+  },
+  {
+   "n": "Fur stall",
+   "x": 3217,
+   "z": 3436,
+   "id": 632,
+   "o": []
+  },
+  {
+   "n": "Warehouse shelves",
+   "x": 3218,
+   "z": 3416,
+   "id": 1017,
+   "o": []
+  },
+  {
+   "n": "Market stall",
+   "x": 3219,
+   "z": 3436,
+   "id": 634,
+   "o": []
+  },
+  {
+   "n": "Tree",
+   "x": 3222,
+   "z": 3421,
+   "id": 1276,
+   "o": [
+    "Chop down"
+   ]
+  },
+  {
+   "n": "Potted plant",
+   "x": 3201,
+   "z": 3423,
+   "id": 1158,
+   "o": []
+  },
+  {
+   "n": "Potted plant",
+   "x": 3201,
+   "z": 3425,
+   "id": 1158,
+   "o": []
+  },
+  {
+   "n": "Potted plant",
+   "x": 3201,
+   "z": 3431,
+   "id": 1158,
+   "o": []
+  }
+ ],
+ "npcs": [
+  {
+   "n": "Romeo",
+   "id": 639,
+   "idx": 2976,
+   "x": 3206,
+   "z": 3428,
+   "o": [
+    "Talk-to"
+   ]
+  },
+  {
+   "n": "Gypsy",
+   "id": 882,
+   "idx": 2972,
+   "x": 3205,
+   "z": 3423,
+   "o": [
+    "Talk-to"
+   ]
+  },
+  {
+   "n": "Zaff",
+   "id": 546,
+   "idx": 2973,
+   "x": 3204,
+   "z": 3431,
+   "o": [
+    "Talk-to",
+    "Trade"
+   ]
+  },
+  {
+   "n": "Wilough",
+   "id": 783,
+   "idx": 2981,
+   "x": 3221,
+   "z": 3434,
+   "o": [
+    "Talk-to"
+   ]
+  },
+  {
+   "n": "Baraek",
+   "id": 547,
+   "idx": 2979,
+   "x": 3218,
+   "z": 3435,
+   "o": [
+    "Talk-to"
+   ]
+  },
+  {
+   "n": "Thessalia",
+   "id": 548,
+   "idx": 2974,
+   "x": 3207,
+   "z": 3416,
+   "o": [
+    "Talk-to",
+    "Trade"
+   ]
+  },
+  {
+   "n": "Shilop",
+   "id": 781,
+   "idx": 2980,
+   "x": 3222,
+   "z": 3435,
+   "o": [
+    "Talk-to"
+   ]
+  },
+  {
+   "n": "Shop keeper",
+   "id": 522,
+   "idx": 2978,
+   "x": 3219,
+   "z": 3412,
+   "o": [
+    "Talk-to",
+    "Trade"
+   ]
+  },
+  {
+   "n": "Shop assistant",
+   "id": 523,
+   "idx": 2977,
+   "x": 3215,
+   "z": 3411,
+   "o": [
+    "Talk-to",
+    "Trade"
+   ]
+  },
+  {
+   "n": "Horvik",
+   "id": 549,
+   "idx": 2987,
+   "x": 3227,
+   "z": 3437,
+   "o": [
+    "Talk-to",
+    "Trade"
+   ]
+  }
+ ],
+ "ground": [],
+ "dialog": {
+  "isOpen": false,
+  "options": [],
+  "isWaiting": false,
+  "allComponents": []
+ },
+ "interface": {
+  "isOpen": false,
+  "interfaceId": -1,
+  "options": [],
+  "debugInfo": []
+ },
+ "modalOpen": false,
+ "modalInterface": -1,
+ "messages": [
+  {
+   "type": 0,
+   "text": "Welcome to RuneScape.",
+   "sender": "",
+   "tick": 0,
+   "observationId": 1,
+   "fromSelf": false
+  },
+  {
+   "type": 0,
+   "text": "You pay the guard.",
+   "sender": "",
+   "tick": 270,
+   "observationId": 396,
+   "fromSelf": false
+  },
+  {
+   "type": 0,
+   "text": "You pay the guard.",
+   "sender": "",
+   "tick": 588,
+   "observationId": 962,
+   "fromSelf": false
+  },
+  {
+   "type": 0,
+   "text": "You feel weakened.",
+   "sender": "",
+   "tick": 769,
+   "observationId": 1214,
+   "fromSelf": false
+  },
+  {
+   "type": 0,
+   "text": "You swing your pick at the rock.",
+   "sender": "",
+   "tick": 798,
+   "observationId": 1253,
+   "fromSelf": false
+  },
+  {
+   "type": 0,
+   "text": "You manage to mine some clay.",
+   "sender": "",
+   "tick": 812,
+   "observationId": 1268,
+   "fromSelf": false
+  },
+  {
+   "type": 0,
+   "text": "Congratulations, you just advanced a mining level.",
+   "sender": "",
+   "tick": 812,
+   "observationId": 1268,
+   "fromSelf": false
+  }
+ ],
+ "opFeedback": {
+  "mapFlagUnsetCount": 246,
+  "lastMapFlagUnsetTick": 1063,
+  "opRejectedCount": 24,
+  "lastOpRejectedTick": 811
+ },
+ "chat": []
+}

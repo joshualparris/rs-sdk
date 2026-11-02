@@ -1,0 +1,601 @@
+{
+ "quest": "Sheep Shearer",
+ "step": "start",
+ "time": "2026-11-02T02:38:45.497Z",
+ "player": {
+  "name": "Qb123333",
+  "combatLevel": 3,
+  "hp": 10,
+  "maxHp": 10,
+  "x": 7104,
+  "z": 7744,
+  "worldX": 3207,
+  "worldZ": 3212,
+  "level": 1,
+  "runEnergy": 100,
+  "runWeight": 0,
+  "animId": -1,
+  "spotanimId": -1,
+  "combat": {
+   "inCombat": false,
+   "targetIndex": -1,
+   "targetType": "none",
+   "lastDamageTick": 229
+  },
+  "isDead": false,
+  "lifeId": 1,
+  "respawnCount": 0,
+  "lastDeathTick": null
+ },
+ "inventory": [
+  "Wool",
+  "Wool",
+  "Wool",
+  "Wool",
+  "Shears",
+  "Wool",
+  "Wool",
+  "Wool",
+  "Wool",
+  "Wool",
+  "Wool",
+  "Wool",
+  "Wool",
+  "Wool",
+  "Wool",
+  "Wool",
+  "Wool",
+  "Wool",
+  "Wool",
+  "Wool",
+  "Wool"
+ ],
+ "locs": [
+  {
+   "n": "Chair",
+   "x": 3208,
+   "z": 3212,
+   "id": 1088,
+   "o": []
+  },
+  {
+   "n": "Candles",
+   "x": 3205,
+   "z": 3212,
+   "id": 202,
+   "o": []
+  },
+  {
+   "n": "Bow cabinet",
+   "x": 3205,
+   "z": 3214,
+   "id": 836,
+   "o": []
+  },
+  {
+   "n": "Door",
+   "x": 3207,
+   "z": 3210,
+   "id": 1530,
+   "o": [
+    "Open"
+   ]
+  },
+  {
+   "n": "Door",
+   "x": 3208,
+   "z": 3214,
+   "id": 1537,
+   "o": [
+    "Close"
+   ]
+  },
+  {
+   "n": "Spinning wheel",
+   "x": 3209,
+   "z": 3212,
+   "id": 2644,
+   "o": [
+    "Spin"
+   ]
+  },
+  {
+   "n": "Candles",
+   "x": 3205,
+   "z": 3216,
+   "id": 202,
+   "o": []
+  },
+  {
+   "n": "Hanging banner",
+   "x": 3207,
+   "z": 3216,
+   "id": 901,
+   "o": []
+  },
+  {
+   "n": "Crate",
+   "x": 3211,
+   "z": 3209,
+   "id": 357,
+   "o": [
+    "Search"
+   ]
+  },
+  {
+   "n": "Portrait",
+   "x": 3211,
+   "z": 3212,
+   "id": 890,
+   "o": []
+  },
+  {
+   "n": "Bed",
+   "x": 3211,
+   "z": 3214,
+   "id": 424,
+   "o": []
+  },
+  {
+   "n": "Staircase",
+   "x": 3204,
+   "z": 3207,
+   "id": 1739,
+   "o": [
+    "Climb",
+    "Climb-up",
+    "Climb-down"
+   ]
+  },
+  {
+   "n": "Hanging banner",
+   "x": 3207,
+   "z": 3217,
+   "id": 899,
+   "o": []
+  },
+  {
+   "n": "Hanging banner",
+   "x": 3210,
+   "z": 3217,
+   "id": 899,
+   "o": []
+  },
+  {
+   "n": "Hanging banner",
+   "x": 3211,
+   "z": 3217,
+   "id": 901,
+   "o": []
+  },
+  {
+   "n": "Sword cabinet",
+   "x": 3205,
+   "z": 3218,
+   "id": 834,
+   "o": []
+  },
+  {
+   "n": "Cabinet",
+   "x": 3208,
+   "z": 3218,
+   "id": 347,
+   "o": []
+  },
+  {
+   "n": "Open chest",
+   "x": 3209,
+   "z": 3218,
+   "id": 378,
+   "o": [
+    "Search",
+    "Shut"
+   ]
+  },
+  {
+   "n": "Crate",
+   "x": 3210,
+   "z": 3218,
+   "id": 366,
+   "o": [
+    "Search"
+   ]
+  },
+  {
+   "n": "Landscape",
+   "x": 3211,
+   "z": 3218,
+   "id": 891,
+   "o": []
+  },
+  {
+   "n": "Drawers",
+   "x": 3213,
+   "z": 3216,
+   "id": 352,
+   "o": [
+    "Open"
+   ]
+  },
+  {
+   "n": "Table",
+   "x": 3213,
+   "z": 3218,
+   "id": 602,
+   "o": []
+  },
+  {
+   "n": "Hanging banner",
+   "x": 3207,
+   "z": 3219,
+   "id": 901,
+   "o": []
+  },
+  {
+   "n": "Cabinet",
+   "x": 3208,
+   "z": 3219,
+   "id": 346,
+   "o": []
+  },
+  {
+   "n": "Suit of armour",
+   "x": 3213,
+   "z": 3219,
+   "id": 817,
+   "o": []
+  },
+  {
+   "n": "Hanging banner",
+   "x": 3207,
+   "z": 3220,
+   "id": 899,
+   "o": []
+  },
+  {
+   "n": "Cannon",
+   "x": 3215,
+   "z": 3215,
+   "id": 821,
+   "o": []
+  },
+  {
+   "n": "Standard",
+   "x": 3215,
+   "z": 3216,
+   "id": 856,
+   "o": []
+  },
+  {
+   "n": "Candles",
+   "x": 3205,
+   "z": 3221,
+   "id": 202,
+   "o": []
+  },
+  {
+   "n": "Bed",
+   "x": 3211,
+   "z": 3221,
+   "id": 424,
+   "o": []
+  },
+  {
+   "n": "Standard",
+   "x": 3215,
+   "z": 3221,
+   "id": 856,
+   "o": []
+  },
+  {
+   "n": "Wooden defence",
+   "x": 3216,
+   "z": 3214,
+   "id": 824,
+   "o": []
+  },
+  {
+   "n": "Wooden defence",
+   "x": 3216,
+   "z": 3216,
+   "id": 824,
+   "o": []
+  },
+  {
+   "n": "Flagpole",
+   "x": 3216,
+   "z": 3217,
+   "id": 869,
+   "o": []
+  },
+  {
+   "n": "Flagpole",
+   "x": 3216,
+   "z": 3220,
+   "id": 869,
+   "o": []
+  },
+  {
+   "n": "Wooden defence",
+   "x": 3216,
+   "z": 3221,
+   "id": 824,
+   "o": []
+  },
+  {
+   "n": "Axe cabinet",
+   "x": 3205,
+   "z": 3222,
+   "id": 837,
+   "o": []
+  },
+  {
+   "n": "Door",
+   "x": 3208,
+   "z": 3222,
+   "id": 1537,
+   "o": [
+    "Close"
+   ]
+  },
+  {
+   "n": "Cannon",
+   "x": 3215,
+   "z": 3222,
+   "id": 821,
+   "o": []
+  },
+  {
+   "n": "Wooden defence",
+   "x": 3216,
+   "z": 3223,
+   "id": 824,
+   "o": []
+  },
+  {
+   "n": "Cabinet",
+   "x": 3208,
+   "z": 3224,
+   "id": 347,
+   "o": []
+  },
+  {
+   "n": "Suit of armour",
+   "x": 3213,
+   "z": 3224,
+   "id": 817,
+   "o": []
+  },
+  {
+   "n": "Candles",
+   "x": 3205,
+   "z": 3225,
+   "id": 202,
+   "o": []
+  },
+  {
+   "n": "Cabinet",
+   "x": 3208,
+   "z": 3225,
+   "id": 346,
+   "o": []
+  },
+  {
+   "n": "Portrait",
+   "x": 3211,
+   "z": 3225,
+   "id": 890,
+   "o": []
+  },
+  {
+   "n": "Door",
+   "x": 3208,
+   "z": 3227,
+   "id": 1531,
+   "o": [
+    "Close"
+   ]
+  }
+ ],
+ "npcs": [
+  {
+   "n": "Duke Horacio",
+   "idx": 2893,
+   "o": [
+    "Talk-to"
+   ]
+  },
+  {
+   "n": "Man",
+   "idx": 2892,
+   "o": [
+    "Talk-to",
+    "Attack",
+    "Pickpocket"
+   ]
+  }
+ ],
+ "ground": [
+  {
+   "id": 1205,
+   "name": "Bronze dagger",
+   "count": 1,
+   "x": 3213,
+   "z": 3216,
+   "distance": 6,
+   "reachable": false
+  }
+ ],
+ "dialog": {
+  "isOpen": false,
+  "options": [],
+  "isWaiting": false,
+  "allComponents": []
+ },
+ "interface": {
+  "isOpen": false,
+  "interfaceId": -1,
+  "options": [],
+  "debugInfo": []
+ },
+ "messages": [
+  {
+   "type": 0,
+   "text": "This sheep has already been shorn.",
+   "sender": "",
+   "tick": 402,
+   "observationId": 578,
+   "fromSelf": false
+  },
+  {
+   "type": 0,
+   "text": "You get some wool.",
+   "sender": "",
+   "tick": 440,
+   "observationId": 616,
+   "fromSelf": false
+  },
+  {
+   "type": 0,
+   "text": "This sheep has already been shorn.",
+   "sender": "",
+   "tick": 445,
+   "observationId": 628,
+   "fromSelf": false
+  },
+  {
+   "type": 0,
+   "text": "You get some wool.",
+   "sender": "",
+   "tick": 481,
+   "observationId": 666,
+   "fromSelf": false
+  },
+  {
+   "type": 0,
+   "text": "I can't reach that!",
+   "sender": "",
+   "tick": 484,
+   "observationId": 675,
+   "fromSelf": false
+  },
+  {
+   "type": 0,
+   "text": "You get some wool.",
+   "sender": "",
+   "tick": 503,
+   "observationId": 695,
+   "fromSelf": false
+  },
+  {
+   "type": 0,
+   "text": "This sheep has already been shorn.",
+   "sender": "",
+   "tick": 506,
+   "observationId": 702,
+   "fromSelf": false
+  },
+  {
+   "type": 0,
+   "text": "You get some wool.",
+   "sender": "",
+   "tick": 626,
+   "observationId": 856,
+   "fromSelf": false
+  },
+  {
+   "type": 0,
+   "text": "This sheep has already been shorn.",
+   "sender": "",
+   "tick": 630,
+   "observationId": 863,
+   "fromSelf": false
+  },
+  {
+   "type": 0,
+   "text": "You get some wool.",
+   "sender": "",
+   "tick": 671,
+   "observationId": 906,
+   "fromSelf": false
+  },
+  {
+   "type": 0,
+   "text": "This sheep has already been shorn.",
+   "sender": "",
+   "tick": 674,
+   "observationId": 913,
+   "fromSelf": false
+  },
+  {
+   "type": 0,
+   "text": "You get some wool.",
+   "sender": "",
+   "tick": 714,
+   "observationId": 956,
+   "fromSelf": false
+  },
+  {
+   "type": 0,
+   "text": "I can't reach that!",
+   "sender": "",
+   "tick": 1094,
+   "observationId": 1412,
+   "fromSelf": false
+  },
+  {
+   "type": 0,
+   "text": "I can't reach that!",
+   "sender": "",
+   "tick": 1103,
+   "observationId": 1427,
+   "fromSelf": false
+  },
+  {
+   "type": 0,
+   "text": "I can't reach that!",
+   "sender": "",
+   "tick": 1111,
+   "observationId": 1442,
+   "fromSelf": false
+  }
+ ],
+ "opFeedback": {
+  "mapFlagUnsetCount": 305,
+  "lastMapFlagUnsetTick": 1817,
+  "opRejectedCount": 17,
+  "lastOpRejectedTick": 1815
+ },
+ "stateKeys": [
+  "tick",
+  "combatTargetTelemetryVersion",
+  "revision",
+  "player",
+  "skills",
+  "inventory",
+  "equipment",
+  "combatStyle",
+  "nearbyNpcs",
+  "nearbyPlayers",
+  "nearbyLocs",
+  "groundItems",
+  "gameMessages",
+  "recentDialogs",
+  "menuActions",
+  "shop",
+  "bank",
+  "trade",
+  "ge",
+  "inGame",
+  "combatEvents",
+  "dialog",
+  "interface",
+  "modalOpen",
+  "modalInterface",
+  "prayers",
+  "isSkulled",
+  "autoRetaliateEnabled",
+  "opFeedback"
+ ],
+ "chat": []
+}

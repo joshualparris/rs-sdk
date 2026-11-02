@@ -1,0 +1,769 @@
+{
+ "quest": "Goblin Diplomacy",
+ "step": "dyes",
+ "time": "2026-11-02T04:46:01.302Z",
+ "player": {
+  "name": "Qb152711",
+  "combatLevel": 4,
+  "hp": 10,
+  "maxHp": 10,
+  "x": 8256,
+  "z": 9152,
+  "worldX": 3024,
+  "worldZ": 3375,
+  "level": 0,
+  "runEnergy": 100,
+  "runWeight": 9,
+  "animId": -1,
+  "spotanimId": -1,
+  "combat": {
+   "inCombat": false,
+   "targetIndex": -1,
+   "targetType": "none",
+   "lastDamageTick": 2467
+  },
+  "isDead": false,
+  "lifeId": 2,
+  "respawnCount": 1,
+  "lastDeathTick": 2207
+ },
+ "skills": [
+  {
+   "name": "Attack",
+   "level": 5,
+   "baseLevel": 5,
+   "experience": 400
+  },
+  {
+   "name": "Defence",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Strength",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Hitpoints",
+   "level": 10,
+   "baseLevel": 10,
+   "experience": 1110
+  },
+  {
+   "name": "Ranged",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Prayer",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Magic",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Cooking",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Woodcutting",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Fletching",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Fishing",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Firemaking",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Crafting",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Smithing",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Mining",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Herblore",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Agility",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Thieving",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Stat18",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Stat19",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Runecraft",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  }
+ ],
+ "inventory": [
+  "Bronze sword",
+  "Wooden shield",
+  "Red dye",
+  "Onion",
+  "Onion",
+  "Cabbage",
+  "Cabbage",
+  "Cabbage",
+  "Cabbage",
+  "Cabbage",
+  "Cabbage",
+  "Cabbage",
+  "Cabbage",
+  "Cabbage",
+  "Cabbage",
+  "Cabbage",
+  "Cabbage"
+ ],
+ "locs": [
+  {
+   "n": "Potted flower",
+   "x": 3025,
+   "z": 3376,
+   "id": 1156,
+   "o": []
+  },
+  {
+   "n": "Fern",
+   "x": 3022,
+   "z": 3377,
+   "id": 1299,
+   "o": []
+  },
+  {
+   "n": "Hat stand",
+   "x": 3026,
+   "z": 3376,
+   "id": 374,
+   "o": []
+  },
+  {
+   "n": "Picnic bench",
+   "x": 3021,
+   "z": 3373,
+   "id": 611,
+   "o": []
+  },
+  {
+   "n": "Fern",
+   "x": 3021,
+   "z": 3377,
+   "id": 1299,
+   "o": []
+  },
+  {
+   "n": "Bullrushes",
+   "x": 3021,
+   "z": 3378,
+   "id": 1162,
+   "o": []
+  },
+  {
+   "n": "Fern",
+   "x": 3022,
+   "z": 3378,
+   "id": 1299,
+   "o": []
+  },
+  {
+   "n": "Fern",
+   "x": 3023,
+   "z": 3378,
+   "id": 1300,
+   "o": []
+  },
+  {
+   "n": "Fern",
+   "x": 3020,
+   "z": 3376,
+   "id": 1299,
+   "o": []
+  },
+  {
+   "n": "Bullrushes",
+   "x": 3020,
+   "z": 3377,
+   "id": 1162,
+   "o": []
+  },
+  {
+   "n": "Door",
+   "x": 3027,
+   "z": 3379,
+   "id": 1531,
+   "o": [
+    "Close"
+   ]
+  },
+  {
+   "n": "Bullrushes",
+   "x": 3019,
+   "z": 3377,
+   "id": 1162,
+   "o": []
+  },
+  {
+   "n": "Waterlily",
+   "x": 3020,
+   "z": 3380,
+   "id": 1177,
+   "o": []
+  },
+  {
+   "n": "Fern",
+   "x": 3024,
+   "z": 3380,
+   "id": 1300,
+   "o": []
+  },
+  {
+   "n": "Oak",
+   "x": 3028,
+   "z": 3370,
+   "id": 1281,
+   "o": [
+    "Chop down"
+   ]
+  },
+  {
+   "n": "Table",
+   "x": 3029,
+   "z": 3376,
+   "id": 595,
+   "o": []
+  },
+  {
+   "n": "Potted plant",
+   "x": 3029,
+   "z": 3378,
+   "id": 1158,
+   "o": []
+  },
+  {
+   "n": "Potted plant",
+   "x": 3029,
+   "z": 3380,
+   "id": 1158,
+   "o": []
+  },
+  {
+   "n": "Picnic bench",
+   "x": 3018,
+   "z": 3371,
+   "id": 611,
+   "o": []
+  },
+  {
+   "n": "Waterlily",
+   "x": 3018,
+   "z": 3377,
+   "id": 1175,
+   "o": []
+  },
+  {
+   "n": "Waterlily",
+   "x": 3018,
+   "z": 3381,
+   "id": 1175,
+   "o": []
+  },
+  {
+   "n": "Chair",
+   "x": 3030,
+   "z": 3377,
+   "id": 1088,
+   "o": []
+  },
+  {
+   "n": "Waterlily",
+   "x": 3019,
+   "z": 3382,
+   "id": 1177,
+   "o": []
+  },
+  {
+   "n": "Potted flower",
+   "x": 3025,
+   "z": 3382,
+   "id": 1157,
+   "o": []
+  },
+  {
+   "n": "Table",
+   "x": 3029,
+   "z": 3382,
+   "id": 595,
+   "o": []
+  },
+  {
+   "n": "Chair",
+   "x": 3031,
+   "z": 3376,
+   "id": 1088,
+   "o": []
+  },
+  {
+   "n": "Chair",
+   "x": 3031,
+   "z": 3377,
+   "id": 1088,
+   "o": []
+  },
+  {
+   "n": "Bullrushes",
+   "x": 3016,
+   "z": 3376,
+   "id": 1162,
+   "o": []
+  },
+  {
+   "n": "Bullrushes",
+   "x": 3016,
+   "z": 3382,
+   "id": 1162,
+   "o": []
+  },
+  {
+   "n": "Fern",
+   "x": 3016,
+   "z": 3383,
+   "id": 1299,
+   "o": []
+  },
+  {
+   "n": "Fern",
+   "x": 3017,
+   "z": 3383,
+   "id": 1299,
+   "o": []
+  },
+  {
+   "n": "Waterlily",
+   "x": 3020,
+   "z": 3383,
+   "id": 1175,
+   "o": []
+  },
+  {
+   "n": "Bullrushes",
+   "x": 3023,
+   "z": 3383,
+   "id": 1162,
+   "o": []
+  },
+  {
+   "n": "Chair",
+   "x": 3029,
+   "z": 3383,
+   "id": 1088,
+   "o": []
+  },
+  {
+   "n": "Bullrushes",
+   "x": 3015,
+   "z": 3376,
+   "id": 1162,
+   "o": []
+  },
+  {
+   "n": "Bullrushes",
+   "x": 3015,
+   "z": 3377,
+   "id": 1162,
+   "o": []
+  },
+  {
+   "n": "Waterlily",
+   "x": 3015,
+   "z": 3379,
+   "id": 1176,
+   "o": []
+  },
+  {
+   "n": "Bullrushes",
+   "x": 3015,
+   "z": 3382,
+   "id": 1162,
+   "o": []
+  },
+  {
+   "n": "Flower",
+   "x": 3015,
+   "z": 3384,
+   "id": 1187,
+   "o": []
+  },
+  {
+   "n": "Bullrushes",
+   "x": 3021,
+   "z": 3384,
+   "id": 1162,
+   "o": []
+  },
+  {
+   "n": "Bullrushes",
+   "x": 3022,
+   "z": 3384,
+   "id": 1162,
+   "o": []
+  },
+  {
+   "n": "Flowers",
+   "x": 3014,
+   "z": 3372,
+   "id": 1192,
+   "o": []
+  },
+  {
+   "n": "Flowers",
+   "x": 3014,
+   "z": 3373,
+   "id": 1193,
+   "o": []
+  },
+  {
+   "n": "Flowers",
+   "x": 3014,
+   "z": 3374,
+   "id": 1192,
+   "o": []
+  },
+  {
+   "n": "Bullrushes",
+   "x": 3014,
+   "z": 3377,
+   "id": 1162,
+   "o": []
+  },
+  {
+   "n": "Bullrushes",
+   "x": 3014,
+   "z": 3381,
+   "id": 1162,
+   "o": []
+  },
+  {
+   "n": "Bullrushes",
+   "x": 3014,
+   "z": 3382,
+   "id": 1162,
+   "o": []
+  },
+  {
+   "n": "Flowerbed",
+   "x": 3014,
+   "z": 3385,
+   "id": 1199,
+   "o": []
+  },
+  {
+   "n": "Flowers",
+   "x": 3013,
+   "z": 3371,
+   "id": 1192,
+   "o": []
+  },
+  {
+   "n": "Flowers",
+   "x": 3013,
+   "z": 3372,
+   "id": 1195,
+   "o": []
+  },
+  {
+   "n": "Flowers",
+   "x": 3013,
+   "z": 3373,
+   "id": 1196,
+   "o": []
+  },
+  {
+   "n": "Flowers",
+   "x": 3013,
+   "z": 3374,
+   "id": 1195,
+   "o": []
+  },
+  {
+   "n": "Flowers",
+   "x": 3013,
+   "z": 3375,
+   "id": 1192,
+   "o": []
+  },
+  {
+   "n": "Fern",
+   "x": 3013,
+   "z": 3378,
+   "id": 1299,
+   "o": []
+  },
+  {
+   "n": "Bullrushes",
+   "x": 3013,
+   "z": 3381,
+   "id": 1162,
+   "o": []
+  },
+  {
+   "n": "Flowerbed",
+   "x": 3013,
+   "z": 3385,
+   "id": 1199,
+   "o": []
+  },
+  {
+   "n": "Flower",
+   "x": 3013,
+   "z": 3386,
+   "id": 1187,
+   "o": []
+  },
+  {
+   "n": "Flower",
+   "x": 3014,
+   "z": 3386,
+   "id": 1187,
+   "o": []
+  },
+  {
+   "n": "Flowers",
+   "x": 3012,
+   "z": 3371,
+   "id": 1193,
+   "o": []
+  },
+  {
+   "n": "Flowers",
+   "x": 3012,
+   "z": 3372,
+   "id": 1195,
+   "o": []
+  }
+ ],
+ "npcs": [
+  {
+   "n": "Wyson the gardener",
+   "id": 36,
+   "idx": 484,
+   "x": 3025,
+   "z": 3375,
+   "o": [
+    "Talk-to"
+   ]
+  },
+  {
+   "n": "Gardener",
+   "id": 1217,
+   "idx": 475,
+   "x": 3010,
+   "z": 3375,
+   "o": [
+    "Attack"
+   ]
+  }
+ ],
+ "ground": [],
+ "dialog": {
+  "isOpen": false,
+  "options": [],
+  "isWaiting": false,
+  "allComponents": []
+ },
+ "interface": {
+  "isOpen": false,
+  "interfaceId": -1,
+  "options": [],
+  "debugInfo": []
+ },
+ "modalOpen": false,
+ "modalInterface": -1,
+ "messages": [
+  {
+   "type": 0,
+   "text": "Oh dear you are dead!",
+   "sender": "",
+   "tick": 2212,
+   "observationId": 3215,
+   "fromSelf": false
+  },
+  {
+   "type": 0,
+   "text": "You pick an onion.",
+   "sender": "",
+   "tick": 2497,
+   "observationId": 3645,
+   "fromSelf": false
+  },
+  {
+   "type": 0,
+   "text": "You pick an onion.",
+   "sender": "",
+   "tick": 2500,
+   "observationId": 3649,
+   "fromSelf": false
+  },
+  {
+   "type": 0,
+   "text": "You pick a cabbage.",
+   "sender": "",
+   "tick": 2599,
+   "observationId": 3774,
+   "fromSelf": false
+  },
+  {
+   "type": 0,
+   "text": "You pick a cabbage.",
+   "sender": "",
+   "tick": 2604,
+   "observationId": 3780,
+   "fromSelf": false
+  },
+  {
+   "type": 0,
+   "text": "You pick a cabbage.",
+   "sender": "",
+   "tick": 2609,
+   "observationId": 3786,
+   "fromSelf": false
+  },
+  {
+   "type": 0,
+   "text": "You pick a cabbage.",
+   "sender": "",
+   "tick": 2614,
+   "observationId": 3792,
+   "fromSelf": false
+  },
+  {
+   "type": 0,
+   "text": "You pick a cabbage.",
+   "sender": "",
+   "tick": 2619,
+   "observationId": 3798,
+   "fromSelf": false
+  },
+  {
+   "type": 0,
+   "text": "You pick a cabbage.",
+   "sender": "",
+   "tick": 2624,
+   "observationId": 3804,
+   "fromSelf": false
+  },
+  {
+   "type": 0,
+   "text": "You pick a cabbage.",
+   "sender": "",
+   "tick": 2629,
+   "observationId": 3810,
+   "fromSelf": false
+  },
+  {
+   "type": 0,
+   "text": "You pick a cabbage.",
+   "sender": "",
+   "tick": 2636,
+   "observationId": 3818,
+   "fromSelf": false
+  },
+  {
+   "type": 0,
+   "text": "You pick a cabbage.",
+   "sender": "",
+   "tick": 2641,
+   "observationId": 3824,
+   "fromSelf": false
+  },
+  {
+   "type": 0,
+   "text": "You pick a cabbage.",
+   "sender": "",
+   "tick": 2645,
+   "observationId": 3830,
+   "fromSelf": false
+  },
+  {
+   "type": 0,
+   "text": "You pick a cabbage.",
+   "sender": "",
+   "tick": 2651,
+   "observationId": 3836,
+   "fromSelf": false
+  },
+  {
+   "type": 0,
+   "text": "You pick a cabbage.",
+   "sender": "",
+   "tick": 2655,
+   "observationId": 3842,
+   "fromSelf": false
+  }
+ ],
+ "opFeedback": {
+  "mapFlagUnsetCount": 1185,
+  "lastMapFlagUnsetTick": 2748,
+  "opRejectedCount": 774,
+  "lastOpRejectedTick": 2717
+ },
+ "chat": []
+}

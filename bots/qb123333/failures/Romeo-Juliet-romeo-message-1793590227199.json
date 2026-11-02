@@ -1,0 +1,804 @@
+{
+ "quest": "Romeo & Juliet",
+ "step": "romeo-message",
+ "time": "2026-11-02T03:30:27.198Z",
+ "player": {
+  "name": "Qb123333",
+  "combatLevel": 3,
+  "hp": 10,
+  "maxHp": 10,
+  "x": 7508,
+  "z": 7724,
+  "worldX": 3162,
+  "worldZ": 3436,
+  "level": 0,
+  "runEnergy": 100,
+  "runWeight": 0,
+  "animId": -1,
+  "spotanimId": -1,
+  "combat": {
+   "inCombat": false,
+   "targetIndex": -1,
+   "targetType": "none",
+   "lastDamageTick": 9209
+  },
+  "isDead": false,
+  "lifeId": 1,
+  "respawnCount": 0,
+  "lastDeathTick": null
+ },
+ "skills": [
+  {
+   "name": "Attack",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Defence",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Strength",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Hitpoints",
+   "level": 10,
+   "baseLevel": 10,
+   "experience": 980
+  },
+  {
+   "name": "Ranged",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Prayer",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Magic",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Cooking",
+   "level": 30,
+   "baseLevel": 30,
+   "experience": 7500
+  },
+  {
+   "name": "Woodcutting",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Fletching",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Fishing",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Firemaking",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Crafting",
+   "level": 25,
+   "baseLevel": 25,
+   "experience": 5000
+  },
+  {
+   "name": "Smithing",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Mining",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Herblore",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Agility",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Thieving",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Stat18",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Stat19",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Runecraft",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  }
+ ],
+ "inventory": [
+  "Coins x60",
+  "Air talisman",
+  "Cadava berries",
+  "Message",
+  "Shears"
+ ],
+ "locs": [
+  {
+   "n": "Landscape",
+   "x": 3163,
+   "z": 3437,
+   "id": 894,
+   "o": []
+  },
+  {
+   "n": "Portrait",
+   "x": 3162,
+   "z": 3438,
+   "id": 890,
+   "o": []
+  },
+  {
+   "n": "Potted plant",
+   "x": 3164,
+   "z": 3434,
+   "id": 1158,
+   "o": []
+  },
+  {
+   "n": "Piano stool",
+   "x": 3163,
+   "z": 3433,
+   "id": 682,
+   "o": []
+  },
+  {
+   "n": "Door",
+   "x": 3161,
+   "z": 3440,
+   "id": 1534,
+   "o": [
+    "Close"
+   ]
+  },
+  {
+   "n": "Piano",
+   "x": 3163,
+   "z": 3432,
+   "id": 681,
+   "o": []
+  },
+  {
+   "n": "Daisies",
+   "x": 3164,
+   "z": 3440,
+   "id": 1189,
+   "o": []
+  },
+  {
+   "n": "Daisies",
+   "x": 3166,
+   "z": 3437,
+   "id": 1189,
+   "o": []
+  },
+  {
+   "n": "Chair",
+   "x": 3157,
+   "z": 3431,
+   "id": 1088,
+   "o": []
+  },
+  {
+   "n": "Chair",
+   "x": 3159,
+   "z": 3431,
+   "id": 1088,
+   "o": []
+  },
+  {
+   "n": "Door",
+   "x": 3160,
+   "z": 3431,
+   "id": 1534,
+   "o": [
+    "Close"
+   ]
+  },
+  {
+   "n": "Shelves",
+   "x": 3162,
+   "z": 3431,
+   "id": 1014,
+   "o": []
+  },
+  {
+   "n": "Cooking shelves",
+   "x": 3163,
+   "z": 3431,
+   "id": 1013,
+   "o": []
+  },
+  {
+   "n": "Door",
+   "x": 3156,
+   "z": 3433,
+   "id": 1534,
+   "o": [
+    "Close"
+   ]
+  },
+  {
+   "n": "Staircase",
+   "x": 3156,
+   "z": 3435,
+   "id": 1722,
+   "o": [
+    "Climb-up"
+   ]
+  },
+  {
+   "n": "Door",
+   "x": 3156,
+   "z": 3438,
+   "id": 1534,
+   "o": [
+    "Close"
+   ]
+  },
+  {
+   "n": "Candles",
+   "x": 3156,
+   "z": 3441,
+   "id": 202,
+   "o": []
+  },
+  {
+   "n": "Chair",
+   "x": 3157,
+   "z": 3430,
+   "id": 1088,
+   "o": []
+  },
+  {
+   "n": "Table",
+   "x": 3158,
+   "z": 3430,
+   "id": 595,
+   "o": []
+  },
+  {
+   "n": "Log pile",
+   "x": 3158,
+   "z": 3442,
+   "id": 309,
+   "o": []
+  },
+  {
+   "n": "Chair",
+   "x": 3159,
+   "z": 3430,
+   "id": 1088,
+   "o": []
+  },
+  {
+   "n": "Stool",
+   "x": 3164,
+   "z": 3430,
+   "id": 1102,
+   "o": []
+  },
+  {
+   "n": "Tree",
+   "x": 3168,
+   "z": 3434,
+   "id": 1278,
+   "o": [
+    "Chop down"
+   ]
+  },
+  {
+   "n": "Tree",
+   "x": 3168,
+   "z": 3437,
+   "id": 1278,
+   "o": [
+    "Chop down"
+   ]
+  },
+  {
+   "n": "Log pile",
+   "x": 3158,
+   "z": 3443,
+   "id": 309,
+   "o": []
+  },
+  {
+   "n": "Table",
+   "x": 3154,
+   "z": 3430,
+   "id": 598,
+   "o": []
+  },
+  {
+   "n": "Door",
+   "x": 3156,
+   "z": 3428,
+   "id": 1531,
+   "o": [
+    "Close"
+   ]
+  },
+  {
+   "n": "Daisies",
+   "x": 3161,
+   "z": 3444,
+   "id": 1189,
+   "o": []
+  },
+  {
+   "n": "Bookcase",
+   "x": 3153,
+   "z": 3435,
+   "id": 380,
+   "o": [
+    "Search"
+   ]
+  },
+  {
+   "n": "Chair",
+   "x": 3153,
+   "z": 3438,
+   "id": 1088,
+   "o": []
+  },
+  {
+   "n": "Chair",
+   "x": 3153,
+   "z": 3439,
+   "id": 1088,
+   "o": []
+  },
+  {
+   "n": "Potted fern",
+   "x": 3154,
+   "z": 3427,
+   "id": 1153,
+   "o": []
+  },
+  {
+   "n": "Range",
+   "x": 3160,
+   "z": 3427,
+   "id": 2728,
+   "o": []
+  },
+  {
+   "n": "Tree",
+   "x": 3171,
+   "z": 3444,
+   "id": 1278,
+   "o": [
+    "Chop down"
+   ]
+  },
+  {
+   "n": "Study desk",
+   "x": 3151,
+   "z": 3427,
+   "id": 608,
+   "o": []
+  },
+  {
+   "n": "Table",
+   "x": 3151,
+   "z": 3437,
+   "id": 597,
+   "o": []
+  },
+  {
+   "n": "Tree stump",
+   "x": 3155,
+   "z": 3447,
+   "id": 1341,
+   "o": []
+  },
+  {
+   "n": "Flower",
+   "x": 3163,
+   "z": 3447,
+   "id": 1187,
+   "o": []
+  },
+  {
+   "n": "Flower",
+   "x": 3165,
+   "z": 3447,
+   "id": 1187,
+   "o": []
+  },
+  {
+   "n": "Flower",
+   "x": 3167,
+   "z": 3447,
+   "id": 1187,
+   "o": []
+  },
+  {
+   "n": "Flower",
+   "x": 3169,
+   "z": 3447,
+   "id": 1187,
+   "o": []
+  },
+  {
+   "n": "Daisies",
+   "x": 3173,
+   "z": 3442,
+   "id": 1189,
+   "o": []
+  },
+  {
+   "n": "Mirror",
+   "x": 3150,
+   "z": 3428,
+   "id": 689,
+   "o": []
+  },
+  {
+   "n": "Bookcase",
+   "x": 3150,
+   "z": 3435,
+   "id": 380,
+   "o": [
+    "Search"
+   ]
+  },
+  {
+   "n": "Chair",
+   "x": 3150,
+   "z": 3438,
+   "id": 1088,
+   "o": []
+  },
+  {
+   "n": "Chair",
+   "x": 3150,
+   "z": 3439,
+   "id": 1088,
+   "o": []
+  },
+  {
+   "n": "Fern",
+   "x": 3164,
+   "z": 3448,
+   "id": 1298,
+   "o": []
+  },
+  {
+   "n": "Fern",
+   "x": 3166,
+   "z": 3448,
+   "id": 1298,
+   "o": []
+  },
+  {
+   "n": "Fern",
+   "x": 3168,
+   "z": 3448,
+   "id": 1298,
+   "o": []
+  },
+  {
+   "n": "Spear wall",
+   "x": 3172,
+   "z": 3424,
+   "id": 849,
+   "o": []
+  },
+  {
+   "n": "Bed",
+   "x": 3149,
+   "z": 3430,
+   "id": 426,
+   "o": []
+  },
+  {
+   "n": "Table",
+   "x": 3149,
+   "z": 3433,
+   "id": 604,
+   "o": []
+  },
+  {
+   "n": "Fern",
+   "x": 3151,
+   "z": 3449,
+   "id": 1299,
+   "o": []
+  },
+  {
+   "n": "Spear wall",
+   "x": 3172,
+   "z": 3423,
+   "id": 849,
+   "o": []
+  },
+  {
+   "n": "Door",
+   "x": 3175,
+   "z": 3425,
+   "id": 1531,
+   "o": [
+    "Close"
+   ]
+  },
+  {
+   "n": "Tree",
+   "x": 3154,
+   "z": 3450,
+   "id": 1278,
+   "o": [
+    "Chop down"
+   ]
+  },
+  {
+   "n": "Spear wall",
+   "x": 3172,
+   "z": 3422,
+   "id": 849,
+   "o": []
+  },
+  {
+   "n": "Bush",
+   "x": 3176,
+   "z": 3437,
+   "id": 1122,
+   "o": []
+  },
+  {
+   "n": "Tree stump",
+   "x": 3161,
+   "z": 3451,
+   "id": 1341,
+   "o": []
+  },
+  {
+   "n": "Spear wall",
+   "x": 3172,
+   "z": 3421,
+   "id": 849,
+   "o": []
+  }
+ ],
+ "npcs": [
+  {
+   "n": "Man",
+   "id": 1,
+   "idx": 1876,
+   "x": 3153,
+   "z": 3431,
+   "o": [
+    "Talk-to",
+    "Attack",
+    "Pickpocket"
+   ]
+  },
+  {
+   "n": "Guard",
+   "id": 9,
+   "idx": 1878,
+   "x": 3173,
+   "z": 3427,
+   "o": [
+    "Attack",
+    "Pickpocket"
+   ]
+  },
+  {
+   "n": "Guard",
+   "id": 9,
+   "idx": 1879,
+   "x": 3176,
+   "z": 3423,
+   "o": [
+    "Attack",
+    "Pickpocket"
+   ]
+  },
+  {
+   "n": "Guard",
+   "id": 9,
+   "idx": 1880,
+   "x": 3176,
+   "z": 3429,
+   "o": [
+    "Attack",
+    "Pickpocket"
+   ]
+  }
+ ],
+ "ground": [],
+ "dialog": {
+  "isOpen": false,
+  "options": [],
+  "isWaiting": false,
+  "allComponents": []
+ },
+ "interface": {
+  "isOpen": false,
+  "interfaceId": -1,
+  "options": [],
+  "debugInfo": []
+ },
+ "modalOpen": false,
+ "modalInterface": -1,
+ "messages": [
+  {
+   "type": 0,
+   "text": "I can't reach that!",
+   "sender": "",
+   "tick": 6495,
+   "observationId": 7374,
+   "fromSelf": false
+  },
+  {
+   "type": 0,
+   "text": "I can't reach that!",
+   "sender": "",
+   "tick": 6497,
+   "observationId": 7378,
+   "fromSelf": false
+  },
+  {
+   "type": 0,
+   "text": "I can't reach that!",
+   "sender": "",
+   "tick": 6519,
+   "observationId": 7400,
+   "fromSelf": false
+  },
+  {
+   "type": 0,
+   "text": "I can't reach that!",
+   "sender": "",
+   "tick": 6521,
+   "observationId": 7405,
+   "fromSelf": false
+  },
+  {
+   "type": 0,
+   "text": "I can't reach that!",
+   "sender": "",
+   "tick": 6525,
+   "observationId": 7410,
+   "fromSelf": false
+  },
+  {
+   "type": 0,
+   "text": "I can't reach that!",
+   "sender": "",
+   "tick": 6546,
+   "observationId": 7432,
+   "fromSelf": false
+  },
+  {
+   "type": 0,
+   "text": "I can't reach that!",
+   "sender": "",
+   "tick": 6548,
+   "observationId": 7437,
+   "fromSelf": false
+  },
+  {
+   "type": 0,
+   "text": "I can't reach that!",
+   "sender": "",
+   "tick": 6551,
+   "observationId": 7441,
+   "fromSelf": false
+  },
+  {
+   "type": 0,
+   "text": "You try and open the door...",
+   "sender": "",
+   "tick": 8081,
+   "observationId": 9244,
+   "fromSelf": false
+  },
+  {
+   "type": 0,
+   "text": "The door is locked tight, I can't open it.",
+   "sender": "",
+   "tick": 8083,
+   "observationId": 9246,
+   "fromSelf": false
+  },
+  {
+   "type": 0,
+   "text": "I can't reach that!",
+   "sender": "",
+   "tick": 8376,
+   "observationId": 9681,
+   "fromSelf": false
+  },
+  {
+   "type": 0,
+   "text": "I can't reach that!",
+   "sender": "",
+   "tick": 8396,
+   "observationId": 9702,
+   "fromSelf": false
+  },
+  {
+   "type": 0,
+   "text": "I can't reach that!",
+   "sender": "",
+   "tick": 8398,
+   "observationId": 9706,
+   "fromSelf": false
+  },
+  {
+   "type": 0,
+   "text": "I can't reach that!",
+   "sender": "",
+   "tick": 8400,
+   "observationId": 9710,
+   "fromSelf": false
+  },
+  {
+   "type": 0,
+   "text": "Congratulations! Quest complete!",
+   "sender": "",
+   "tick": 8500,
+   "observationId": 9876,
+   "fromSelf": false
+  }
+ ],
+ "opFeedback": {
+  "mapFlagUnsetCount": 858,
+  "lastMapFlagUnsetTick": 9572,
+  "opRejectedCount": 55,
+  "lastOpRejectedTick": 9547
+ },
+ "chat": []
+}

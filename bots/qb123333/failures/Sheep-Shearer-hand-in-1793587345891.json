@@ -1,0 +1,831 @@
+{
+ "quest": "Sheep Shearer",
+ "step": "hand-in",
+ "time": "2026-11-02T02:42:25.891Z",
+ "player": {
+  "name": "Qb123333",
+  "combatLevel": 3,
+  "hp": 10,
+  "maxHp": 10,
+  "x": 5824,
+  "z": 5597,
+  "worldX": 3189,
+  "worldZ": 3275,
+  "level": 0,
+  "runEnergy": 100,
+  "runWeight": 0,
+  "animId": -1,
+  "spotanimId": -1,
+  "combat": {
+   "inCombat": false,
+   "targetIndex": -1,
+   "targetType": "none",
+   "lastDamageTick": 229
+  },
+  "isDead": false,
+  "lifeId": 1,
+  "respawnCount": 0,
+  "lastDeathTick": null
+ },
+ "inventory": [
+  "Ball of wool",
+  "Ball of wool",
+  "Ball of wool",
+  "Ball of wool",
+  "Shears",
+  "Ball of wool",
+  "Ball of wool",
+  "Ball of wool",
+  "Ball of wool",
+  "Ball of wool",
+  "Ball of wool",
+  "Ball of wool",
+  "Ball of wool",
+  "Ball of wool",
+  "Ball of wool",
+  "Ball of wool",
+  "Ball of wool",
+  "Ball of wool",
+  "Ball of wool",
+  "Ball of wool",
+  "Ball of wool"
+ ],
+ "locs": [
+  {
+   "n": "Crate",
+   "x": 3188,
+   "z": 3274,
+   "id": 354,
+   "o": [
+    "Search"
+   ]
+  },
+  {
+   "n": "Crate",
+   "x": 3188,
+   "z": 3275,
+   "id": 366,
+   "o": [
+    "Search"
+   ]
+  },
+  {
+   "n": "Door",
+   "x": 3189,
+   "z": 3276,
+   "id": 1531,
+   "o": [
+    "Close"
+   ]
+  },
+  {
+   "n": "Table",
+   "x": 3187,
+   "z": 3275,
+   "id": 602,
+   "o": []
+  },
+  {
+   "n": "Door",
+   "x": 3188,
+   "z": 3272,
+   "id": 1530,
+   "o": [
+    "Open"
+   ]
+  },
+  {
+   "n": "Closed chest",
+   "x": 3192,
+   "z": 3273,
+   "id": 375,
+   "o": [
+    "Open"
+   ]
+  },
+  {
+   "n": "Sacks",
+   "x": 3192,
+   "z": 3275,
+   "id": 365,
+   "o": [
+    "Search"
+   ]
+  },
+  {
+   "n": "Open chest",
+   "x": 3185,
+   "z": 3274,
+   "id": 378,
+   "o": [
+    "Search",
+    "Shut"
+   ]
+  },
+  {
+   "n": "Barrel",
+   "x": 3185,
+   "z": 3275,
+   "id": 362,
+   "o": []
+  },
+  {
+   "n": "Crate",
+   "x": 3187,
+   "z": 3271,
+   "id": 354,
+   "o": [
+    "Search"
+   ]
+  },
+  {
+   "n": "Table",
+   "x": 3192,
+   "z": 3271,
+   "id": 594,
+   "o": []
+  },
+  {
+   "n": "Potted fern",
+   "x": 3184,
+   "z": 3270,
+   "id": 1155,
+   "o": []
+  },
+  {
+   "n": "Bed",
+   "x": 3184,
+   "z": 3272,
+   "id": 417,
+   "o": []
+  },
+  {
+   "n": "Barrel",
+   "x": 3184,
+   "z": 3275,
+   "id": 362,
+   "o": []
+  },
+  {
+   "n": "Crate",
+   "x": 3186,
+   "z": 3270,
+   "id": 354,
+   "o": [
+    "Search"
+   ]
+  },
+  {
+   "n": "Crate",
+   "x": 3187,
+   "z": 3270,
+   "id": 355,
+   "o": [
+    "Search"
+   ]
+  },
+  {
+   "n": "Gate",
+   "x": 3188,
+   "z": 3280,
+   "id": 1552,
+   "o": [
+    "Close"
+   ]
+  },
+  {
+   "n": "Shelves",
+   "x": 3189,
+   "z": 3270,
+   "id": 1014,
+   "o": []
+  },
+  {
+   "n": "Sacks",
+   "x": 3192,
+   "z": 3270,
+   "id": 365,
+   "o": [
+    "Search"
+   ]
+  },
+  {
+   "n": "Bench",
+   "x": 3183,
+   "z": 3270,
+   "id": 1106,
+   "o": []
+  },
+  {
+   "n": "Bench",
+   "x": 3183,
+   "z": 3273,
+   "id": 1106,
+   "o": []
+  },
+  {
+   "n": "Gate",
+   "x": 3188,
+   "z": 3281,
+   "id": 1556,
+   "o": [
+    "Close"
+   ]
+  },
+  {
+   "n": "Barrel",
+   "x": 3191,
+   "z": 3269,
+   "id": 362,
+   "o": []
+  },
+  {
+   "n": "Barrel",
+   "x": 3192,
+   "z": 3269,
+   "id": 362,
+   "o": []
+  },
+  {
+   "n": "Gate",
+   "x": 3184,
+   "z": 3268,
+   "id": 1556,
+   "o": [
+    "Close"
+   ]
+  },
+  {
+   "n": "Gate",
+   "x": 3185,
+   "z": 3268,
+   "id": 1552,
+   "o": [
+    "Close"
+   ]
+  },
+  {
+   "n": "Onion",
+   "x": 3188,
+   "z": 3268,
+   "id": 3366,
+   "o": [
+    "Pick"
+   ]
+  },
+  {
+   "n": "Onion",
+   "x": 3189,
+   "z": 3268,
+   "id": 3366,
+   "o": [
+    "Pick"
+   ]
+  },
+  {
+   "n": "Onion",
+   "x": 3190,
+   "z": 3268,
+   "id": 3366,
+   "o": [
+    "Pick"
+   ]
+  },
+  {
+   "n": "Onion",
+   "x": 3191,
+   "z": 3268,
+   "id": 3366,
+   "o": [
+    "Pick"
+   ]
+  },
+  {
+   "n": "Barrel",
+   "x": 3192,
+   "z": 3268,
+   "id": 364,
+   "o": []
+  },
+  {
+   "n": "Onion",
+   "x": 3188,
+   "z": 3267,
+   "id": 3366,
+   "o": [
+    "Pick"
+   ]
+  },
+  {
+   "n": "Onion",
+   "x": 3189,
+   "z": 3267,
+   "id": 3366,
+   "o": [
+    "Pick"
+   ]
+  },
+  {
+   "n": "Onion",
+   "x": 3190,
+   "z": 3267,
+   "id": 3366,
+   "o": [
+    "Pick"
+   ]
+  },
+  {
+   "n": "Onion",
+   "x": 3191,
+   "z": 3267,
+   "id": 3366,
+   "o": [
+    "Pick"
+   ]
+  },
+  {
+   "n": "Daisies",
+   "x": 3197,
+   "z": 3271,
+   "id": 1189,
+   "o": []
+  },
+  {
+   "n": "Stile",
+   "x": 3197,
+   "z": 3276,
+   "id": 993,
+   "o": [
+    "Climb-over"
+   ]
+  },
+  {
+   "n": "Tree",
+   "x": 3180,
+   "z": 3279,
+   "id": 1278,
+   "o": [
+    "Chop down"
+   ]
+  },
+  {
+   "n": "Boxes",
+   "x": 3186,
+   "z": 3266,
+   "id": 361,
+   "o": [
+    "Search"
+   ]
+  },
+  {
+   "n": "Crate",
+   "x": 3187,
+   "z": 3266,
+   "id": 357,
+   "o": [
+    "Search"
+   ]
+  },
+  {
+   "n": "Onion",
+   "x": 3188,
+   "z": 3266,
+   "id": 3366,
+   "o": [
+    "Pick"
+   ]
+  },
+  {
+   "n": "Onion",
+   "x": 3189,
+   "z": 3266,
+   "id": 3366,
+   "o": [
+    "Pick"
+   ]
+  },
+  {
+   "n": "Onion",
+   "x": 3190,
+   "z": 3266,
+   "id": 3366,
+   "o": [
+    "Pick"
+   ]
+  },
+  {
+   "n": "Onion",
+   "x": 3191,
+   "z": 3266,
+   "id": 3366,
+   "o": [
+    "Pick"
+   ]
+  },
+  {
+   "n": "Daisies",
+   "x": 3198,
+   "z": 3267,
+   "id": 1189,
+   "o": []
+  },
+  {
+   "n": "Gate",
+   "x": 3198,
+   "z": 3280,
+   "id": 1556,
+   "o": [
+    "Close"
+   ]
+  },
+  {
+   "n": "Gate",
+   "x": 3198,
+   "z": 3281,
+   "id": 1552,
+   "o": [
+    "Close"
+   ]
+  },
+  {
+   "n": "Tree",
+   "x": 3179,
+   "z": 3282,
+   "id": 1278,
+   "o": [
+    "Chop down"
+   ]
+  },
+  {
+   "n": "Hollow log",
+   "x": 3181,
+   "z": 3265,
+   "id": 1334,
+   "o": []
+  },
+  {
+   "n": "Crate",
+   "x": 3186,
+   "z": 3265,
+   "id": 358,
+   "o": [
+    "Search"
+   ]
+  },
+  {
+   "n": "Boxes",
+   "x": 3188,
+   "z": 3265,
+   "id": 361,
+   "o": [
+    "Search"
+   ]
+  },
+  {
+   "n": "cabbage",
+   "x": 3194,
+   "z": 3285,
+   "id": 1161,
+   "o": [
+    "Pick"
+   ]
+  },
+  {
+   "n": "cabbage",
+   "x": 3197,
+   "z": 3285,
+   "id": 1161,
+   "o": [
+    "Pick"
+   ]
+  },
+  {
+   "n": "Daisies",
+   "x": 3199,
+   "z": 3274,
+   "id": 1189,
+   "o": []
+  },
+  {
+   "n": "Willow",
+   "x": 3178,
+   "z": 3270,
+   "id": 1308,
+   "o": [
+    "Chop down"
+   ]
+  },
+  {
+   "n": "Fern",
+   "x": 3178,
+   "z": 3271,
+   "id": 1299,
+   "o": []
+  },
+  {
+   "n": "cabbage",
+   "x": 3200,
+   "z": 3285,
+   "id": 1161,
+   "o": [
+    "Pick"
+   ]
+  },
+  {
+   "n": "Willow",
+   "x": 3177,
+   "z": 3268,
+   "id": 1308,
+   "o": [
+    "Chop down"
+   ]
+  },
+  {
+   "n": "Willow",
+   "x": 3177,
+   "z": 3274,
+   "id": 1308,
+   "o": [
+    "Chop down"
+   ]
+  },
+  {
+   "n": "Tree",
+   "x": 3177,
+   "z": 3278,
+   "id": 1278,
+   "o": [
+    "Chop down"
+   ]
+  }
+ ],
+ "npcs": [
+  {
+   "n": "Fred the Farmer",
+   "idx": 1802,
+   "o": [
+    "Talk-to"
+   ]
+  },
+  {
+   "n": "Imp",
+   "idx": 2898,
+   "o": [
+    "Attack"
+   ]
+  },
+  {
+   "n": "Chicken",
+   "idx": 1804,
+   "o": [
+    "Attack"
+   ]
+  },
+  {
+   "n": "Chicken",
+   "idx": 1803,
+   "o": [
+    "Attack"
+   ]
+  },
+  {
+   "n": "Chicken",
+   "idx": 1801,
+   "o": [
+    "Attack"
+   ]
+  },
+  {
+   "n": "Chicken",
+   "idx": 1800,
+   "o": [
+    "Attack"
+   ]
+  },
+  {
+   "n": "Chicken",
+   "idx": 1799,
+   "o": [
+    "Attack"
+   ]
+  },
+  {
+   "n": "Sheep",
+   "idx": 1810,
+   "o": []
+  },
+  {
+   "n": "Sheep",
+   "idx": 1806,
+   "o": []
+  },
+  {
+   "n": "Sheep",
+   "idx": 2812,
+   "o": []
+  },
+  {
+   "n": "Sheep",
+   "idx": 1805,
+   "o": []
+  },
+  {
+   "n": "Sheep",
+   "idx": 1809,
+   "o": []
+  },
+  {
+   "n": "Sheep",
+   "idx": 2894,
+   "o": []
+  },
+  {
+   "n": "Sheep",
+   "idx": 1784,
+   "o": []
+  },
+  {
+   "n": "Sheep",
+   "idx": 1807,
+   "o": []
+  },
+  {
+   "n": "Sheep",
+   "idx": 1791,
+   "o": []
+  }
+ ],
+ "ground": [],
+ "dialog": {
+  "isOpen": false,
+  "options": [],
+  "isWaiting": false,
+  "allComponents": []
+ },
+ "interface": {
+  "isOpen": false,
+  "interfaceId": -1,
+  "options": [],
+  "debugInfo": []
+ },
+ "messages": [
+  {
+   "type": 0,
+   "text": "You spin the wool into a nice ball of wool.",
+   "sender": "",
+   "tick": 2048,
+   "observationId": 2620,
+   "fromSelf": false
+  },
+  {
+   "type": 0,
+   "text": "Congratulations, you just advanced a crafting level.",
+   "sender": "",
+   "tick": 2050,
+   "observationId": 2623,
+   "fromSelf": false
+  },
+  {
+   "type": 0,
+   "text": "You spin the wool into a nice ball of wool.",
+   "sender": "",
+   "tick": 2059,
+   "observationId": 2638,
+   "fromSelf": false
+  },
+  {
+   "type": 0,
+   "text": "You spin the wool into a nice ball of wool.",
+   "sender": "",
+   "tick": 2070,
+   "observationId": 2649,
+   "fromSelf": false
+  },
+  {
+   "type": 0,
+   "text": "Congratulations, you just advanced a crafting level.",
+   "sender": "",
+   "tick": 2072,
+   "observationId": 2652,
+   "fromSelf": false
+  },
+  {
+   "type": 0,
+   "text": "You spin the wool into a nice ball of wool.",
+   "sender": "",
+   "tick": 2082,
+   "observationId": 2667,
+   "fromSelf": false
+  },
+  {
+   "type": 0,
+   "text": "You spin the wool into a nice ball of wool.",
+   "sender": "",
+   "tick": 2092,
+   "observationId": 2678,
+   "fromSelf": false
+  },
+  {
+   "type": 0,
+   "text": "You spin the wool into a nice ball of wool.",
+   "sender": "",
+   "tick": 2102,
+   "observationId": 2689,
+   "fromSelf": false
+  },
+  {
+   "type": 0,
+   "text": "Congratulations, you just advanced a crafting level.",
+   "sender": "",
+   "tick": 2105,
+   "observationId": 2692,
+   "fromSelf": false
+  },
+  {
+   "type": 0,
+   "text": "You spin the wool into a nice ball of wool.",
+   "sender": "",
+   "tick": 2114,
+   "observationId": 2707,
+   "fromSelf": false
+  },
+  {
+   "type": 0,
+   "text": "I can't reach that!",
+   "sender": "",
+   "tick": 2252,
+   "observationId": 2901,
+   "fromSelf": false
+  },
+  {
+   "type": 0,
+   "text": "I can't reach that!",
+   "sender": "",
+   "tick": 2261,
+   "observationId": 2916,
+   "fromSelf": false
+  },
+  {
+   "type": 0,
+   "text": "I can't reach that!",
+   "sender": "",
+   "tick": 2270,
+   "observationId": 2931,
+   "fromSelf": false
+  },
+  {
+   "type": 0,
+   "text": "I can't reach that!",
+   "sender": "",
+   "tick": 2304,
+   "observationId": 2987,
+   "fromSelf": false
+  },
+  {
+   "type": 0,
+   "text": "I can't reach that!",
+   "sender": "",
+   "tick": 2322,
+   "observationId": 3013,
+   "fromSelf": false
+  }
+ ],
+ "opFeedback": {
+  "mapFlagUnsetCount": 367,
+  "lastMapFlagUnsetTick": 2369,
+  "opRejectedCount": 23,
+  "lastOpRejectedTick": 2349
+ },
+ "stateKeys": [
+  "tick",
+  "combatTargetTelemetryVersion",
+  "revision",
+  "player",
+  "skills",
+  "inventory",
+  "equipment",
+  "combatStyle",
+  "nearbyNpcs",
+  "nearbyPlayers",
+  "nearbyLocs",
+  "groundItems",
+  "gameMessages",
+  "recentDialogs",
+  "menuActions",
+  "shop",
+  "bank",
+  "trade",
+  "ge",
+  "inGame",
+  "combatEvents",
+  "dialog",
+  "interface",
+  "modalOpen",
+  "modalInterface",
+  "prayers",
+  "isSkulled",
+  "autoRetaliateEnabled",
+  "opFeedback"
+ ],
+ "chat": []
+}

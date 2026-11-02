@@ -1,0 +1,768 @@
+{
+ "quest": "The Restless Ghost",
+ "step": "hand-in",
+ "time": "2026-11-02T03:41:24.705Z",
+ "player": {
+  "name": "Qb123333",
+  "combatLevel": 3,
+  "hp": 10,
+  "maxHp": 10,
+  "x": 8256,
+  "z": 6336,
+  "worldX": 3248,
+  "worldZ": 3193,
+  "level": 0,
+  "runEnergy": 100,
+  "runWeight": 0,
+  "animId": -1,
+  "spotanimId": -1,
+  "combat": {
+   "inCombat": false,
+   "targetIndex": -1,
+   "targetType": "none",
+   "lastDamageTick": 11126
+  },
+  "isDead": false,
+  "lifeId": 1,
+  "respawnCount": 0,
+  "lastDeathTick": null
+ },
+ "skills": [
+  {
+   "name": "Attack",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Defence",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Strength",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Hitpoints",
+   "level": 10,
+   "baseLevel": 10,
+   "experience": 980
+  },
+  {
+   "name": "Ranged",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Prayer",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Magic",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Cooking",
+   "level": 30,
+   "baseLevel": 30,
+   "experience": 7500
+  },
+  {
+   "name": "Woodcutting",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Fletching",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Fishing",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Firemaking",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Crafting",
+   "level": 25,
+   "baseLevel": 25,
+   "experience": 5000
+  },
+  {
+   "name": "Smithing",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Mining",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Herblore",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Agility",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Thieving",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Stat18",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Stat19",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Runecraft",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  }
+ ],
+ "inventory": [
+  "Coins x60",
+  "Air talisman",
+  "Skull",
+  "Shears"
+ ],
+ "locs": [
+  {
+   "n": "Coffin",
+   "x": 3249,
+   "z": 3192,
+   "id": 2146,
+   "o": [
+    "Close",
+    "Search"
+   ]
+  },
+  {
+   "n": "Door",
+   "x": 3246,
+   "z": 3193,
+   "id": 1531,
+   "o": [
+    "Close"
+   ]
+  },
+  {
+   "n": "Gravestone",
+   "x": 3245,
+   "z": 3192,
+   "id": 404,
+   "o": []
+  },
+  {
+   "n": "Plant",
+   "x": 3245,
+   "z": 3194,
+   "id": 1392,
+   "o": []
+  },
+  {
+   "n": "Flower",
+   "x": 3247,
+   "z": 3197,
+   "id": 1188,
+   "o": []
+  },
+  {
+   "n": "Plant",
+   "x": 3249,
+   "z": 3197,
+   "id": 1392,
+   "o": []
+  },
+  {
+   "n": "Plant",
+   "x": 3243,
+   "z": 3191,
+   "id": 1394,
+   "o": []
+  },
+  {
+   "n": "Gravestone",
+   "x": 3243,
+   "z": 3194,
+   "id": 404,
+   "o": []
+  },
+  {
+   "n": "Gravestone",
+   "x": 3243,
+   "z": 3196,
+   "id": 404,
+   "o": []
+  },
+  {
+   "n": "Gravestone",
+   "x": 3243,
+   "z": 3198,
+   "id": 404,
+   "o": []
+  },
+  {
+   "n": "Tree",
+   "x": 3248,
+   "z": 3188,
+   "id": 1301,
+   "o": []
+  },
+  {
+   "n": "Tree",
+   "x": 3253,
+   "z": 3194,
+   "id": 1276,
+   "o": [
+    "Chop down"
+   ]
+  },
+  {
+   "n": "Dead tree",
+   "x": 3253,
+   "z": 3197,
+   "id": 1282,
+   "o": [
+    "Chop down"
+   ]
+  },
+  {
+   "n": "Gravestone",
+   "x": 3242,
+   "z": 3192,
+   "id": 405,
+   "o": []
+  },
+  {
+   "n": "Gravestone",
+   "x": 3241,
+   "z": 3198,
+   "id": 404,
+   "o": []
+  },
+  {
+   "n": "Gravestone",
+   "x": 3241,
+   "z": 3200,
+   "id": 404,
+   "o": []
+  },
+  {
+   "n": "Gravestone",
+   "x": 3243,
+   "z": 3200,
+   "id": 404,
+   "o": []
+  },
+  {
+   "n": "Gravestone",
+   "x": 3245,
+   "z": 3200,
+   "id": 405,
+   "o": []
+  },
+  {
+   "n": "Gravestone",
+   "x": 3247,
+   "z": 3200,
+   "id": 404,
+   "o": []
+  },
+  {
+   "n": "Gravestone",
+   "x": 3240,
+   "z": 3192,
+   "id": 405,
+   "o": []
+  },
+  {
+   "n": "Gravestone",
+   "x": 3240,
+   "z": 3194,
+   "id": 404,
+   "o": []
+  },
+  {
+   "n": "Yew",
+   "x": 3249,
+   "z": 3201,
+   "id": 1309,
+   "o": [
+    "Chop down"
+   ]
+  },
+  {
+   "n": "Gravestone",
+   "x": 3241,
+   "z": 3202,
+   "id": 404,
+   "o": []
+  },
+  {
+   "n": "Gravestone",
+   "x": 3243,
+   "z": 3202,
+   "id": 405,
+   "o": []
+  },
+  {
+   "n": "Gravestone",
+   "x": 3245,
+   "z": 3202,
+   "id": 404,
+   "o": []
+  },
+  {
+   "n": "Gravestone",
+   "x": 3247,
+   "z": 3202,
+   "id": 405,
+   "o": []
+  },
+  {
+   "n": "Plant",
+   "x": 3238,
+   "z": 3191,
+   "id": 1394,
+   "o": []
+  },
+  {
+   "n": "Gravestone",
+   "x": 3238,
+   "z": 3193,
+   "id": 405,
+   "o": []
+  },
+  {
+   "n": "Gravestone",
+   "x": 3238,
+   "z": 3195,
+   "id": 404,
+   "o": []
+  },
+  {
+   "n": "Gravestone",
+   "x": 3238,
+   "z": 3197,
+   "id": 405,
+   "o": []
+  },
+  {
+   "n": "Plant",
+   "x": 3253,
+   "z": 3203,
+   "id": 1392,
+   "o": []
+  },
+  {
+   "n": "Bookcase",
+   "x": 3237,
+   "z": 3196,
+   "id": 380,
+   "o": [
+    "Search"
+   ]
+  },
+  {
+   "n": "Candles",
+   "x": 3240,
+   "z": 3204,
+   "id": 202,
+   "o": []
+  },
+  {
+   "n": "Candles",
+   "x": 3242,
+   "z": 3204,
+   "id": 202,
+   "o": []
+  },
+  {
+   "n": "Candles",
+   "x": 3245,
+   "z": 3204,
+   "id": 202,
+   "o": []
+  },
+  {
+   "n": "Candles",
+   "x": 3247,
+   "z": 3204,
+   "id": 202,
+   "o": []
+  },
+  {
+   "n": "Bed",
+   "x": 3236,
+   "z": 3195,
+   "id": 419,
+   "o": []
+  },
+  {
+   "n": "Altar",
+   "x": 3243,
+   "z": 3205,
+   "id": 409,
+   "o": [
+    "Pray-at"
+   ]
+  },
+  {
+   "n": "Soil",
+   "x": 3235,
+   "z": 3183,
+   "id": 2382,
+   "o": []
+  },
+  {
+   "n": "Soil",
+   "x": 3235,
+   "z": 3184,
+   "id": 2383,
+   "o": []
+  },
+  {
+   "n": "Soil",
+   "x": 3235,
+   "z": 3185,
+   "id": 2382,
+   "o": []
+  },
+  {
+   "n": "Soil",
+   "x": 3235,
+   "z": 3186,
+   "id": 2382,
+   "o": []
+  },
+  {
+   "n": "Door",
+   "x": 3235,
+   "z": 3198,
+   "id": 1530,
+   "o": [
+    "Open"
+   ]
+  },
+  {
+   "n": "Plant",
+   "x": 3253,
+   "z": 3206,
+   "id": 1392,
+   "o": []
+  },
+  {
+   "n": "Tree",
+   "x": 3260,
+   "z": 3180,
+   "id": 1304,
+   "o": []
+  },
+  {
+   "n": "Soil",
+   "x": 3234,
+   "z": 3183,
+   "id": 2382,
+   "o": []
+  },
+  {
+   "n": "Door",
+   "x": 3234,
+   "z": 3207,
+   "id": 1530,
+   "o": [
+    "Open"
+   ]
+  },
+  {
+   "n": "Soil",
+   "x": 3235,
+   "z": 3179,
+   "id": 2383,
+   "o": []
+  },
+  {
+   "n": "Tree",
+   "x": 3261,
+   "z": 3179,
+   "id": 1304,
+   "o": []
+  },
+  {
+   "n": "Roots",
+   "x": 3233,
+   "z": 3184,
+   "id": 1363,
+   "o": []
+  },
+  {
+   "n": "Chair",
+   "x": 3233,
+   "z": 3197,
+   "id": 1088,
+   "o": []
+  },
+  {
+   "n": "Warehouse shelves",
+   "x": 3233,
+   "z": 3201,
+   "id": 1018,
+   "o": []
+  },
+  {
+   "n": "Door",
+   "x": 3233,
+   "z": 3203,
+   "id": 1531,
+   "o": [
+    "Close"
+   ]
+  },
+  {
+   "n": "Grandfather clock",
+   "x": 3233,
+   "z": 3205,
+   "id": 683,
+   "o": []
+  },
+  {
+   "n": "Bench",
+   "x": 3242,
+   "z": 3208,
+   "id": 1106,
+   "o": []
+  },
+  {
+   "n": "Bench",
+   "x": 3244,
+   "z": 3208,
+   "id": 1106,
+   "o": []
+  },
+  {
+   "n": "Thistle",
+   "x": 3250,
+   "z": 3208,
+   "id": 1174,
+   "o": []
+  },
+  {
+   "n": "Plant",
+   "x": 3256,
+   "z": 3208,
+   "id": 1392,
+   "o": []
+  },
+  {
+   "n": "Tree",
+   "x": 3259,
+   "z": 3178,
+   "id": 1304,
+   "o": []
+  }
+ ],
+ "npcs": [
+  {
+   "n": "Restless ghost",
+   "id": 457,
+   "idx": 8151,
+   "x": 3249,
+   "z": 3194,
+   "o": [
+    "Talk-to"
+   ]
+  },
+  {
+   "n": "Woman",
+   "id": 6,
+   "idx": 2862,
+   "x": 3247,
+   "z": 3207,
+   "o": [
+    "Talk-to",
+    "Attack",
+    "Pickpocket"
+   ]
+  }
+ ],
+ "ground": [],
+ "dialog": {
+  "isOpen": false,
+  "options": [],
+  "isWaiting": false,
+  "allComponents": []
+ },
+ "interface": {
+  "isOpen": false,
+  "interfaceId": -1,
+  "options": [],
+  "debugInfo": []
+ },
+ "modalOpen": false,
+ "modalInterface": -1,
+ "messages": [
+  {
+   "type": 0,
+   "text": "I can't reach that!",
+   "sender": "",
+   "tick": 6525,
+   "observationId": 7410,
+   "fromSelf": false
+  },
+  {
+   "type": 0,
+   "text": "I can't reach that!",
+   "sender": "",
+   "tick": 6546,
+   "observationId": 7432,
+   "fromSelf": false
+  },
+  {
+   "type": 0,
+   "text": "I can't reach that!",
+   "sender": "",
+   "tick": 6548,
+   "observationId": 7437,
+   "fromSelf": false
+  },
+  {
+   "type": 0,
+   "text": "I can't reach that!",
+   "sender": "",
+   "tick": 6551,
+   "observationId": 7441,
+   "fromSelf": false
+  },
+  {
+   "type": 0,
+   "text": "You try and open the door...",
+   "sender": "",
+   "tick": 8081,
+   "observationId": 9244,
+   "fromSelf": false
+  },
+  {
+   "type": 0,
+   "text": "The door is locked tight, I can't open it.",
+   "sender": "",
+   "tick": 8083,
+   "observationId": 9246,
+   "fromSelf": false
+  },
+  {
+   "type": 0,
+   "text": "I can't reach that!",
+   "sender": "",
+   "tick": 8376,
+   "observationId": 9681,
+   "fromSelf": false
+  },
+  {
+   "type": 0,
+   "text": "I can't reach that!",
+   "sender": "",
+   "tick": 8396,
+   "observationId": 9702,
+   "fromSelf": false
+  },
+  {
+   "type": 0,
+   "text": "I can't reach that!",
+   "sender": "",
+   "tick": 8398,
+   "observationId": 9706,
+   "fromSelf": false
+  },
+  {
+   "type": 0,
+   "text": "I can't reach that!",
+   "sender": "",
+   "tick": 8400,
+   "observationId": 9710,
+   "fromSelf": false
+  },
+  {
+   "type": 0,
+   "text": "Congratulations! Quest complete!",
+   "sender": "",
+   "tick": 8500,
+   "observationId": 9876,
+   "fromSelf": false
+  },
+  {
+   "type": 0,
+   "text": "Congratulations! Quest complete!",
+   "sender": "",
+   "tick": 10265,
+   "observationId": 12054,
+   "fromSelf": false
+  },
+  {
+   "type": 0,
+   "text": "You open the coffin.",
+   "sender": "",
+   "tick": 10814,
+   "observationId": 12830,
+   "fromSelf": false
+  },
+  {
+   "type": 0,
+   "text": "Out of nowhere a skeleton appears!",
+   "sender": "",
+   "tick": 11011,
+   "observationId": 13137,
+   "fromSelf": false
+  },
+  {
+   "type": 0,
+   "text": "You open the coffin.",
+   "sender": "",
+   "tick": 11170,
+   "observationId": 13366,
+   "fromSelf": false
+  }
+ ],
+ "opFeedback": {
+  "mapFlagUnsetCount": 1205,
+  "lastMapFlagUnsetTick": 11173,
+  "opRejectedCount": 75,
+  "lastOpRejectedTick": 11173
+ },
+ "chat": []
+}

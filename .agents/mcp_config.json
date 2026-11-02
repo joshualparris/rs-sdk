@@ -1,0 +1,16 @@
+{
+  "mcpServers": {
+    "rs-jimmy": {
+      "command": "/home/josh/.bun/bin/bun",
+      "args": [
+        "run",
+        "/home/josh/dev/JoshRS-source/rs-sdk/mcp/server.ts"
+      ],
+      "cwd": "/home/josh/dev/JoshRS-source/rs-sdk",
+      "enabledTools": [
+        "list_bots",
+        "execute_code"
+      ]
+    }
+  }
+}

@@ -1,0 +1,950 @@
+{
+ "quest": "Vampyre Slayer",
+ "step": "slay",
+ "time": "2026-11-02T03:53:47.564Z",
+ "player": {
+  "name": "Qb123333",
+  "combatLevel": 9,
+  "hp": 10,
+  "maxHp": 10,
+  "x": 6592,
+  "z": 6592,
+  "worldX": 3219,
+  "worldZ": 3219,
+  "level": 0,
+  "runEnergy": 100,
+  "runWeight": 4,
+  "animId": -1,
+  "spotanimId": -1,
+  "combat": {
+   "inCombat": false,
+   "targetIndex": -1,
+   "targetType": "none",
+   "lastDamageTick": 12872
+  },
+  "isDead": false,
+  "lifeId": 2,
+  "respawnCount": 1,
+  "lastDeathTick": 12872
+ },
+ "skills": [
+  {
+   "name": "Attack",
+   "level": 2,
+   "baseLevel": 2,
+   "experience": 160
+  },
+  {
+   "name": "Defence",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Strength",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Hitpoints",
+   "level": 10,
+   "baseLevel": 10,
+   "experience": 1020
+  },
+  {
+   "name": "Ranged",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Prayer",
+   "level": 47,
+   "baseLevel": 47,
+   "experience": 28125
+  },
+  {
+   "name": "Magic",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Cooking",
+   "level": 30,
+   "baseLevel": 30,
+   "experience": 7500
+  },
+  {
+   "name": "Woodcutting",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Fletching",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Fishing",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Firemaking",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Crafting",
+   "level": 25,
+   "baseLevel": 25,
+   "experience": 5000
+  },
+  {
+   "name": "Smithing",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Mining",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Herblore",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Agility",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Thieving",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Stat18",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Stat19",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Runecraft",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  }
+ ],
+ "inventory": [
+  "Ghostspeak amulet",
+  "Bronze sword",
+  "Wooden shield"
+ ],
+ "locs": [
+  {
+   "n": "Bush",
+   "x": 3218,
+   "z": 3220,
+   "id": 1124,
+   "o": []
+  },
+  {
+   "n": "Bush",
+   "x": 3219,
+   "z": 3220,
+   "id": 1124,
+   "o": []
+  },
+  {
+   "n": "Bush",
+   "x": 3220,
+   "z": 3220,
+   "id": 1124,
+   "o": []
+  },
+  {
+   "n": "Bush",
+   "x": 3217,
+   "z": 3217,
+   "id": 1124,
+   "o": []
+  },
+  {
+   "n": "Large door",
+   "x": 3217,
+   "z": 3218,
+   "id": 1516,
+   "o": [
+    "Open"
+   ]
+  },
+  {
+   "n": "Large door",
+   "x": 3217,
+   "z": 3219,
+   "id": 1519,
+   "o": [
+    "Open"
+   ]
+  },
+  {
+   "n": "Bush",
+   "x": 3217,
+   "z": 3220,
+   "id": 1124,
+   "o": []
+  },
+  {
+   "n": "Bush",
+   "x": 3218,
+   "z": 3217,
+   "id": 1124,
+   "o": []
+  },
+  {
+   "n": "Bush",
+   "x": 3219,
+   "z": 3217,
+   "id": 1124,
+   "o": []
+  },
+  {
+   "n": "Bush",
+   "x": 3220,
+   "z": 3217,
+   "id": 1124,
+   "o": []
+  },
+  {
+   "n": "Bush",
+   "x": 3223,
+   "z": 3217,
+   "id": 1124,
+   "o": []
+  },
+  {
+   "n": "Bush",
+   "x": 3223,
+   "z": 3220,
+   "id": 1124,
+   "o": []
+  },
+  {
+   "n": "Portrait",
+   "x": 3213,
+   "z": 3215,
+   "id": 890,
+   "o": []
+  },
+  {
+   "n": "Landscape",
+   "x": 3213,
+   "z": 3218,
+   "id": 894,
+   "o": []
+  },
+  {
+   "n": "Suit of armour",
+   "x": 3213,
+   "z": 3219,
+   "id": 817,
+   "o": []
+  },
+  {
+   "n": "Large door",
+   "x": 3213,
+   "z": 3220,
+   "id": 1516,
+   "o": [
+    "Open"
+   ]
+  },
+  {
+   "n": "Large door",
+   "x": 3213,
+   "z": 3221,
+   "id": 1519,
+   "o": [
+    "Open"
+   ]
+  },
+  {
+   "n": "Suit of armour",
+   "x": 3213,
+   "z": 3222,
+   "id": 817,
+   "o": []
+  },
+  {
+   "n": "Door",
+   "x": 3215,
+   "z": 3225,
+   "id": 1536,
+   "o": [
+    "Open"
+   ]
+  },
+  {
+   "n": "Cooking range",
+   "x": 3212,
+   "z": 3215,
+   "id": 114,
+   "o": []
+  },
+  {
+   "n": "Barrel",
+   "x": 3212,
+   "z": 3217,
+   "id": 362,
+   "o": []
+  },
+  {
+   "n": "Fountain",
+   "x": 3221,
+   "z": 3226,
+   "id": 879,
+   "o": []
+  },
+  {
+   "n": "Flowers",
+   "x": 3226,
+   "z": 3212,
+   "id": 1196,
+   "o": []
+  },
+  {
+   "n": "Flower",
+   "x": 3226,
+   "z": 3213,
+   "id": 1187,
+   "o": []
+  },
+  {
+   "n": "Door",
+   "x": 3226,
+   "z": 3214,
+   "id": 1530,
+   "o": [
+    "Open"
+   ]
+  },
+  {
+   "n": "Door",
+   "x": 3226,
+   "z": 3223,
+   "id": 1530,
+   "o": [
+    "Open"
+   ]
+  },
+  {
+   "n": "Flower",
+   "x": 3226,
+   "z": 3224,
+   "id": 1187,
+   "o": []
+  },
+  {
+   "n": "Flowers",
+   "x": 3226,
+   "z": 3225,
+   "id": 1195,
+   "o": []
+  },
+  {
+   "n": "Flowers",
+   "x": 3226,
+   "z": 3226,
+   "id": 1195,
+   "o": []
+  },
+  {
+   "n": "Table",
+   "x": 3211,
+   "z": 3212,
+   "id": 594,
+   "o": []
+  },
+  {
+   "n": "Stool",
+   "x": 3211,
+   "z": 3213,
+   "id": 1102,
+   "o": []
+  },
+  {
+   "n": "Barrel",
+   "x": 3211,
+   "z": 3217,
+   "id": 362,
+   "o": []
+  },
+  {
+   "n": "Door",
+   "x": 3215,
+   "z": 3211,
+   "id": 1536,
+   "o": [
+    "Open"
+   ]
+  },
+  {
+   "n": "Flowers",
+   "x": 3226,
+   "z": 3211,
+   "id": 1196,
+   "o": []
+  },
+  {
+   "n": "Flower",
+   "x": 3226,
+   "z": 3227,
+   "id": 1187,
+   "o": []
+  },
+  {
+   "n": "Barrel",
+   "x": 3210,
+   "z": 3217,
+   "id": 364,
+   "o": []
+  },
+  {
+   "n": "Throne",
+   "x": 3210,
+   "z": 3219,
+   "id": 1097,
+   "o": []
+  },
+  {
+   "n": "Throne",
+   "x": 3210,
+   "z": 3224,
+   "id": 1097,
+   "o": []
+  },
+  {
+   "n": "Candles",
+   "x": 3211,
+   "z": 3228,
+   "id": 202,
+   "o": []
+  },
+  {
+   "n": "Candles",
+   "x": 3213,
+   "z": 3228,
+   "id": 202,
+   "o": []
+  },
+  {
+   "n": "Fountain",
+   "x": 3221,
+   "z": 3210,
+   "id": 879,
+   "o": []
+  },
+  {
+   "n": "Flower",
+   "x": 3226,
+   "z": 3210,
+   "id": 1187,
+   "o": []
+  },
+  {
+   "n": "Suit of armour",
+   "x": 3228,
+   "z": 3216,
+   "id": 817,
+   "o": []
+  },
+  {
+   "n": "Suit of armour",
+   "x": 3228,
+   "z": 3221,
+   "id": 817,
+   "o": []
+  },
+  {
+   "n": "Candles",
+   "x": 3209,
+   "z": 3209,
+   "id": 202,
+   "o": []
+  },
+  {
+   "n": "Table",
+   "x": 3209,
+   "z": 3212,
+   "id": 594,
+   "o": []
+  },
+  {
+   "n": "Stool",
+   "x": 3209,
+   "z": 3213,
+   "id": 1102,
+   "o": []
+  },
+  {
+   "n": "Trapdoor",
+   "x": 3209,
+   "z": 3216,
+   "id": 1568,
+   "o": [
+    "Open"
+   ]
+  },
+  {
+   "n": "Throne",
+   "x": 3209,
+   "z": 3219,
+   "id": 1097,
+   "o": []
+  },
+  {
+   "n": "Table",
+   "x": 3209,
+   "z": 3220,
+   "id": 597,
+   "o": []
+  },
+  {
+   "n": "Throne",
+   "x": 3209,
+   "z": 3224,
+   "id": 1097,
+   "o": []
+  },
+  {
+   "n": "Candles",
+   "x": 3209,
+   "z": 3228,
+   "id": 202,
+   "o": []
+  },
+  {
+   "n": "Candles",
+   "x": 3211,
+   "z": 3209,
+   "id": 202,
+   "o": []
+  },
+  {
+   "n": "Candles",
+   "x": 3213,
+   "z": 3209,
+   "id": 202,
+   "o": []
+  },
+  {
+   "n": "Flower",
+   "x": 3225,
+   "z": 3229,
+   "id": 1188,
+   "o": []
+  },
+  {
+   "n": "Plant",
+   "x": 3229,
+   "z": 3211,
+   "id": 1393,
+   "o": []
+  },
+  {
+   "n": "Ladder",
+   "x": 3229,
+   "z": 3213,
+   "id": 1747,
+   "o": [
+    "Climb-up"
+   ]
+  },
+  {
+   "n": "Suit of armour",
+   "x": 3229,
+   "z": 3216,
+   "id": 817,
+   "o": []
+  },
+  {
+   "n": "Suit of armour",
+   "x": 3229,
+   "z": 3221,
+   "id": 817,
+   "o": []
+  },
+  {
+   "n": "Ladder",
+   "x": 3229,
+   "z": 3224,
+   "id": 1747,
+   "o": [
+    "Climb-up"
+   ]
+  }
+ ],
+ "npcs": [
+  {
+   "n": "Man",
+   "id": 1,
+   "idx": 2832,
+   "x": 3216,
+   "z": 3222,
+   "o": [
+    "Talk-to",
+    "Attack",
+    "Pickpocket"
+   ]
+  },
+  {
+   "n": "Man",
+   "id": 3,
+   "idx": 2836,
+   "x": 3219,
+   "z": 3215,
+   "o": [
+    "Talk-to",
+    "Attack",
+    "Pickpocket"
+   ]
+  },
+  {
+   "n": "Rat",
+   "id": 47,
+   "idx": 2837,
+   "x": 3212,
+   "z": 3218,
+   "o": [
+    "Attack"
+   ]
+  },
+  {
+   "n": "Rat",
+   "id": 47,
+   "idx": 2818,
+   "x": 3211,
+   "z": 3218,
+   "o": [
+    "Attack"
+   ]
+  },
+  {
+   "n": "Rat",
+   "id": 47,
+   "idx": 2840,
+   "x": 3227,
+   "z": 3223,
+   "o": [
+    "Attack"
+   ]
+  },
+  {
+   "n": "Cook",
+   "id": 278,
+   "idx": 2828,
+   "x": 3209,
+   "z": 3215,
+   "o": [
+    "Talk-to"
+   ]
+  },
+  {
+   "n": "Rat",
+   "id": 47,
+   "idx": 2821,
+   "x": 3209,
+   "z": 3211,
+   "o": [
+    "Attack"
+   ]
+  },
+  {
+   "n": "Butterfly",
+   "id": 155,
+   "idx": 2846,
+   "x": 3227,
+   "z": 3209,
+   "o": []
+  },
+  {
+   "n": "Woman",
+   "id": 4,
+   "idx": 2833,
+   "x": 3218,
+   "z": 3208,
+   "o": [
+    "Talk-to",
+    "Attack",
+    "Pickpocket"
+   ]
+  },
+  {
+   "n": "Man",
+   "id": 1,
+   "idx": 2825,
+   "x": 3207,
+   "z": 3228,
+   "o": [
+    "Talk-to",
+    "Attack",
+    "Pickpocket"
+   ]
+  },
+  {
+   "n": "Man",
+   "id": 1,
+   "idx": 2842,
+   "x": 3232,
+   "z": 3209,
+   "o": [
+    "Talk-to",
+    "Attack",
+    "Pickpocket"
+   ]
+  },
+  {
+   "n": "Rat",
+   "id": 47,
+   "idx": 2845,
+   "x": 3233,
+   "z": 3230,
+   "o": [
+    "Attack"
+   ]
+  },
+  {
+   "n": "Rat",
+   "id": 47,
+   "idx": 2820,
+   "x": 3207,
+   "z": 3205,
+   "o": [
+    "Attack"
+   ]
+  },
+  {
+   "n": "Woman",
+   "id": 4,
+   "idx": 2847,
+   "x": 3234,
+   "z": 3206,
+   "o": [
+    "Talk-to",
+    "Attack",
+    "Pickpocket"
+   ]
+  },
+  {
+   "n": "Hans",
+   "id": 0,
+   "idx": 2826,
+   "x": 3204,
+   "z": 3233,
+   "o": [
+    "Talk-to"
+   ]
+  }
+ ],
+ "ground": [
+  {
+   "id": 1935,
+   "name": "Jug",
+   "count": 1,
+   "x": 3212,
+   "z": 3212,
+   "distance": 7,
+   "reachable": false
+  },
+  {
+   "id": 1931,
+   "name": "Pot",
+   "count": 1,
+   "x": 3210,
+   "z": 3212,
+   "distance": 9,
+   "reachable": false
+  },
+  {
+   "id": 558,
+   "name": "Mind rune",
+   "count": 1,
+   "x": 3206,
+   "z": 3208,
+   "distance": 13,
+   "reachable": false
+  },
+  {
+   "id": 882,
+   "name": "Bronze arrow",
+   "count": 1,
+   "x": 3205,
+   "z": 3227,
+   "distance": 14,
+   "reachable": false
+  }
+ ],
+ "dialog": {
+  "isOpen": false,
+  "options": [],
+  "isWaiting": false,
+  "allComponents": []
+ },
+ "interface": {
+  "isOpen": false,
+  "interfaceId": -1,
+  "options": [],
+  "debugInfo": []
+ },
+ "modalOpen": false,
+ "modalInterface": -1,
+ "messages": [
+  {
+   "type": 0,
+   "text": "The vampire seems to weaken.",
+   "sender": "",
+   "tick": 12791,
+   "observationId": 15548,
+   "fromSelf": false
+  },
+  {
+   "type": 0,
+   "text": "You eat the cabbage. Yuck!",
+   "sender": "",
+   "tick": 12802,
+   "observationId": 15560,
+   "fromSelf": false
+  },
+  {
+   "type": 0,
+   "text": "It heals some health anyway.",
+   "sender": "",
+   "tick": 12802,
+   "observationId": 15560,
+   "fromSelf": false
+  },
+  {
+   "type": 0,
+   "text": "Congratulations, you just advanced an attack level.",
+   "sender": "",
+   "tick": 12803,
+   "observationId": 15560,
+   "fromSelf": false
+  },
+  {
+   "type": 0,
+   "text": "You eat the cabbage. Yuck!",
+   "sender": "",
+   "tick": 12806,
+   "observationId": 15565,
+   "fromSelf": false
+  },
+  {
+   "type": 0,
+   "text": "It heals some health anyway.",
+   "sender": "",
+   "tick": 12806,
+   "observationId": 15565,
+   "fromSelf": false
+  },
+  {
+   "type": 0,
+   "text": "You eat the cabbage. Yuck!",
+   "sender": "",
+   "tick": 12811,
+   "observationId": 15570,
+   "fromSelf": false
+  },
+  {
+   "type": 0,
+   "text": "It heals some health anyway.",
+   "sender": "",
+   "tick": 12811,
+   "observationId": 15570,
+   "fromSelf": false
+  },
+  {
+   "type": 0,
+   "text": "You eat the cabbage. Yuck!",
+   "sender": "",
+   "tick": 12815,
+   "observationId": 15575,
+   "fromSelf": false
+  },
+  {
+   "type": 0,
+   "text": "It heals some health anyway.",
+   "sender": "",
+   "tick": 12815,
+   "observationId": 15575,
+   "fromSelf": false
+  },
+  {
+   "type": 0,
+   "text": "You eat the cabbage. Yuck!",
+   "sender": "",
+   "tick": 12822,
+   "observationId": 15584,
+   "fromSelf": false
+  },
+  {
+   "type": 0,
+   "text": "It heals some health anyway.",
+   "sender": "",
+   "tick": 12822,
+   "observationId": 15584,
+   "fromSelf": false
+  },
+  {
+   "type": 0,
+   "text": "You eat the cabbage. Yuck!",
+   "sender": "",
+   "tick": 12826,
+   "observationId": 15589,
+   "fromSelf": false
+  },
+  {
+   "type": 0,
+   "text": "It heals some health anyway.",
+   "sender": "",
+   "tick": 12826,
+   "observationId": 15589,
+   "fromSelf": false
+  },
+  {
+   "type": 0,
+   "text": "Oh dear you are dead!",
+   "sender": "",
+   "tick": 12877,
+   "observationId": 15640,
+   "fromSelf": false
+  }
+ ],
+ "opFeedback": {
+  "mapFlagUnsetCount": 1781,
+  "lastMapFlagUnsetTick": 12878,
+  "opRejectedCount": 302,
+  "lastOpRejectedTick": 12874
+ },
+ "chat": []
+}

@@ -1,0 +1,997 @@
+{
+ "quest": "Goblin Diplomacy",
+ "step": "goblin-mails",
+ "time": "2026-11-02T04:21:53.776Z",
+ "error": "Error: Not connected (state: disconnected)\n    at sendAction (/home/josh/dev/JoshRS-source/rs-sdk/sdk/index.ts:1079:23)\n    at sendInteractNpc (/home/josh/dev/JoshRS-source/rs-sdk/sdk/index.ts:1135:21)\n    at attackNpcEntity (/home/josh/dev/JoshRS-source/rs-sdk/sdk/actions.ts:2963:39)\n    at attack (/home/josh/dev/JoshRS-source/rs-sdk/sdk/actions.ts:2910:20)\n    at async <anonymous> (/home/josh/dev/JoshRS-source/rs-sdk/bots/lib/quests/goblin-diplomacy.ts:153:23)\n    at async step (/home/josh/dev/JoshRS-source/rs-sdk/bots/lib/quest-kit.ts:286:20)\n    at async run (/home/josh/dev/JoshRS-source/rs-sdk/bots/lib/quests/goblin-diplomacy.ts:200:65)\n    at unknown",
+ "player": {
+  "name": "Qb150126",
+  "combatLevel": 19,
+  "hp": 4,
+  "maxHp": 26,
+  "x": 6720,
+  "z": 6863,
+  "worldX": 2956,
+  "worldZ": 3501,
+  "level": 0,
+  "runEnergy": 100,
+  "runWeight": 4,
+  "animId": -1,
+  "spotanimId": -1,
+  "combat": {
+   "inCombat": false,
+   "targetIndex": -1,
+   "targetType": "none",
+   "lastDamageTick": 3005
+  },
+  "isDead": false,
+  "lifeId": 1,
+  "respawnCount": 0,
+  "lastDeathTick": null
+ },
+ "skills": [
+  {
+   "name": "Attack",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Defence",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Strength",
+   "level": 38,
+   "baseLevel": 38,
+   "experience": 14300
+  },
+  {
+   "name": "Hitpoints",
+   "level": 4,
+   "baseLevel": 26,
+   "experience": 5642
+  },
+  {
+   "name": "Ranged",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Prayer",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Magic",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Cooking",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Woodcutting",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Fletching",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Fishing",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Firemaking",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Crafting",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Smithing",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Mining",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Herblore",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Agility",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Thieving",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Stat18",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Stat19",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Runecraft",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  }
+ ],
+ "inventory": [
+  "Coins x5",
+  "Orange dye",
+  "Blue dye"
+ ],
+ "locs": [
+  {
+   "n": "Barrel",
+   "x": 2956,
+   "z": 3503,
+   "id": 364,
+   "o": []
+  },
+  {
+   "n": "Scaffold",
+   "x": 2953,
+   "z": 3498,
+   "id": 1612,
+   "o": []
+  },
+  {
+   "n": "Dead tree",
+   "x": 2953,
+   "z": 3503,
+   "id": 1286,
+   "o": [
+    "Chop down"
+   ]
+  },
+  {
+   "n": "Scaffold",
+   "x": 2954,
+   "z": 3498,
+   "id": 1612,
+   "o": []
+  },
+  {
+   "n": "Stool",
+   "x": 2955,
+   "z": 3504,
+   "id": 1102,
+   "o": []
+  },
+  {
+   "n": "Scaffold",
+   "x": 2957,
+   "z": 3498,
+   "id": 1612,
+   "o": []
+  },
+  {
+   "n": "Stool",
+   "x": 2957,
+   "z": 3504,
+   "id": 1102,
+   "o": []
+  },
+  {
+   "n": "Scaffold",
+   "x": 2958,
+   "z": 3498,
+   "id": 1612,
+   "o": []
+  },
+  {
+   "n": "Scaffold",
+   "x": 2959,
+   "z": 3498,
+   "id": 1610,
+   "o": []
+  },
+  {
+   "n": "Table",
+   "x": 2959,
+   "z": 3504,
+   "id": 595,
+   "o": []
+  },
+  {
+   "n": "Scaffold",
+   "x": 2952,
+   "z": 3498,
+   "id": 1610,
+   "o": []
+  },
+  {
+   "n": "Door",
+   "x": 2952,
+   "z": 3501,
+   "id": 1530,
+   "o": [
+    "Open"
+   ]
+  },
+  {
+   "n": "Door",
+   "x": 2954,
+   "z": 3505,
+   "id": 1530,
+   "o": [
+    "Open"
+   ]
+  },
+  {
+   "n": "Fire",
+   "x": 2956,
+   "z": 3505,
+   "id": 2732,
+   "o": []
+  },
+  {
+   "n": "Stool",
+   "x": 2960,
+   "z": 3505,
+   "id": 1102,
+   "o": []
+  },
+  {
+   "n": "Bed",
+   "x": 2951,
+   "z": 3505,
+   "id": 422,
+   "o": []
+  },
+  {
+   "n": "Scaffold",
+   "x": 2952,
+   "z": 3496,
+   "id": 1610,
+   "o": []
+  },
+  {
+   "n": "Scaffold",
+   "x": 2953,
+   "z": 3496,
+   "id": 1612,
+   "o": []
+  },
+  {
+   "n": "Scaffold",
+   "x": 2954,
+   "z": 3496,
+   "id": 1612,
+   "o": []
+  },
+  {
+   "n": "Scaffold",
+   "x": 2957,
+   "z": 3496,
+   "id": 1612,
+   "o": []
+  },
+  {
+   "n": "Scaffold",
+   "x": 2958,
+   "z": 3496,
+   "id": 1612,
+   "o": []
+  },
+  {
+   "n": "Door",
+   "x": 2958,
+   "z": 3506,
+   "id": 1530,
+   "o": [
+    "Open"
+   ]
+  },
+  {
+   "n": "Scaffold",
+   "x": 2959,
+   "z": 3496,
+   "id": 1610,
+   "o": []
+  },
+  {
+   "n": "Barrel",
+   "x": 2961,
+   "z": 3504,
+   "id": 362,
+   "o": []
+  },
+  {
+   "n": "Sacks",
+   "x": 2951,
+   "z": 3507,
+   "id": 365,
+   "o": [
+    "Search"
+   ]
+  },
+  {
+   "n": "Dead tree",
+   "x": 2953,
+   "z": 3495,
+   "id": 1286,
+   "o": [
+    "Chop down"
+   ]
+  },
+  {
+   "n": "Stool",
+   "x": 2956,
+   "z": 3507,
+   "id": 1102,
+   "o": []
+  },
+  {
+   "n": "Sacks",
+   "x": 2960,
+   "z": 3507,
+   "id": 23,
+   "o": [
+    "Prod",
+    "Open"
+   ]
+  },
+  {
+   "n": "Bed",
+   "x": 2961,
+   "z": 3507,
+   "id": 422,
+   "o": []
+  },
+  {
+   "n": "Table",
+   "x": 2962,
+   "z": 3506,
+   "id": 598,
+   "o": []
+  },
+  {
+   "n": "Barrel",
+   "x": 2949,
+   "z": 3500,
+   "id": 362,
+   "o": []
+  },
+  {
+   "n": "Pile of skulls",
+   "x": 2949,
+   "z": 3501,
+   "id": 658,
+   "o": []
+  },
+  {
+   "n": "Bed",
+   "x": 2949,
+   "z": 3502,
+   "id": 422,
+   "o": []
+  },
+  {
+   "n": "Boxes",
+   "x": 2951,
+   "z": 3508,
+   "id": 359,
+   "o": [
+    "Search"
+   ]
+  },
+  {
+   "n": "Dead tree",
+   "x": 2949,
+   "z": 3493,
+   "id": 1286,
+   "o": [
+    "Chop down"
+   ]
+  },
+  {
+   "n": "Timber defence",
+   "x": 2953,
+   "z": 3493,
+   "id": 3000,
+   "o": []
+  },
+  {
+   "n": "Timber defence",
+   "x": 2954,
+   "z": 3493,
+   "id": 1864,
+   "o": []
+  },
+  {
+   "n": "Timber defence",
+   "x": 2955,
+   "z": 3493,
+   "id": 1864,
+   "o": []
+  },
+  {
+   "n": "Timber defence",
+   "x": 2957,
+   "z": 3493,
+   "id": 1864,
+   "o": []
+  },
+  {
+   "n": "Large door",
+   "x": 2957,
+   "z": 3509,
+   "id": 1516,
+   "o": [
+    "Open"
+   ]
+  },
+  {
+   "n": "Timber defence",
+   "x": 2958,
+   "z": 3493,
+   "id": 1864,
+   "o": []
+  },
+  {
+   "n": "Large door",
+   "x": 2958,
+   "z": 3509,
+   "id": 1519,
+   "o": [
+    "Open"
+   ]
+  },
+  {
+   "n": "Timber defence",
+   "x": 2959,
+   "z": 3493,
+   "id": 3046,
+   "o": []
+  },
+  {
+   "n": "Dead tree",
+   "x": 2964,
+   "z": 3502,
+   "id": 1286,
+   "o": [
+    "Chop down"
+   ]
+  },
+  {
+   "n": "Dead tree",
+   "x": 2964,
+   "z": 3509,
+   "id": 1286,
+   "o": [
+    "Chop down"
+   ]
+  },
+  {
+   "n": "Dead tree",
+   "x": 2947,
+   "z": 3498,
+   "id": 1286,
+   "o": [
+    "Chop down"
+   ]
+  },
+  {
+   "n": "Dead tree",
+   "x": 2947,
+   "z": 3505,
+   "id": 1286,
+   "o": [
+    "Chop down"
+   ]
+  },
+  {
+   "n": "Table",
+   "x": 2954,
+   "z": 3510,
+   "id": 595,
+   "o": []
+  },
+  {
+   "n": "Boulder",
+   "x": 2965,
+   "z": 3492,
+   "id": 445,
+   "o": []
+  },
+  {
+   "n": "Barrel",
+   "x": 2954,
+   "z": 3511,
+   "id": 364,
+   "o": []
+  },
+  {
+   "n": "Table",
+   "x": 2960,
+   "z": 3511,
+   "id": 598,
+   "o": []
+  },
+  {
+   "n": "Stones",
+   "x": 2966,
+   "z": 3495,
+   "id": 447,
+   "o": []
+  },
+  {
+   "n": "Dead tree",
+   "x": 2945,
+   "z": 3510,
+   "id": 1286,
+   "o": [
+    "Chop down"
+   ]
+  },
+  {
+   "n": "Closed chest",
+   "x": 2955,
+   "z": 3512,
+   "id": 375,
+   "o": [
+    "Open"
+   ]
+  },
+  {
+   "n": "Closed chest",
+   "x": 2956,
+   "z": 3512,
+   "id": 375,
+   "o": [
+    "Open"
+   ]
+  },
+  {
+   "n": "Closed chest",
+   "x": 2957,
+   "z": 3512,
+   "id": 375,
+   "o": [
+    "Open"
+   ]
+  },
+  {
+   "n": "Table",
+   "x": 2958,
+   "z": 3512,
+   "id": 595,
+   "o": []
+  },
+  {
+   "n": "Pile of skulls",
+   "x": 2960,
+   "z": 3512,
+   "id": 658,
+   "o": []
+  },
+  {
+   "n": "Fire remains",
+   "x": 2963,
+   "z": 3512,
+   "id": 714,
+   "o": []
+  },
+  {
+   "n": "Dead tree",
+   "x": 2965,
+   "z": 3512,
+   "id": 1282,
+   "o": [
+    "Chop down"
+   ]
+  }
+ ],
+ "npcs": [
+  {
+   "n": "Goblin",
+   "id": 298,
+   "idx": 3260,
+   "x": 2956,
+   "z": 3502,
+   "o": [
+    "Talk-to",
+    "Attack"
+   ]
+  },
+  {
+   "n": "Goblin",
+   "id": 298,
+   "idx": 3254,
+   "x": 2954,
+   "z": 3504,
+   "o": [
+    "Talk-to",
+    "Attack"
+   ]
+  },
+  {
+   "n": "Goblin",
+   "id": 299,
+   "idx": 3253,
+   "x": 2953,
+   "z": 3505,
+   "o": [
+    "Talk-to",
+    "Attack"
+   ]
+  },
+  {
+   "n": "Goblin",
+   "id": 298,
+   "idx": 3258,
+   "x": 2951,
+   "z": 3503,
+   "o": [
+    "Talk-to",
+    "Attack"
+   ]
+  },
+  {
+   "n": "Goblin",
+   "id": 299,
+   "idx": 3252,
+   "x": 2951,
+   "z": 3500,
+   "o": [
+    "Talk-to",
+    "Attack"
+   ]
+  },
+  {
+   "n": "Goblin",
+   "id": 299,
+   "idx": 3257,
+   "x": 2949,
+   "z": 3499,
+   "o": [
+    "Talk-to",
+    "Attack"
+   ]
+  },
+  {
+   "n": "Goblin",
+   "id": 298,
+   "idx": 3266,
+   "x": 2960,
+   "z": 3508,
+   "o": [
+    "Talk-to",
+    "Attack"
+   ]
+  },
+  {
+   "n": "Goblin",
+   "id": 298,
+   "idx": 3264,
+   "x": 2956,
+   "z": 3509,
+   "o": [
+    "Talk-to",
+    "Attack"
+   ]
+  },
+  {
+   "n": "Goblin",
+   "id": 299,
+   "idx": 3268,
+   "x": 2963,
+   "z": 3510,
+   "o": [
+    "Talk-to",
+    "Attack"
+   ]
+  },
+  {
+   "n": "General Wartface",
+   "id": 297,
+   "idx": 3265,
+   "x": 2957,
+   "z": 3510,
+   "o": [
+    "Talk-to"
+   ]
+  },
+  {
+   "n": "Goblin",
+   "id": 299,
+   "idx": 3269,
+   "x": 2962,
+   "z": 3511,
+   "o": [
+    "Talk-to",
+    "Attack"
+   ]
+  },
+  {
+   "n": "General Bentnoze",
+   "id": 296,
+   "idx": 3267,
+   "x": 2957,
+   "z": 3511,
+   "o": [
+    "Talk-to"
+   ]
+  },
+  {
+   "n": "Goblin",
+   "id": 299,
+   "idx": 3271,
+   "x": 2965,
+   "z": 3508,
+   "o": [
+    "Talk-to",
+    "Attack"
+   ]
+  },
+  {
+   "n": "Goblin",
+   "id": 298,
+   "idx": 3256,
+   "x": 2954,
+   "z": 3492,
+   "o": [
+    "Talk-to",
+    "Attack"
+   ]
+  },
+  {
+   "n": "Goblin",
+   "id": 298,
+   "idx": 3262,
+   "x": 2957,
+   "z": 3490,
+   "o": [
+    "Talk-to",
+    "Attack"
+   ]
+  },
+  {
+   "n": "Goblin",
+   "id": 299,
+   "idx": 3259,
+   "x": 2956,
+   "z": 3514,
+   "o": [
+    "Talk-to",
+    "Attack"
+   ]
+  },
+  {
+   "n": "Goblin",
+   "id": 298,
+   "idx": 3270,
+   "x": 2964,
+   "z": 3514,
+   "o": [
+    "Talk-to",
+    "Attack"
+   ]
+  },
+  {
+   "n": "Goblin",
+   "id": 299,
+   "idx": 3255,
+   "x": 2953,
+   "z": 3487,
+   "o": [
+    "Talk-to",
+    "Attack"
+   ]
+  }
+ ],
+ "ground": [
+  {
+   "id": 995,
+   "name": "Coins",
+   "count": 1,
+   "x": 2956,
+   "z": 3498,
+   "distance": 3,
+   "reachable": true
+  },
+  {
+   "id": 526,
+   "name": "Bones",
+   "count": 1,
+   "x": 2956,
+   "z": 3498,
+   "distance": 3,
+   "reachable": true
+  },
+  {
+   "id": 1925,
+   "name": "Bucket",
+   "count": 1,
+   "x": 2958,
+   "z": 3510,
+   "distance": 9,
+   "reachable": false
+  }
+ ],
+ "dialog": {
+  "isOpen": false,
+  "options": [],
+  "isWaiting": false,
+  "allComponents": []
+ },
+ "interface": {
+  "isOpen": false,
+  "interfaceId": -1,
+  "options": [],
+  "debugInfo": []
+ },
+ "modalOpen": false,
+ "modalInterface": -1,
+ "messages": [
+  {
+   "type": 0,
+   "text": "You eat the cabbage. Yuck!",
+   "sender": "",
+   "tick": 2237,
+   "observationId": 2957,
+   "fromSelf": false
+  },
+  {
+   "type": 0,
+   "text": "It heals some health anyway.",
+   "sender": "",
+   "tick": 2237,
+   "observationId": 2957,
+   "fromSelf": false
+  },
+  {
+   "type": 0,
+   "text": "You eat the cabbage. Yuck!",
+   "sender": "",
+   "tick": 2256,
+   "observationId": 2977,
+   "fromSelf": false
+  },
+  {
+   "type": 0,
+   "text": "It heals some health anyway.",
+   "sender": "",
+   "tick": 2256,
+   "observationId": 2977,
+   "fromSelf": false
+  },
+  {
+   "type": 0,
+   "text": "Congratulations, you just advanced a strength level.",
+   "sender": "",
+   "tick": 2271,
+   "observationId": 2992,
+   "fromSelf": false
+  },
+  {
+   "type": 0,
+   "text": "Congratulations, you just advanced a hitpoints level.",
+   "sender": "",
+   "tick": 2305,
+   "observationId": 3037,
+   "fromSelf": false
+  },
+  {
+   "type": 0,
+   "text": "Congratulations, you just advanced a strength level.",
+   "sender": "",
+   "tick": 2337,
+   "observationId": 3073,
+   "fromSelf": false
+  },
+  {
+   "type": 0,
+   "text": "Congratulations, you just advanced a hitpoints level.",
+   "sender": "",
+   "tick": 2372,
+   "observationId": 3115,
+   "fromSelf": false
+  },
+  {
+   "type": 0,
+   "text": "Congratulations, you just advanced a strength level.",
+   "sender": "",
+   "tick": 2380,
+   "observationId": 3127,
+   "fromSelf": false
+  },
+  {
+   "type": 0,
+   "text": "Congratulations, you just advanced a strength level.",
+   "sender": "",
+   "tick": 2442,
+   "observationId": 3196,
+   "fromSelf": false
+  },
+  {
+   "type": 0,
+   "text": "Congratulations, you just advanced a hitpoints level.",
+   "sender": "",
+   "tick": 2446,
+   "observationId": 3202,
+   "fromSelf": false
+  },
+  {
+   "type": 0,
+   "text": "Congratulations, you just advanced a strength level.",
+   "sender": "",
+   "tick": 2492,
+   "observationId": 3251,
+   "fromSelf": false
+  },
+  {
+   "type": 0,
+   "text": "I can't reach that!",
+   "sender": "",
+   "tick": 2713,
+   "observationId": 3565,
+   "fromSelf": false
+  },
+  {
+   "type": 0,
+   "text": "Congratulations, you just advanced a hitpoints level.",
+   "sender": "",
+   "tick": 2982,
+   "observationId": 3902,
+   "fromSelf": false
+  },
+  {
+   "type": 0,
+   "text": "Congratulations, you just advanced a strength level.",
+   "sender": "",
+   "tick": 2998,
+   "observationId": 3922,
+   "fromSelf": false
+  }
+ ],
+ "opFeedback": {
+  "mapFlagUnsetCount": 2335,
+  "lastMapFlagUnsetTick": 3021,
+  "opRejectedCount": 1851,
+  "lastOpRejectedTick": 3011
+ },
+ "chat": []
+}

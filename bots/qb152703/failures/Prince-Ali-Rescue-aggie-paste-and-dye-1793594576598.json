@@ -1,0 +1,995 @@
+{
+ "quest": "Prince Ali Rescue",
+ "step": "aggie-paste-and-dye",
+ "time": "2026-11-02T04:42:56.596Z",
+ "error": "TypeError: name pattern must be a string or RegExp, got function ((i) => i.id === 2419). To look up by numeric id, filter a get*() list by .id, e.g. sdk.getNearbyLocs().find(l => l.id === 1234)\n    at shortestNameMatch (/home/josh/dev/JoshRS-source/rs-sdk/sdk/action-quantity.ts:81:19)\n    at hasBlondeWig (/home/josh/dev/JoshRS-source/rs-sdk/bots/lib/quests/prince-ali-rescue.ts:16:38)\n    at <anonymous> (/home/josh/dev/JoshRS-source/rs-sdk/bots/lib/quests/prince-ali-rescue.ts:177:54)\n    at step (/home/josh/dev/JoshRS-source/rs-sdk/bots/lib/quest-kit.ts:286:20)\n    at run (/home/josh/dev/JoshRS-source/rs-sdk/bots/lib/quests/prince-ali-rescue.ts:424:63)\n    at async <anonymous> (/home/josh/dev/JoshRS-source/rs-sdk/bots/lib/quest-kit.ts:300:28)",
+ "player": {
+  "name": "Qb152703",
+  "combatLevel": 3,
+  "hp": 7,
+  "maxHp": 10,
+  "x": 5952,
+  "z": 5952,
+  "worldX": 3286,
+  "worldZ": 3182,
+  "level": 0,
+  "runEnergy": 100,
+  "runWeight": 10,
+  "animId": -1,
+  "spotanimId": -1,
+  "combat": {
+   "inCombat": false,
+   "targetIndex": -1,
+   "targetType": "none",
+   "lastDamageTick": 1855
+  },
+  "isDead": false,
+  "lifeId": 1,
+  "respawnCount": 0,
+  "lastDeathTick": null
+ },
+ "skills": [
+  {
+   "name": "Attack",
+   "level": 2,
+   "baseLevel": 2,
+   "experience": 100
+  },
+  {
+   "name": "Defence",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Strength",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Hitpoints",
+   "level": 7,
+   "baseLevel": 10,
+   "experience": 1012
+  },
+  {
+   "name": "Ranged",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Prayer",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Magic",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Cooking",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Woodcutting",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Fletching",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Fishing",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Firemaking",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Crafting",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Smithing",
+   "level": 2,
+   "baseLevel": 2,
+   "experience": 155
+  },
+  {
+   "name": "Mining",
+   "level": 10,
+   "baseLevel": 10,
+   "experience": 1000
+  },
+  {
+   "name": "Herblore",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Agility",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Thieving",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Stat18",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Stat19",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Runecraft",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  }
+ ],
+ "inventory": [
+  "Bronze axe",
+  "Tinderbox",
+  "Coins x17",
+  "Bucket",
+  "Soft clay",
+  "Pot",
+  "Pink skirt",
+  "Bronze pickaxe",
+  "Beer",
+  "Beer",
+  "Beer",
+  "Redberries",
+  "Bronze bar"
+ ],
+ "locs": [
+  {
+   "n": "Cactus",
+   "x": 3284,
+   "z": 3183,
+   "id": 1405,
+   "o": []
+  },
+  {
+   "n": "Cactus",
+   "x": 3283,
+   "z": 3181,
+   "id": 1405,
+   "o": []
+  },
+  {
+   "n": "Tropical tree",
+   "x": 3283,
+   "z": 3183,
+   "id": 1326,
+   "o": []
+  },
+  {
+   "n": "Statue",
+   "x": 3282,
+   "z": 3178,
+   "id": 579,
+   "o": []
+  },
+  {
+   "n": "Glyphs",
+   "x": 3283,
+   "z": 3178,
+   "id": 911,
+   "o": []
+  },
+  {
+   "n": "Glyphs",
+   "x": 3285,
+   "z": 3178,
+   "id": 911,
+   "o": []
+  },
+  {
+   "n": "Statue",
+   "x": 3286,
+   "z": 3178,
+   "id": 579,
+   "o": []
+  },
+  {
+   "n": "Curtain",
+   "x": 3287,
+   "z": 3186,
+   "id": 1529,
+   "o": [
+    "Close"
+   ]
+  },
+  {
+   "n": "Bed",
+   "x": 3282,
+   "z": 3177,
+   "id": 417,
+   "o": []
+  },
+  {
+   "n": "Chair",
+   "x": 3285,
+   "z": 3177,
+   "id": 1088,
+   "o": []
+  },
+  {
+   "n": "Potted fern",
+   "x": 3286,
+   "z": 3187,
+   "id": 1153,
+   "o": []
+  },
+  {
+   "n": "Chair",
+   "x": 3284,
+   "z": 3176,
+   "id": 1088,
+   "o": []
+  },
+  {
+   "n": "Door",
+   "x": 3279,
+   "z": 3185,
+   "id": 1531,
+   "o": [
+    "Close"
+   ]
+  },
+  {
+   "n": "Table",
+   "x": 3285,
+   "z": 3175,
+   "id": 614,
+   "o": []
+  },
+  {
+   "n": "Warehouse shelves",
+   "x": 3285,
+   "z": 3189,
+   "id": 1017,
+   "o": []
+  },
+  {
+   "n": "Chair",
+   "x": 3286,
+   "z": 3175,
+   "id": 1088,
+   "o": []
+  },
+  {
+   "n": "Table",
+   "x": 3286,
+   "z": 3189,
+   "id": 595,
+   "o": []
+  },
+  {
+   "n": "Curtain",
+   "x": 3291,
+   "z": 3189,
+   "id": 1529,
+   "o": [
+    "Close"
+   ]
+  },
+  {
+   "n": "Well",
+   "x": 3293,
+   "z": 3183,
+   "id": 878,
+   "o": []
+  },
+  {
+   "n": "Potted plant",
+   "x": 3278,
+   "z": 3189,
+   "id": 1158,
+   "o": []
+  },
+  {
+   "n": "Bed",
+   "x": 3282,
+   "z": 3174,
+   "id": 417,
+   "o": []
+  },
+  {
+   "n": "Statue",
+   "x": 3291,
+   "z": 3174,
+   "id": 579,
+   "o": []
+  },
+  {
+   "n": "Statue",
+   "x": 3294,
+   "z": 3174,
+   "id": 579,
+   "o": []
+  },
+  {
+   "n": "Door",
+   "x": 3278,
+   "z": 3191,
+   "id": 1531,
+   "o": [
+    "Close"
+   ]
+  },
+  {
+   "n": "Drawers",
+   "x": 3282,
+   "z": 3173,
+   "id": 350,
+   "o": [
+    "Open"
+   ]
+  },
+  {
+   "n": "Chair",
+   "x": 3285,
+   "z": 3191,
+   "id": 1093,
+   "o": []
+  },
+  {
+   "n": "Crate",
+   "x": 3289,
+   "z": 3191,
+   "id": 358,
+   "o": [
+    "Search"
+   ]
+  },
+  {
+   "n": "Potted plant",
+   "x": 3290,
+   "z": 3191,
+   "id": 1158,
+   "o": []
+  },
+  {
+   "n": "Basket",
+   "x": 3295,
+   "z": 3191,
+   "id": 383,
+   "o": []
+  },
+  {
+   "n": "Door",
+   "x": 3276,
+   "z": 3180,
+   "id": 1531,
+   "o": [
+    "Close"
+   ]
+  },
+  {
+   "n": "Chair",
+   "x": 3276,
+   "z": 3187,
+   "id": 1088,
+   "o": []
+  },
+  {
+   "n": "Workbench",
+   "x": 3276,
+   "z": 3188,
+   "id": 610,
+   "o": []
+  },
+  {
+   "n": "Ladder",
+   "x": 3286,
+   "z": 3192,
+   "id": 1747,
+   "o": [
+    "Climb-up"
+   ]
+  },
+  {
+   "n": "Large door",
+   "x": 3287,
+   "z": 3172,
+   "id": 1506,
+   "o": [
+    "Open"
+   ]
+  },
+  {
+   "n": "Crate",
+   "x": 3288,
+   "z": 3192,
+   "id": 357,
+   "o": [
+    "Search"
+   ]
+  },
+  {
+   "n": "Glyphs",
+   "x": 3288,
+   "z": 3192,
+   "id": 911,
+   "o": []
+  },
+  {
+   "n": "Potted plant",
+   "x": 3289,
+   "z": 3192,
+   "id": 1158,
+   "o": []
+  },
+  {
+   "n": "Fountain",
+   "x": 3292,
+   "z": 3172,
+   "id": 879,
+   "o": []
+  },
+  {
+   "n": "Basket",
+   "x": 3296,
+   "z": 3191,
+   "id": 382,
+   "o": []
+  },
+  {
+   "n": "Chair",
+   "x": 3275,
+   "z": 3183,
+   "id": 1088,
+   "o": []
+  },
+  {
+   "n": "Glyphs",
+   "x": 3275,
+   "z": 3184,
+   "id": 911,
+   "o": []
+  },
+  {
+   "n": "Glyphs",
+   "x": 3275,
+   "z": 3188,
+   "id": 911,
+   "o": []
+  },
+  {
+   "n": "Mangle",
+   "x": 3275,
+   "z": 3190,
+   "id": 1030,
+   "o": []
+  },
+  {
+   "n": "Table",
+   "x": 3275,
+   "z": 3192,
+   "id": 595,
+   "o": []
+  },
+  {
+   "n": "Potted plant",
+   "x": 3278,
+   "z": 3193,
+   "id": 1158,
+   "o": []
+  },
+  {
+   "n": "Table",
+   "x": 3282,
+   "z": 3171,
+   "id": 604,
+   "o": []
+  },
+  {
+   "n": "Large door",
+   "x": 3287,
+   "z": 3171,
+   "id": 1508,
+   "o": [
+    "Open"
+   ]
+  },
+  {
+   "n": "Statue",
+   "x": 3291,
+   "z": 3171,
+   "id": 579,
+   "o": []
+  },
+  {
+   "n": "Statue",
+   "x": 3294,
+   "z": 3171,
+   "id": 579,
+   "o": []
+  },
+  {
+   "n": "Basket",
+   "x": 3297,
+   "z": 3192,
+   "id": 382,
+   "o": []
+  },
+  {
+   "n": "Kebab",
+   "x": 3274,
+   "z": 3183,
+   "id": 2723,
+   "o": []
+  },
+  {
+   "n": "Mangle",
+   "x": 3274,
+   "z": 3190,
+   "id": 1031,
+   "o": []
+  },
+  {
+   "n": "Barrel",
+   "x": 3274,
+   "z": 3194,
+   "id": 362,
+   "o": []
+  },
+  {
+   "n": "Barrel",
+   "x": 3275,
+   "z": 3194,
+   "id": 362,
+   "o": []
+  },
+  {
+   "n": "Cactus",
+   "x": 3277,
+   "z": 3170,
+   "id": 1406,
+   "o": []
+  },
+  {
+   "n": "Chair",
+   "x": 3277,
+   "z": 3194,
+   "id": 1088,
+   "o": []
+  },
+  {
+   "n": "Bed",
+   "x": 3282,
+   "z": 3170,
+   "id": 417,
+   "o": []
+  },
+  {
+   "n": "Large door",
+   "x": 3298,
+   "z": 3171,
+   "id": 1506,
+   "o": [
+    "Open"
+   ]
+  },
+  {
+   "n": "Large door",
+   "x": 3298,
+   "z": 3172,
+   "id": 1508,
+   "o": [
+    "Open"
+   ]
+  },
+  {
+   "n": "Cactus",
+   "x": 3298,
+   "z": 3182,
+   "id": 1403,
+   "o": []
+  }
+ ],
+ "npcs": [
+  {
+   "n": "Osman",
+   "id": 924,
+   "idx": 236,
+   "x": 3285,
+   "z": 3182,
+   "o": [
+    "Talk-to"
+   ]
+  },
+  {
+   "n": "Al-Kharid warrior",
+   "id": 18,
+   "idx": 232,
+   "x": 3283,
+   "z": 3176,
+   "o": [
+    "Attack",
+    "Pickpocket"
+   ]
+  },
+  {
+   "n": "Man",
+   "id": 16,
+   "idx": 230,
+   "x": 3279,
+   "z": 3186,
+   "o": [
+    "Attack",
+    "Pickpocket"
+   ]
+  },
+  {
+   "n": "Al-Kharid warrior",
+   "id": 18,
+   "idx": 234,
+   "x": 3286,
+   "z": 3174,
+   "o": [
+    "Attack",
+    "Pickpocket"
+   ]
+  },
+  {
+   "n": "Zeke",
+   "id": 541,
+   "idx": 238,
+   "x": 3286,
+   "z": 3191,
+   "o": [
+    "Talk-to",
+    "Trade"
+   ]
+  },
+  {
+   "n": "Tanner",
+   "id": 804,
+   "idx": 229,
+   "x": 3277,
+   "z": 3189,
+   "o": [
+    "Talk-to",
+    "Trade"
+   ]
+  },
+  {
+   "n": "Al-Kharid warrior",
+   "id": 18,
+   "idx": 239,
+   "x": 3293,
+   "z": 3168,
+   "o": [
+    "Attack",
+    "Pickpocket"
+   ]
+  },
+  {
+   "n": "Al-Kharid warrior",
+   "id": 18,
+   "idx": 244,
+   "x": 3299,
+   "z": 3177,
+   "o": [
+    "Attack",
+    "Pickpocket"
+   ]
+  },
+  {
+   "n": "Al-Kharid warrior",
+   "id": 18,
+   "idx": 233,
+   "x": 3286,
+   "z": 3168,
+   "o": [
+    "Attack",
+    "Pickpocket"
+   ]
+  },
+  {
+   "n": "Kebab seller",
+   "id": 543,
+   "idx": 226,
+   "x": 3272,
+   "z": 3182,
+   "o": [
+    "Talk-to"
+   ]
+  },
+  {
+   "n": "Man",
+   "id": 16,
+   "idx": 240,
+   "x": 3290,
+   "z": 3197,
+   "o": [
+    "Attack",
+    "Pickpocket"
+   ]
+  }
+ ],
+ "ground": [
+  {
+   "id": 1965,
+   "name": "Cabbage",
+   "count": 1,
+   "x": 3285,
+   "z": 3175,
+   "distance": 7,
+   "reachable": false
+  }
+ ],
+ "dialog": {
+  "isOpen": true,
+  "options": [
+   {
+    "index": 1,
+    "text": "You don't seem very tough. Who are you?",
+    "componentId": 2471,
+    "buttonType": 1
+   },
+   {
+    "index": 2,
+    "text": "I hear wild rumours about a prince.",
+    "componentId": 2472,
+    "buttonType": 1
+   },
+   {
+    "index": 3,
+    "text": "I am just being nosy.",
+    "componentId": 2473,
+    "buttonType": 1
+   }
+  ],
+  "isWaiting": false,
+  "pageId": "mvyrc1vo-zeqyof2ywm:49",
+  "allComponents": [
+   {
+    "id": 2469,
+    "type": 0,
+    "buttonType": 0,
+    "option": "",
+    "text": ""
+   },
+   {
+    "id": 2470,
+    "type": 4,
+    "buttonType": 0,
+    "option": "",
+    "text": "Select an Option"
+   },
+   {
+    "id": 2471,
+    "type": 4,
+    "buttonType": 1,
+    "option": "Ok",
+    "text": "You don't seem very tough. Who are you?"
+   },
+   {
+    "id": 2472,
+    "type": 4,
+    "buttonType": 1,
+    "option": "Ok",
+    "text": "I hear wild rumours about a prince."
+   },
+   {
+    "id": 2473,
+    "type": 4,
+    "buttonType": 1,
+    "option": "Ok",
+    "text": "I am just being nosy."
+   },
+   {
+    "id": 2476,
+    "type": 0,
+    "buttonType": 0,
+    "option": "",
+    "text": ""
+   },
+   {
+    "id": 2474,
+    "type": 5,
+    "buttonType": 0,
+    "option": "",
+    "text": ""
+   },
+   {
+    "id": 2475,
+    "type": 5,
+    "buttonType": 0,
+    "option": "",
+    "text": ""
+   },
+   {
+    "id": 2479,
+    "type": 0,
+    "buttonType": 0,
+    "option": "",
+    "text": ""
+   },
+   {
+    "id": 2477,
+    "type": 5,
+    "buttonType": 0,
+    "option": "",
+    "text": ""
+   },
+   {
+    "id": 2478,
+    "type": 5,
+    "buttonType": 0,
+    "option": "",
+    "text": ""
+   }
+  ]
+ },
+ "interface": {
+  "isOpen": false,
+  "interfaceId": -1,
+  "options": [],
+  "debugInfo": []
+ },
+ "modalOpen": false,
+ "modalInterface": -1,
+ "messages": [
+  {
+   "type": 0,
+   "text": "You mix the clay and water.",
+   "sender": "",
+   "tick": 1372,
+   "observationId": 1991,
+   "fromSelf": false
+  },
+  {
+   "type": 0,
+   "text": "You now have some soft workable clay.",
+   "sender": "",
+   "tick": 1373,
+   "observationId": 1994,
+   "fromSelf": false
+  },
+  {
+   "type": 0,
+   "text": "You buy a pint of beer.",
+   "sender": "",
+   "tick": 1416,
+   "observationId": 2064,
+   "fromSelf": false
+  },
+  {
+   "type": 0,
+   "text": "You buy a pint of beer.",
+   "sender": "",
+   "tick": 1427,
+   "observationId": 2082,
+   "fromSelf": false
+  },
+  {
+   "type": 0,
+   "text": "You buy a pint of beer.",
+   "sender": "",
+   "tick": 1439,
+   "observationId": 2100,
+   "fromSelf": false
+  },
+  {
+   "type": 0,
+   "text": "You swing your pick at the rock.",
+   "sender": "",
+   "tick": 1513,
+   "observationId": 2207,
+   "fromSelf": false
+  },
+  {
+   "type": 0,
+   "text": "You manage to mine some copper.",
+   "sender": "",
+   "tick": 1520,
+   "observationId": 2214,
+   "fromSelf": false
+  },
+  {
+   "type": 0,
+   "text": "Congratulations, you just advanced a mining level.",
+   "sender": "",
+   "tick": 1520,
+   "observationId": 2214,
+   "fromSelf": false
+  },
+  {
+   "type": 0,
+   "text": "You swing your pick at the rock.",
+   "sender": "",
+   "tick": 1525,
+   "observationId": 2226,
+   "fromSelf": false
+  },
+  {
+   "type": 0,
+   "text": "You swing your pick at the rock.",
+   "sender": "",
+   "tick": 1545,
+   "observationId": 2248,
+   "fromSelf": false
+  },
+  {
+   "type": 0,
+   "text": "You manage to mine some tin.",
+   "sender": "",
+   "tick": 1548,
+   "observationId": 2250,
+   "fromSelf": false
+  },
+  {
+   "type": 0,
+   "text": "Congratulations, you just advanced a mining level.",
+   "sender": "",
+   "tick": 1548,
+   "observationId": 2250,
+   "fromSelf": false
+  },
+  {
+   "type": 0,
+   "text": "You smelt the copper and tin together in the furnace.",
+   "sender": "",
+   "tick": 1743,
+   "observationId": 2529,
+   "fromSelf": false
+  },
+  {
+   "type": 0,
+   "text": "You retrieve a bar of bronze.",
+   "sender": "",
+   "tick": 1746,
+   "observationId": 2532,
+   "fromSelf": false
+  },
+  {
+   "type": 0,
+   "text": "Congratulations, you just advanced a smithing level.",
+   "sender": "",
+   "tick": 1746,
+   "observationId": 2532,
+   "fromSelf": false
+  }
+ ],
+ "opFeedback": {
+  "mapFlagUnsetCount": 522,
+  "lastMapFlagUnsetTick": 2238,
+  "opRejectedCount": 50,
+  "lastOpRejectedTick": 2112
+ },
+ "chat": []
+}

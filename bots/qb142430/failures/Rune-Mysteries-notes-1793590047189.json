@@ -1,0 +1,645 @@
+{
+ "quest": "Rune Mysteries",
+ "step": "notes",
+ "time": "2026-11-02T03:27:27.189Z",
+ "player": {
+  "name": "Qb142430",
+  "combatLevel": 3,
+  "hp": 10,
+  "maxHp": 10,
+  "x": 6336,
+  "z": 6592,
+  "worldX": 3105,
+  "worldZ": 3163,
+  "level": 0,
+  "runEnergy": 100,
+  "runWeight": 17,
+  "animId": -1,
+  "spotanimId": -1,
+  "combat": {
+   "inCombat": false,
+   "targetIndex": -1,
+   "targetType": "none",
+   "lastDamageTick": 168
+  },
+  "isDead": false,
+  "lifeId": 1,
+  "respawnCount": 0,
+  "lastDeathTick": null
+ },
+ "skills": [
+  {
+   "name": "Attack",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Defence",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Strength",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Hitpoints",
+   "level": 10,
+   "baseLevel": 10,
+   "experience": 980
+  },
+  {
+   "name": "Ranged",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Prayer",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Magic",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Cooking",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Woodcutting",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Fletching",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Fishing",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Firemaking",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Crafting",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Smithing",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Mining",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Herblore",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Agility",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Thieving",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Stat18",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Stat19",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Runecraft",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  }
+ ],
+ "inventory": [
+  "Bronze axe",
+  "Tinderbox",
+  "Small fishing net",
+  "Shrimps",
+  "Bucket",
+  "Pot",
+  "Bread",
+  "Bronze pickaxe",
+  "Bronze dagger",
+  "Bronze sword",
+  "Wooden shield",
+  "Shortbow",
+  "Bronze arrow x25",
+  "Air rune x25",
+  "Mind rune x15",
+  "Water rune x6",
+  "Earth rune x4",
+  "Body rune x2",
+  "Research package"
+ ],
+ "locs": [
+  {
+   "n": "Ladder",
+   "x": 3104,
+   "z": 3162,
+   "id": 2147,
+   "o": [
+    "Climb-down"
+   ]
+  },
+  {
+   "n": "Door",
+   "x": 3106,
+   "z": 3162,
+   "id": 1537,
+   "o": [
+    "Close"
+   ]
+  },
+  {
+   "n": "Candles",
+   "x": 3106,
+   "z": 3164,
+   "id": 202,
+   "o": []
+  },
+  {
+   "n": "Candles",
+   "x": 3107,
+   "z": 3163,
+   "id": 202,
+   "o": []
+  },
+  {
+   "n": "Heather",
+   "x": 3101,
+   "z": 3164,
+   "id": 1180,
+   "o": []
+  },
+  {
+   "n": "Staircase",
+   "x": 3103,
+   "z": 3159,
+   "id": 1738,
+   "o": [
+    "Climb-up"
+   ]
+  },
+  {
+   "n": "Evil eye decoration",
+   "x": 3108,
+   "z": 3167,
+   "id": 910,
+   "o": []
+  },
+  {
+   "n": "Door",
+   "x": 3109,
+   "z": 3167,
+   "id": 1537,
+   "o": [
+    "Close"
+   ]
+  },
+  {
+   "n": "Standing torch",
+   "x": 3102,
+   "z": 3168,
+   "id": 724,
+   "o": []
+  },
+  {
+   "n": "Bookcase",
+   "x": 3104,
+   "z": 3158,
+   "id": 380,
+   "o": [
+    "Search"
+   ]
+  },
+  {
+   "n": "Mystical wall chart",
+   "x": 3106,
+   "z": 3158,
+   "id": 908,
+   "o": []
+  },
+  {
+   "n": "Heather",
+   "x": 3099,
+   "z": 3159,
+   "id": 1179,
+   "o": []
+  },
+  {
+   "n": "Standing torch",
+   "x": 3099,
+   "z": 3163,
+   "id": 724,
+   "o": []
+  },
+  {
+   "n": "Heather",
+   "x": 3101,
+   "z": 3157,
+   "id": 1180,
+   "o": []
+  },
+  {
+   "n": "Table",
+   "x": 3111,
+   "z": 3159,
+   "id": 595,
+   "o": []
+  },
+  {
+   "n": "Door",
+   "x": 3111,
+   "z": 3162,
+   "id": 1537,
+   "o": [
+    "Close"
+   ]
+  },
+  {
+   "n": "Heather",
+   "x": 3102,
+   "z": 3170,
+   "id": 1179,
+   "o": []
+  },
+  {
+   "n": "Tree",
+   "x": 3105,
+   "z": 3170,
+   "id": 1278,
+   "o": [
+    "Chop down"
+   ]
+  },
+  {
+   "n": "Heather",
+   "x": 3109,
+   "z": 3170,
+   "id": 1179,
+   "o": []
+  },
+  {
+   "n": "Bookcase",
+   "x": 3108,
+   "z": 3155,
+   "id": 380,
+   "o": [
+    "Search"
+   ]
+  },
+  {
+   "n": "Bookcase",
+   "x": 3109,
+   "z": 3155,
+   "id": 380,
+   "o": [
+    "Search"
+   ]
+  },
+  {
+   "n": "Standing torch",
+   "x": 3109,
+   "z": 3171,
+   "id": 724,
+   "o": []
+  },
+  {
+   "n": "Table",
+   "x": 3111,
+   "z": 3155,
+   "id": 595,
+   "o": []
+  },
+  {
+   "n": "Bookcase",
+   "x": 3113,
+   "z": 3158,
+   "id": 380,
+   "o": [
+    "Search"
+   ]
+  },
+  {
+   "n": "Bookcase",
+   "x": 3113,
+   "z": 3160,
+   "id": 380,
+   "o": [
+    "Search"
+   ]
+  },
+  {
+   "n": "Standing torch",
+   "x": 3105,
+   "z": 3172,
+   "id": 724,
+   "o": []
+  },
+  {
+   "n": "Bookcase",
+   "x": 3114,
+   "z": 3158,
+   "id": 380,
+   "o": [
+    "Search"
+   ]
+  },
+  {
+   "n": "Bookcase",
+   "x": 3114,
+   "z": 3160,
+   "id": 380,
+   "o": [
+    "Search"
+   ]
+  },
+  {
+   "n": "Standing torch",
+   "x": 3101,
+   "z": 3153,
+   "id": 724,
+   "o": []
+  },
+  {
+   "n": "Fern",
+   "x": 3113,
+   "z": 3152,
+   "id": 1300,
+   "o": []
+  },
+  {
+   "n": "Standing torch",
+   "x": 3116,
+   "z": 3153,
+   "id": 724,
+   "o": []
+  },
+  {
+   "n": "Bench",
+   "x": 3116,
+   "z": 3165,
+   "id": 1106,
+   "o": []
+  },
+  {
+   "n": "Fountain",
+   "x": 3116,
+   "z": 3167,
+   "id": 879,
+   "o": []
+  },
+  {
+   "n": "Fern",
+   "x": 3110,
+   "z": 3151,
+   "id": 1299,
+   "o": []
+  },
+  {
+   "n": "Oak",
+   "x": 3104,
+   "z": 3150,
+   "id": 1281,
+   "o": [
+    "Chop down"
+   ]
+  },
+  {
+   "n": "Fern",
+   "x": 3118,
+   "z": 3156,
+   "id": 1300,
+   "o": []
+  },
+  {
+   "n": "Fern",
+   "x": 3118,
+   "z": 3162,
+   "id": 1300,
+   "o": []
+  },
+  {
+   "n": "Tree stump",
+   "x": 3119,
+   "z": 3165,
+   "id": 1341,
+   "o": []
+  },
+  {
+   "n": "Standing torch",
+   "x": 3119,
+   "z": 3169,
+   "id": 724,
+   "o": []
+  },
+  {
+   "n": "Standing torch",
+   "x": 3103,
+   "z": 3148,
+   "id": 724,
+   "o": []
+  },
+  {
+   "n": "Standing torch",
+   "x": 3112,
+   "z": 3148,
+   "id": 724,
+   "o": []
+  },
+  {
+   "n": "Standing torch",
+   "x": 3120,
+   "z": 3157,
+   "id": 724,
+   "o": []
+  },
+  {
+   "n": "Standing torch",
+   "x": 3120,
+   "z": 3163,
+   "id": 724,
+   "o": []
+  }
+ ],
+ "npcs": [
+  {
+   "n": "Wizard",
+   "id": 13,
+   "idx": 4282,
+   "x": 3107,
+   "z": 3160,
+   "o": [
+    "Attack"
+   ]
+  },
+  {
+   "n": "Wizard",
+   "id": 13,
+   "idx": 4283,
+   "x": 3109,
+   "z": 3167,
+   "o": [
+    "Attack"
+   ]
+  },
+  {
+   "n": "Wizard",
+   "id": 13,
+   "idx": 4281,
+   "x": 3108,
+   "z": 3158,
+   "o": [
+    "Attack"
+   ]
+  },
+  {
+   "n": "Wizard",
+   "id": 13,
+   "idx": 4284,
+   "x": 3110,
+   "z": 3167,
+   "o": [
+    "Attack"
+   ]
+  }
+ ],
+ "ground": [
+  {
+   "id": 1511,
+   "name": "Logs",
+   "count": 1,
+   "x": 3106,
+   "z": 3160,
+   "distance": 3,
+   "reachable": true
+  },
+  {
+   "id": 1511,
+   "name": "Logs",
+   "count": 1,
+   "x": 3105,
+   "z": 3159,
+   "distance": 4,
+   "reachable": true
+  },
+  {
+   "id": 1511,
+   "name": "Logs",
+   "count": 1,
+   "x": 3106,
+   "z": 3159,
+   "distance": 4,
+   "reachable": true
+  },
+  {
+   "id": 1061,
+   "name": "Leather boots",
+   "count": 1,
+   "x": 3111,
+   "z": 3159,
+   "distance": 6,
+   "reachable": false
+  }
+ ],
+ "dialog": {
+  "isOpen": false,
+  "options": [],
+  "isWaiting": false,
+  "allComponents": []
+ },
+ "interface": {
+  "isOpen": false,
+  "interfaceId": -1,
+  "options": [],
+  "debugInfo": []
+ },
+ "modalOpen": false,
+ "modalInterface": -1,
+ "messages": [
+  {
+   "type": 0,
+   "text": "Welcome to RuneScape.",
+   "sender": "",
+   "tick": 0,
+   "observationId": 1,
+   "fromSelf": false
+  },
+  {
+   "type": 0,
+   "text": "I can't reach that!",
+   "sender": "",
+   "tick": 249,
+   "observationId": 364,
+   "fromSelf": false
+  },
+  {
+   "type": 0,
+   "text": "I can't reach that!",
+   "sender": "",
+   "tick": 254,
+   "observationId": 371,
+   "fromSelf": false
+  },
+  {
+   "type": 0,
+   "text": "I can't reach that!",
+   "sender": "",
+   "tick": 256,
+   "observationId": 375,
+   "fromSelf": false
+  }
+ ],
+ "opFeedback": {
+  "mapFlagUnsetCount": 95,
+  "lastMapFlagUnsetTick": 363,
+  "opRejectedCount": 12,
+  "lastOpRejectedTick": 363
+ },
+ "chat": []
+}

@@ -1,0 +1,418 @@
+# qb123333 Lab Log
+
+## Session 1
+
+### Goals
+-
+
+### Observations
+-
+
+### Next Steps
+
+### Possible SDK Bugs or Improvements:
+-
+- 2026-11-02T01:33:58.558Z START Cook's Assistant (attempt 1)
+- 2026-11-02T01:33:58.559Z STEP start
+- 2026-11-02T01:34:20.080Z STEP egg
+- 2026-11-02T01:34:50.689Z STEP milk
+- 2026-11-02T01:35:05.095Z STEP grain
+- 2026-11-02T01:35:36.483Z STEP mill
+- 2026-11-02T01:36:05.284Z STEP hand-in
+- 2026-11-02T01:36:42.383Z DONE Cook's Assistant
+- 2026-11-02T02:15:54.291Z START Sheep Shearer (attempt 1)
+- 2026-11-02T02:15:54.292Z STEP start
+- 2026-11-02T02:16:35.954Z STEP shears
+- 2026-11-02T02:16:36.955Z STEP FAILED shears
+- 2026-11-02T02:16:36.957Z START Sheep Shearer (attempt 2)
+- 2026-11-02T02:16:36.957Z STEP start
+- 2026-11-02T02:16:39.090Z STEP shears
+- 2026-11-02T02:16:40.090Z STEP FAILED shears
+- 2026-11-02T02:18:57.897Z START Sheep Shearer (attempt 1)
+- 2026-11-02T02:18:57.898Z STEP start
+- 2026-11-02T02:19:00.257Z STEP shears
+- 2026-11-02T02:19:17.087Z STEP wool
+- 2026-11-02T02:20:35.887Z START Sheep Shearer (attempt 1)
+- 2026-11-02T02:20:35.887Z STEP start
+- 2026-11-02T02:20:53.469Z STEP shears
+- 2026-11-02T02:20:53.469Z STEP wool
+- 2026-11-02T02:21:05.680Z shear idx=2894 opts=[] -> {"success":false,"message":"No matching option on Sheep","reason":"no_matching_option"}
+- 2026-11-02T02:21:09.885Z shear idx=1805 opts=[] -> {"success":false,"message":"No matching option on Sheep","reason":"no_matching_option"}
+- 2026-11-02T02:21:14.088Z shear idx=1810 opts=[] -> {"success":false,"message":"No matching option on Sheep","reason":"no_matching_option"}
+- 2026-11-02T02:21:18.292Z shear idx=2895 opts=[] -> {"success":false,"message":"No matching option on Sheep","reason":"no_matching_option"}
+- 2026-11-02T02:21:22.495Z shear idx=2895 opts=[] -> {"success":false,"message":"No matching option on Sheep","reason":"no_matching_option"}
+- 2026-11-02T02:21:26.698Z shear idx=2894 opts=[] -> {"success":false,"message":"No matching option on Sheep","reason":"no_matching_option"}
+- 2026-11-02T02:21:30.902Z shear idx=1807 opts=[] -> {"success":false,"message":"No matching option on Sheep","reason":"no_matching_option"}
+- 2026-11-02T02:21:35.106Z shear idx=1791 opts=[] -> {"success":false,"message":"No matching option on Sheep","reason":"no_matching_option"}
+- 2026-11-02T02:21:42.279Z START Sheep Shearer (attempt 1)
+- 2026-11-02T02:21:42.281Z STEP start
+- 2026-11-02T02:22:00.286Z STEP shears
+- 2026-11-02T02:22:00.287Z STEP wool
+- 2026-11-02T02:22:15.093Z shear idx=2894 -> {"success":true,"message":"Used Shears on Sheep"} msgs=[{"type":0,"text":"The sheep manages to get away from you!","sender":"","tick":915,"observationId":1066,"fromSelf":false}]
+- 2026-11-02T02:22:20.676Z shear idx=2812 -> {"success":true,"message":"Used Shears on Sheep"} msgs=[{"type":0,"text":"The sheep manages to get away from you!","sender":"","tick":915,"observationId":1066,"fromSelf":false},{"type":0,"text":"The sheep manages to get away from you!","sender":"","tick":930,"observationId":1083,"fromSelf":false}]
+- 2026-11-02T02:22:26.694Z shear idx=2830 -> {"success":true,"message":"Used Shears on Sheep"} msgs=[{"type":0,"text":"The sheep manages to get away from you!","sender":"","tick":930,"observationId":1083,"fromSelf":false},{"type":0,"text":"The sheep manages to get away from you!","sender":"","tick":944,"observationId":1099,"fromSelf":false}]
+- 2026-11-02T02:22:34.686Z shear idx=1807 -> {"success":true,"message":"Used Shears on Sheep"} msgs=[{"type":0,"text":"The sheep manages to get away from you!","sender":"","tick":930,"observationId":1083,"fromSelf":false},{"type":0,"text":"The sheep manages to get away from you!","sender":"","tick":944,"observationId":1099,"fromSelf":false}]
+- 2026-11-02T02:22:36.683Z shear idx=2894 -> {"success":true,"message":"Used Shears on Sheep"} msgs=[{"type":0,"text":"The sheep manages to get away from you!","sender":"","tick":944,"observationId":1099,"fromSelf":false},{"type":0,"text":"You get some wool.","sender":"","tick":967,"observationId":1125,"fromSelf":false}]
+- 2026-11-02T02:22:38.684Z shear idx=1810 -> {"success":true,"message":"Used Shears on Sheep"} msgs=[{"type":0,"text":"You get some wool.","sender":"","tick":967,"observationId":1125,"fromSelf":false},{"type":0,"text":"You get some wool.","sender":"","tick":971,"observationId":1135,"fromSelf":false}]
+- 2026-11-02T02:22:50.352Z shear idx=1810 -> {"success":false,"message":"Timeout using Shears on Sheep","reason":"timeout"} msgs=[{"type":0,"text":"You get some wool.","sender":"","tick":977,"observationId":1144,"fromSelf":false},{"type":0,"text":"This sheep has already been shorn.","sender":"","tick":979,"observationId":1151,"fromSelf":false}]
+- 2026-11-02T02:23:04.567Z shear idx=2894 -> {"success":false,"message":"Timeout using Shears on Sheep","reason":"timeout"} msgs=[{"type":0,"text":"This sheep has already been shorn.","sender":"","tick":979,"observationId":1151,"fromSelf":false},{"type":0,"text":"This sheep has already been shorn.","sender":"","tick":1014,"observationId":1187,"fromSelf":false}]
+- 2026-11-02T02:23:10.684Z shear idx=1805 -> {"success":true,"message":"Used Shears on Sheep"} msgs=[{"type":0,"text":"This sheep has already been shorn.","sender":"","tick":1014,"observationId":1187,"fromSelf":false},{"type":0,"text":"The sheep manages to get away from you!","sender":"","tick":1055,"observationId":1230,"fromSelf":false}]
+- 2026-11-02T02:23:24.953Z shear idx=1807 -> {"success":false,"message":"Timeout using Shears on Sheep","reason":"timeout"} msgs=[{"type":0,"text":"This sheep has already been shorn.","sender":"","tick":1014,"observationId":1187,"fromSelf":false},{"type":0,"text":"The sheep manages to get away from you!","sender":"","tick":1055,"observationId":1230,"fromSelf":false}]
+- 2026-11-02T02:23:29.487Z shear idx=1807 -> {"success":true,"message":"Used Shears on Sheep"} msgs=[{"type":0,"text":"This sheep has already been shorn.","sender":"","tick":1014,"observationId":1187,"fromSelf":false},{"type":0,"text":"The sheep manages to get away from you!","sender":"","tick":1055,"observationId":1230,"fromSelf":false}]
+- 2026-11-02T02:23:41.120Z shear idx=1807 -> {"success":false,"message":"Timeout using Shears on Sheep","reason":"timeout"} msgs=[{"type":0,"text":"You get some wool.","sender":"","tick":1103,"observationId":1281,"fromSelf":false},{"type":0,"text":"This sheep has already been shorn.","sender":"","tick":1107,"observationId":1288,"fromSelf":false}]
+- 2026-11-02T02:23:46.685Z shear idx=1806 -> {"success":true,"message":"Used Shears on Sheep"} msgs=[{"type":0,"text":"You get some wool.","sender":"","tick":1103,"observationId":1281,"fromSelf":false},{"type":0,"text":"This sheep has already been shorn.","sender":"","tick":1107,"observationId":1288,"fromSelf":false}]
+- 2026-11-02T02:23:58.365Z shear idx=1806 -> {"success":false,"message":"Timeout using Shears on Sheep","reason":"timeout"} msgs=[{"type":0,"text":"You get some wool.","sender":"","tick":1147,"observationId":1329,"fromSelf":false},{"type":0,"text":"This sheep has already been shorn.","sender":"","tick":1149,"observationId":1336,"fromSelf":false}]
+- 2026-11-02T02:24:03.099Z shear idx=1809 -> {"success":true,"message":"Used Shears on Sheep"} msgs=[{"type":0,"text":"You get some wool.","sender":"","tick":1147,"observationId":1329,"fromSelf":false},{"type":0,"text":"This sheep has already been shorn.","sender":"","tick":1149,"observationId":1336,"fromSelf":false}]
+- 2026-11-02T02:24:14.722Z shear idx=1809 -> {"success":false,"message":"Timeout using Shears on Sheep","reason":"timeout"} msgs=[{"type":0,"text":"You get some wool.","sender":"","tick":1187,"observationId":1375,"fromSelf":false},{"type":0,"text":"This sheep has already been shorn.","sender":"","tick":1191,"observationId":1383,"fromSelf":false}]
+- 2026-11-02T02:24:20.697Z shear idx=1805 -> {"success":true,"message":"Used Shears on Sheep"} msgs=[{"type":0,"text":"You get some wool.","sender":"","tick":1187,"observationId":1375,"fromSelf":false},{"type":0,"text":"This sheep has already been shorn.","sender":"","tick":1191,"observationId":1383,"fromSelf":false}]
+- 2026-11-02T02:24:32.353Z shear idx=1809 -> {"success":false,"message":"Timeout using Shears on Sheep","reason":"timeout"} msgs=[{"type":0,"text":"You get some wool.","sender":"","tick":1231,"observationId":1426,"fromSelf":false},{"type":0,"text":"This sheep has already been shorn.","sender":"","tick":1234,"observationId":1438,"fromSelf":false}]
+- 2026-11-02T02:24:46.574Z shear idx=1805 -> {"success":false,"message":"Timeout using Shears on Sheep","reason":"timeout"} msgs=[{"type":0,"text":"This sheep has already been shorn.","sender":"","tick":1234,"observationId":1438,"fromSelf":false},{"type":0,"text":"This sheep has already been shorn.","sender":"","tick":1271,"observationId":1475,"fromSelf":false}]
+- 2026-11-02T02:24:51.914Z shear idx=1807 -> {"success":true,"message":"Used Shears on Sheep"} msgs=[{"type":0,"text":"This sheep has already been shorn.","sender":"","tick":1234,"observationId":1438,"fromSelf":false},{"type":0,"text":"This sheep has already been shorn.","sender":"","tick":1271,"observationId":1475,"fromSelf":false}]
+- 2026-11-02T02:25:03.950Z shear idx=1807 -> {"success":false,"message":"Timeout using Shears on Sheep","reason":"timeout"} msgs=[{"type":0,"text":"You get some wool.","sender":"","tick":1310,"observationId":1515,"fromSelf":false},{"type":0,"text":"This sheep has already been shorn.","sender":"","tick":1314,"observationId":1528,"fromSelf":false}]
+- 2026-11-02T02:25:09.089Z shear idx=1806 -> {"success":true,"message":"Used Shears on Sheep"} msgs=[{"type":0,"text":"You get some wool.","sender":"","tick":1310,"observationId":1515,"fromSelf":false},{"type":0,"text":"This sheep has already been shorn.","sender":"","tick":1314,"observationId":1528,"fromSelf":false}]
+- 2026-11-02T02:25:20.732Z shear idx=1806 -> {"success":false,"message":"Timeout using Shears on Sheep","reason":"timeout"} msgs=[{"type":0,"text":"You get some wool.","sender":"","tick":1353,"observationId":1568,"fromSelf":false},{"type":0,"text":"This sheep has already been shorn.","sender":"","tick":1355,"observationId":1575,"fromSelf":false}]
+- 2026-11-02T02:25:26.699Z shear idx=1810 -> {"success":true,"message":"Used Shears on Sheep"} msgs=[{"type":0,"text":"This sheep has already been shorn.","sender":"","tick":1355,"observationId":1575,"fromSelf":false},{"type":0,"text":"The sheep manages to get away from you!","sender":"","tick":1394,"observationId":1615,"fromSelf":false}]
+- 2026-11-02T02:25:33.081Z shear idx=2895 -> {"success":true,"message":"Used Shears on Sheep"} msgs=[{"type":0,"text":"This sheep has already been shorn.","sender":"","tick":1355,"observationId":1575,"fromSelf":false},{"type":0,"text":"The sheep manages to get away from you!","sender":"","tick":1394,"observationId":1615,"fromSelf":false}]
+- 2026-11-02T02:25:35.484Z shear idx=2815 -> {"success":true,"message":"Used Shears on Sheep"} msgs=[{"type":0,"text":"The sheep manages to get away from you!","sender":"","tick":1394,"observationId":1615,"fromSelf":false},{"type":0,"text":"You get some wool.","sender":"","tick":1413,"observationId":1636,"fromSelf":false}]
+- 2026-11-02T02:25:39.752Z shear idx=2815 -> {"success":false,"message":"Timeout using Shears on Sheep","reason":"timeout"} msgs=[{"type":0,"text":"You get some wool.","sender":"","tick":1419,"observationId":1646,"fromSelf":false},{"type":0,"text":"This sheep has already been shorn.","sender":"","tick":1423,"observationId":1654,"fromSelf":false}]
+- 2026-11-02T02:25:42.278Z START Sheep Shearer (attempt 1)
+- 2026-11-02T02:25:42.278Z STEP bank
+- 2026-11-02T02:26:17.103Z openBank -> {"success":true,"message":"Bank opened (interfaceId: 5292)"}
+- 2026-11-02T02:26:24.509Z deposit Shrimps -> {"success":false,"message":"Timeout waiting for Shrimps to be deposited","requestedAmount":1,"amountDeposited":0,"partial":false,"reason":"timeout"}
+- 2026-11-02T02:26:29.510Z deposit Bread -> {"success":false,"message":"Timeout waiting for Bread to be deposited","requestedAmount":1,"amountDeposited":0,"partial":false,"reason":"timeout"}
+- 2026-11-02T02:26:34.511Z deposit Bronze pickaxe -> {"success":false,"message":"Timeout waiting for Bronze pickaxe to be deposited","requestedAmount":1,"amountDeposited":0,"partial":false,"reason":"timeout"}
+- 2026-11-02T02:26:39.269Z deposit Bronze sword -> {"success":false,"message":"Bank is not open","reason":"bank_not_open"}
+- 2026-11-02T02:26:39.269Z deposit Wooden shield -> {"success":false,"message":"Bank is not open","reason":"bank_not_open"}
+- 2026-11-02T02:26:39.269Z deposit Shortbow -> {"success":false,"message":"Bank is not open","reason":"bank_not_open"}
+- 2026-11-02T02:26:39.269Z deposit Bronze arrow -> {"success":false,"message":"Bank is not open","reason":"bank_not_open"}
+- 2026-11-02T02:26:39.269Z deposit Air rune -> {"success":false,"message":"Bank is not open","reason":"bank_not_open"}
+- 2026-11-02T02:26:39.269Z deposit Mind rune -> {"success":false,"message":"Bank is not open","reason":"bank_not_open"}
+- 2026-11-02T02:26:39.269Z deposit Water rune -> {"success":false,"message":"Bank is not open","reason":"bank_not_open"}
+- 2026-11-02T02:26:39.269Z deposit Earth rune -> {"success":false,"message":"Bank is not open","reason":"bank_not_open"}
+- 2026-11-02T02:26:39.269Z deposit Body rune -> {"success":false,"message":"Bank is not open","reason":"bank_not_open"}
+- 2026-11-02T02:26:39.270Z STEP start
+- 2026-11-02T02:27:12.309Z STEP shears
+- 2026-11-02T02:27:12.310Z STEP wool
+- 2026-11-02T02:27:14.731Z STEP FAILED wool
+- 2026-11-02T02:27:14.732Z START Sheep Shearer (attempt 2)
+- 2026-11-02T02:27:14.732Z STEP bank
+- 2026-11-02T02:27:14.732Z STEP FAILED bank
+- 2026-11-02T02:27:20.695Z START Sheep Shearer (attempt 1)
+- 2026-11-02T02:27:20.695Z STEP bank
+- 2026-11-02T02:27:50.343Z openBank -> {"success":true,"message":"Bank opened (interfaceId: 5292)"}
+- 2026-11-02T02:27:59.673Z STEP start
+- 2026-11-02T02:28:27.090Z STEP shears
+- 2026-11-02T02:28:27.090Z STEP wool
+- 2026-11-02T02:28:40.388Z shear idx=2895 -> {"success":true,"message":"Used Shears on Sheep"} msgs=[{"type":0,"text":"The sheep manages to get away from you!","sender":"","tick":304,"observationId":454,"fromSelf":false}]
+- 2026-11-02T02:28:44.679Z shear idx=2894 -> {"success":true,"message":"Used Shears on Sheep"} msgs=[{"type":0,"text":"The sheep manages to get away from you!","sender":"","tick":304,"observationId":454,"fromSelf":false}]
+- 2026-11-02T02:28:56.339Z shear idx=2894 -> {"success":false,"message":"Timeout using Shears on Sheep","reason":"timeout"} msgs=[{"type":0,"text":"You get some wool.","sender":"","tick":318,"observationId":468,"fromSelf":false},{"type":0,"text":"This sheep has already been shorn.","sender":"","tick":321,"observationId":475,"fromSelf":false}]
+- 2026-11-02T02:29:01.487Z shear idx=1807 -> {"success":true,"message":"Used Shears on Sheep"} msgs=[{"type":0,"text":"You get some wool.","sender":"","tick":318,"observationId":468,"fromSelf":false},{"type":0,"text":"This sheep has already been shorn.","sender":"","tick":321,"observationId":475,"fromSelf":false}]
+- 2026-11-02T02:29:13.114Z shear idx=1807 -> {"success":false,"message":"Timeout using Shears on Sheep","reason":"timeout"} msgs=[{"type":0,"text":"You get some wool.","sender":"","tick":359,"observationId":515,"fromSelf":false},{"type":0,"text":"This sheep has already been shorn.","sender":"","tick":363,"observationId":527,"fromSelf":false}]
+- 2026-11-02T02:29:17.487Z shear idx=2895 -> {"success":true,"message":"Used Shears on Sheep"} msgs=[{"type":0,"text":"You get some wool.","sender":"","tick":359,"observationId":515,"fromSelf":false},{"type":0,"text":"This sheep has already been shorn.","sender":"","tick":363,"observationId":527,"fromSelf":false}]
+- 2026-11-02T02:29:29.125Z shear idx=2895 -> {"success":false,"message":"Timeout using Shears on Sheep","reason":"timeout"} msgs=[{"type":0,"text":"You get some wool.","sender":"","tick":399,"observationId":565,"fromSelf":false},{"type":0,"text":"This sheep has already been shorn.","sender":"","tick":402,"observationId":578,"fromSelf":false}]
+- 2026-11-02T02:29:33.491Z shear idx=1806 -> {"success":true,"message":"Used Shears on Sheep"} msgs=[{"type":0,"text":"You get some wool.","sender":"","tick":399,"observationId":565,"fromSelf":false},{"type":0,"text":"This sheep has already been shorn.","sender":"","tick":402,"observationId":578,"fromSelf":false}]
+- 2026-11-02T02:29:45.127Z shear idx=1806 -> {"success":false,"message":"Timeout using Shears on Sheep","reason":"timeout"} msgs=[{"type":0,"text":"You get some wool.","sender":"","tick":440,"observationId":616,"fromSelf":false},{"type":0,"text":"This sheep has already been shorn.","sender":"","tick":445,"observationId":628,"fromSelf":false}]
+- 2026-11-02T02:29:50.281Z shear idx=1810 -> {"success":true,"message":"Used Shears on Sheep"} msgs=[{"type":0,"text":"You get some wool.","sender":"","tick":440,"observationId":616,"fromSelf":false},{"type":0,"text":"This sheep has already been shorn.","sender":"","tick":445,"observationId":628,"fromSelf":false}]
+- 2026-11-02T02:29:52.326Z shear idx=1810 -> {"success":false,"message":"Cannot reach Sheep","reason":"cant_reach"} msgs=[{"type":0,"text":"You get some wool.","sender":"","tick":481,"observationId":666,"fromSelf":false},{"type":0,"text":"I can't reach that!","sender":"","tick":484,"observationId":675,"fromSelf":false}]
+- 2026-11-02T02:29:58.684Z shear idx=1807 -> {"success":true,"message":"Used Shears on Sheep"} msgs=[{"type":0,"text":"You get some wool.","sender":"","tick":481,"observationId":666,"fromSelf":false},{"type":0,"text":"I can't reach that!","sender":"","tick":484,"observationId":675,"fromSelf":false}]
+- 2026-11-02T02:30:10.336Z shear idx=1807 -> {"success":false,"message":"Timeout using Shears on Sheep","reason":"timeout"} msgs=[{"type":0,"text":"You get some wool.","sender":"","tick":503,"observationId":695,"fromSelf":false},{"type":0,"text":"This sheep has already been shorn.","sender":"","tick":506,"observationId":702,"fromSelf":false}]
+- 2026-11-02T02:30:16.296Z START Sheep Shearer (attempt 1)
+- 2026-11-02T02:30:16.296Z STEP bank
+- 2026-11-02T02:30:16.299Z STEP start
+- 2026-11-02T02:30:35.474Z STEP shears
+- 2026-11-02T02:30:35.474Z STEP wool
+- 2026-11-02T02:30:48.281Z shear idx=2894 -> {"success":true,"message":"Used Shears on Sheep"} msgs=[{"type":0,"text":"You get some wool.","sender":"","tick":503,"observationId":695,"fromSelf":false},{"type":0,"text":"This sheep has already been shorn.","sender":"","tick":506,"observationId":702,"fromSelf":false}]
+- 2026-11-02T02:30:59.935Z shear idx=2894 -> {"success":false,"message":"Timeout using Shears on Sheep","reason":"timeout"} msgs=[{"type":0,"text":"You get some wool.","sender":"","tick":626,"observationId":856,"fromSelf":false},{"type":0,"text":"This sheep has already been shorn.","sender":"","tick":630,"observationId":863,"fromSelf":false}]
+- 2026-11-02T02:31:05.885Z shear idx=2895 -> {"success":true,"message":"Used Shears on Sheep"} msgs=[{"type":0,"text":"You get some wool.","sender":"","tick":626,"observationId":856,"fromSelf":false},{"type":0,"text":"This sheep has already been shorn.","sender":"","tick":630,"observationId":863,"fromSelf":false}]
+- 2026-11-02T02:31:17.586Z shear idx=2895 -> {"success":false,"message":"Timeout using Shears on Sheep","reason":"timeout"} msgs=[{"type":0,"text":"You get some wool.","sender":"","tick":671,"observationId":906,"fromSelf":false},{"type":0,"text":"This sheep has already been shorn.","sender":"","tick":674,"observationId":913,"fromSelf":false}]
+- 2026-11-02T02:31:23.118Z shear idx=2896 -> {"success":true,"message":"Used Shears on Sheep"} msgs=[{"type":0,"text":"You get some wool.","sender":"","tick":671,"observationId":906,"fromSelf":false},{"type":0,"text":"This sheep has already been shorn.","sender":"","tick":674,"observationId":913,"fromSelf":false}]
+- 2026-11-02T02:31:24.320Z STEP spin
+- 2026-11-02T02:33:26.283Z START Sheep Shearer (attempt 1)
+- 2026-11-02T02:33:26.283Z STEP bank
+- 2026-11-02T02:33:26.284Z STEP start
+- 2026-11-02T02:34:09.490Z talkTo /^fred the farmer$/i failed: Fred the Farmer is not reachable from here (wall or closed door in the way) - walk closer or open the door first
+- 2026-11-02T02:34:09.490Z STEP FAILED start
+- 2026-11-02T02:34:09.491Z START Sheep Shearer (attempt 2)
+- 2026-11-02T02:34:09.491Z STEP bank
+- 2026-11-02T02:34:09.491Z STEP start
+- 2026-11-02T02:34:09.491Z talkTo /^fred the farmer$/i failed: Fred the Farmer is not reachable from here (wall or closed door in the way) - walk closer or open the door first
+- 2026-11-02T02:34:09.491Z STEP FAILED start
+- 2026-11-02T02:35:00.694Z START Sheep Shearer (attempt 1)
+- 2026-11-02T02:35:00.695Z STEP bank
+- 2026-11-02T02:35:00.695Z STEP start
+- 2026-11-02T02:35:14.670Z STEP shears
+- 2026-11-02T02:35:14.671Z STEP wool
+- 2026-11-02T02:35:28.882Z STEP spin
+- 2026-11-02T02:35:50.718Z spin: level=0 stairs=[{"n":"Staircase","x":3204,"z":3207,"o":["Climb-up"]}]
+- 2026-11-02T02:36:00.316Z climb -> {"success":true,"message":"Interacted with Staircase"}
+- 2026-11-02T02:36:03.316Z level now 0 at (3216,3208)
+- 2026-11-02T02:36:06.341Z climb -> {"success":true,"message":"Interacted with Staircase"}
+- 2026-11-02T02:36:09.341Z level now 0 at (3216,3208)
+- 2026-11-02T02:36:12.296Z climb -> {"success":true,"message":"Interacted with Staircase"}
+- 2026-11-02T02:36:15.296Z level now 0 at (3216,3208)
+- 2026-11-02T02:36:15.296Z STEP FAILED spin
+- 2026-11-02T02:36:15.298Z START Sheep Shearer (attempt 2)
+- 2026-11-02T02:36:15.298Z STEP bank
+- 2026-11-02T02:36:15.298Z STEP start
+- 2026-11-02T02:36:41.121Z STEP shears
+- 2026-11-02T02:36:41.121Z STEP wool
+- 2026-11-02T02:36:55.314Z STEP spin
+- 2026-11-02T02:37:15.891Z spin: level=0 stairs=[{"n":"Staircase","x":3204,"z":3207,"o":["Climb-up"]}]
+- 2026-11-02T02:37:25.931Z climb -> {"success":true,"message":"Interacted with Staircase"}
+- 2026-11-02T02:37:28.931Z level now 0 at (3216,3208)
+- 2026-11-02T02:37:31.917Z climb -> {"success":true,"message":"Interacted with Staircase"}
+- 2026-11-02T02:37:34.917Z level now 0 at (3216,3208)
+- 2026-11-02T02:37:37.930Z climb -> {"success":true,"message":"Interacted with Staircase"}
+- 2026-11-02T02:37:40.930Z level now 0 at (3216,3208)
+- 2026-11-02T02:37:40.930Z STEP FAILED spin
+- 2026-11-02T02:38:24.274Z START Sheep Shearer (attempt 1)
+- 2026-11-02T02:38:24.274Z STEP bank
+- 2026-11-02T02:38:24.275Z STEP start
+- 2026-11-02T02:38:45.497Z talkTo /^fred the farmer$/i failed: NPC not found
+- 2026-11-02T02:38:45.497Z STEP FAILED start
+- 2026-11-02T02:38:45.498Z START Sheep Shearer (attempt 2)
+- 2026-11-02T02:38:45.498Z STEP bank
+- 2026-11-02T02:38:45.498Z STEP start
+- 2026-11-02T02:38:59.530Z talkTo /^fred the farmer$/i failed: NPC not found
+- 2026-11-02T02:38:59.530Z STEP FAILED start
+- 2026-11-02T02:39:16.702Z START Sheep Shearer (attempt 1)
+- 2026-11-02T02:39:16.703Z STEP bank
+- 2026-11-02T02:39:16.704Z STEP start
+- 2026-11-02T02:39:16.704Z STEP shears
+- 2026-11-02T02:39:16.705Z STEP wool
+- 2026-11-02T02:39:16.705Z STEP spin
+- 2026-11-02T02:39:19.887Z wheel: [{"n":"Spinning wheel","x":3209,"z":3212,"o":["Spin"]}]
+- 2026-11-02T02:39:21.092Z use wool on wheel -> {"success":true,"message":"Used Wool on Spinning wheel"}
+- 2026-11-02T02:39:22.292Z ui: dialog={"isOpen":false,"options":[],"isWaiting":false,"allComponents":[]} interface={"isOpen":false,"interfaceId":-1,"options":[],"debugInfo":[]} msgs=["I can't reach that!","You spin the wool into a nice ball of wool."]
+- 2026-11-02T02:39:25.093Z use wool on wheel -> {"success":true,"message":"Used Wool on Spinning wheel"}
+- 2026-11-02T02:39:26.293Z ui: dialog={"isOpen":false,"options":[],"isWaiting":false,"allComponents":[]} interface={"isOpen":false,"interfaceId":-1,"options":[],"debugInfo":[]} msgs=["You spin the wool into a nice ball of wool.","Congratulations, you just advanced a crafting level."]
+- 2026-11-02T02:39:29.498Z use wool on wheel -> {"success":true,"message":"Used Wool on Spinning wheel"}
+- 2026-11-02T02:39:30.699Z ui: dialog={"isOpen":false,"options":[],"isWaiting":false,"allComponents":[]} interface={"isOpen":false,"interfaceId":-1,"options":[],"debugInfo":[]} msgs=["You spin the wool into a nice ball of wool.","Congratulations, you just advanced a crafting level."]
+- 2026-11-02T02:39:33.895Z use wool on wheel -> {"success":true,"message":"Used Wool on Spinning wheel"}
+- 2026-11-02T02:39:35.096Z ui: dialog={"isOpen":false,"options":[],"isWaiting":false,"allComponents":[]} interface={"isOpen":false,"interfaceId":-1,"options":[],"debugInfo":[]} msgs=["Congratulations, you just advanced a crafting level.","You spin the wool into a nice ball of wool."]
+- 2026-11-02T02:39:37.913Z use wool on wheel -> {"success":true,"message":"Used Wool on Spinning wheel"}
+- 2026-11-02T02:39:39.114Z ui: dialog={"isOpen":false,"options":[],"isWaiting":false,"allComponents":[]} interface={"isOpen":false,"interfaceId":-1,"options":[],"debugInfo":[]} msgs=["You spin the wool into a nice ball of wool.","Congratulations, you just advanced a crafting level."]
+- 2026-11-02T02:39:42.310Z use wool on wheel -> {"success":true,"message":"Used Wool on Spinning wheel"}
+- 2026-11-02T02:39:43.510Z ui: dialog={"isOpen":false,"options":[],"isWaiting":false,"allComponents":[]} interface={"isOpen":false,"interfaceId":-1,"options":[],"debugInfo":[]} msgs=["You spin the wool into a nice ball of wool.","Congratulations, you just advanced a crafting level."]
+- 2026-11-02T02:39:47.096Z use wool on wheel -> {"success":true,"message":"Used Wool on Spinning wheel"}
+- 2026-11-02T02:39:48.296Z ui: dialog={"isOpen":false,"options":[],"isWaiting":false,"allComponents":[]} interface={"isOpen":false,"interfaceId":-1,"options":[],"debugInfo":[]} msgs=["Congratulations, you just advanced a crafting level.","You spin the wool into a nice ball of wool."]
+- 2026-11-02T02:39:51.093Z use wool on wheel -> {"success":true,"message":"Used Wool on Spinning wheel"}
+- 2026-11-02T02:39:52.293Z ui: dialog={"isOpen":false,"options":[],"isWaiting":false,"allComponents":[]} interface={"isOpen":false,"interfaceId":-1,"options":[],"debugInfo":[]} msgs=["You spin the wool into a nice ball of wool.","You spin the wool into a nice ball of wool."]
+- 2026-11-02T02:39:55.887Z use wool on wheel -> {"success":true,"message":"Used Wool on Spinning wheel"}
+- 2026-11-02T02:39:57.087Z ui: dialog={"isOpen":false,"options":[],"isWaiting":false,"allComponents":[]} interface={"isOpen":false,"interfaceId":-1,"options":[],"debugInfo":[]} msgs=["Congratulations, you just advanced a crafting level.","You spin the wool into a nice ball of wool."]
+- 2026-11-02T02:39:59.899Z use wool on wheel -> {"success":true,"message":"Used Wool on Spinning wheel"}
+- 2026-11-02T02:40:01.099Z ui: dialog={"isOpen":false,"options":[],"isWaiting":false,"allComponents":[]} interface={"isOpen":false,"interfaceId":-1,"options":[],"debugInfo":[]} msgs=["You spin the wool into a nice ball of wool.","You spin the wool into a nice ball of wool."]
+- 2026-11-02T02:40:04.690Z use wool on wheel -> {"success":true,"message":"Used Wool on Spinning wheel"}
+- 2026-11-02T02:40:05.890Z ui: dialog={"isOpen":false,"options":[],"isWaiting":false,"allComponents":[]} interface={"isOpen":false,"interfaceId":-1,"options":[],"debugInfo":[]} msgs=["Congratulations, you just advanced a crafting level.","You spin the wool into a nice ball of wool."]
+- 2026-11-02T02:40:08.689Z use wool on wheel -> {"success":true,"message":"Used Wool on Spinning wheel"}
+- 2026-11-02T02:40:09.890Z ui: dialog={"isOpen":false,"options":[],"isWaiting":false,"allComponents":[]} interface={"isOpen":false,"interfaceId":-1,"options":[],"debugInfo":[]} msgs=["You spin the wool into a nice ball of wool.","You spin the wool into a nice ball of wool."]
+- 2026-11-02T02:40:13.520Z use wool on wheel -> {"success":true,"message":"Used Wool on Spinning wheel"}
+- 2026-11-02T02:40:14.721Z ui: dialog={"isOpen":false,"options":[],"isWaiting":false,"allComponents":[]} interface={"isOpen":false,"interfaceId":-1,"options":[],"debugInfo":[]} msgs=["Congratulations, you just advanced a crafting level.","You spin the wool into a nice ball of wool."]
+- 2026-11-02T02:40:17.499Z use wool on wheel -> {"success":true,"message":"Used Wool on Spinning wheel"}
+- 2026-11-02T02:40:18.699Z ui: dialog={"isOpen":false,"options":[],"isWaiting":false,"allComponents":[]} interface={"isOpen":false,"interfaceId":-1,"options":[],"debugInfo":[]} msgs=["You spin the wool into a nice ball of wool.","You spin the wool into a nice ball of wool."]
+- 2026-11-02T02:40:22.299Z use wool on wheel -> {"success":true,"message":"Used Wool on Spinning wheel"}
+- 2026-11-02T02:40:23.500Z ui: dialog={"isOpen":false,"options":[],"isWaiting":false,"allComponents":[]} interface={"isOpen":false,"interfaceId":-1,"options":[],"debugInfo":[]} msgs=["Congratulations, you just advanced a crafting level.","You spin the wool into a nice ball of wool."]
+- 2026-11-02T02:40:26.283Z use wool on wheel -> {"success":true,"message":"Used Wool on Spinning wheel"}
+- 2026-11-02T02:40:27.483Z ui: dialog={"isOpen":false,"options":[],"isWaiting":false,"allComponents":[]} interface={"isOpen":false,"interfaceId":-1,"options":[],"debugInfo":[]} msgs=["You spin the wool into a nice ball of wool.","You spin the wool into a nice ball of wool."]
+- 2026-11-02T02:40:31.100Z use wool on wheel -> {"success":true,"message":"Used Wool on Spinning wheel"}
+- 2026-11-02T02:40:32.300Z ui: dialog={"isOpen":false,"options":[],"isWaiting":false,"allComponents":[]} interface={"isOpen":false,"interfaceId":-1,"options":[],"debugInfo":[]} msgs=["Congratulations, you just advanced a crafting level.","You spin the wool into a nice ball of wool."]
+- 2026-11-02T02:40:35.086Z use wool on wheel -> {"success":true,"message":"Used Wool on Spinning wheel"}
+- 2026-11-02T02:40:36.286Z ui: dialog={"isOpen":false,"options":[],"isWaiting":false,"allComponents":[]} interface={"isOpen":false,"interfaceId":-1,"options":[],"debugInfo":[]} msgs=["You spin the wool into a nice ball of wool.","You spin the wool into a nice ball of wool."]
+- 2026-11-02T02:40:39.098Z use wool on wheel -> {"success":true,"message":"Used Wool on Spinning wheel"}
+- 2026-11-02T02:40:40.299Z ui: dialog={"isOpen":false,"options":[],"isWaiting":false,"allComponents":[]} interface={"isOpen":false,"interfaceId":-1,"options":[],"debugInfo":[]} msgs=["You spin the wool into a nice ball of wool.","You spin the wool into a nice ball of wool."]
+- 2026-11-02T02:40:43.900Z use wool on wheel -> {"success":true,"message":"Used Wool on Spinning wheel"}
+- 2026-11-02T02:40:45.100Z ui: dialog={"isOpen":false,"options":[],"isWaiting":false,"allComponents":[]} interface={"isOpen":false,"interfaceId":-1,"options":[],"debugInfo":[]} msgs=["Congratulations, you just advanced a crafting level.","You spin the wool into a nice ball of wool."]
+- 2026-11-02T02:40:47.601Z STEP hand-in
+- 2026-11-02T02:42:25.890Z talkTo /^fred the farmer$/i failed: Fred the Farmer is not reachable from here (wall or closed door in the way) - walk closer or open the door first
+- 2026-11-02T02:42:25.890Z STEP FAILED hand-in
+- 2026-11-02T02:42:25.891Z START Sheep Shearer (attempt 2)
+- 2026-11-02T02:42:25.892Z STEP bank
+- 2026-11-02T02:42:25.892Z STEP start
+- 2026-11-02T02:42:25.892Z STEP shears
+- 2026-11-02T02:42:25.892Z STEP wool
+- 2026-11-02T02:42:25.892Z STEP spin
+- 2026-11-02T02:42:25.892Z STEP hand-in
+- 2026-11-02T02:42:33.740Z DONE Sheep Shearer
+- 2026-11-02T02:53:55.478Z START Sheep Shearer (attempt 1)
+- 2026-11-02T02:53:55.483Z already completed
+- 2026-11-02T02:53:55.484Z DONE Sheep Shearer
+- 2026-11-02T03:07:09.902Z START Rune Mysteries (attempt 1)
+- 2026-11-02T03:07:09.902Z STEP start
+- 2026-11-02T03:07:59.886Z lumbridgeStairs L0->L1 from (3205,3209) -> {"success":true,"message":"Interacted with Staircase"}
+- 2026-11-02T03:08:12.867Z STEP package
+- 2026-11-02T03:08:19.100Z lumbridgeStairs L1->L0 from (3205,3209) -> {"success":true,"message":"Interacted with Staircase"}
+- 2026-11-02T03:09:45.491Z STEP FAILED package
+- 2026-11-02T03:09:45.493Z START Rune Mysteries (attempt 2)
+- 2026-11-02T03:09:45.493Z STEP start
+- 2026-11-02T03:09:45.493Z STEP package
+- 2026-11-02T03:10:26.684Z STEP FAILED package
+- 2026-11-02T03:11:54.679Z START Rune Mysteries (attempt 1)
+- 2026-11-02T03:11:54.679Z STEP start
+- 2026-11-02T03:11:54.679Z STEP package
+- 2026-11-02T03:12:09.914Z wizardsTower climb-down -> {"success":true,"message":"Interacted with Ladder"}
+- 2026-11-02T03:13:00.052Z STEP FAILED package
+- 2026-11-02T03:13:00.053Z START Rune Mysteries (attempt 2)
+- 2026-11-02T03:13:00.053Z STEP start
+- 2026-11-02T03:13:00.053Z STEP package
+- 2026-11-02T03:13:42.054Z STEP FAILED package
+- 2026-11-02T03:18:09.893Z START Rune Mysteries (attempt 1)
+- 2026-11-02T03:18:09.894Z STEP start
+- 2026-11-02T03:18:09.894Z STEP package
+- 2026-11-02T03:18:23.137Z STEP notes
+- 2026-11-02T03:20:48.719Z STEP finish
+- 2026-11-02T03:22:28.353Z wizardsTower climb-down -> {"success":true,"message":"Interacted with Ladder"}
+- 2026-11-02T03:22:38.295Z wizardsTower climb-down -> {"success":false,"message":"Can't reach Ladder","reason":"cant_reach"}
+- 2026-11-02T03:23:20.684Z DONE Rune Mysteries
+- 2026-11-02T03:24:38.684Z START Romeo & Juliet (attempt 1)
+- 2026-11-02T03:24:38.685Z STEP berries
+- 2026-11-02T03:25:13.498Z STEP FAILED berries
+- 2026-11-02T03:25:13.504Z START Romeo & Juliet (attempt 2)
+- 2026-11-02T03:25:13.504Z STEP berries
+- 2026-11-02T03:25:48.297Z STEP FAILED berries
+- 2026-11-02T03:27:08.695Z START Romeo & Juliet (attempt 1)
+- 2026-11-02T03:27:08.695Z STEP berries
+- 2026-11-02T03:28:51.894Z STEP juliet-start
+- 2026-11-02T03:30:21.179Z STEP romeo-message
+- 2026-11-02T03:30:27.130Z talkTo /^romeo$/i failed: NPC not found
+- 2026-11-02T03:30:27.130Z STEP FAILED romeo-message
+- 2026-11-02T03:30:27.131Z START Romeo & Juliet (attempt 2)
+- 2026-11-02T03:30:27.132Z STEP berries
+- 2026-11-02T03:30:27.132Z STEP juliet-start
+- 2026-11-02T03:30:27.132Z STEP romeo-message
+- 2026-11-02T03:30:27.198Z talkTo /^romeo$/i failed: NPC not found
+- 2026-11-02T03:30:27.198Z STEP FAILED romeo-message
+- 2026-11-02T03:32:29.496Z START Romeo & Juliet (attempt 1)
+- 2026-11-02T03:32:29.496Z STEP berries
+- 2026-11-02T03:32:29.497Z STEP juliet-start
+- 2026-11-02T03:32:29.497Z STEP romeo-message
+- 2026-11-02T03:32:48.342Z STEP father-lawrence
+- 2026-11-02T03:33:11.119Z STEP apothecary
+- 2026-11-02T03:33:45.330Z STEP juliet-potion
+- 2026-11-02T03:34:48.568Z STEP finish
+- 2026-11-02T03:35:05.824Z DONE Romeo & Juliet
+- 2026-11-02T03:35:24.370Z START The Restless Ghost (attempt 1)
+- 2026-11-02T03:35:24.371Z STEP start
+- 2026-11-02T03:36:27.864Z STEP urhney
+- 2026-11-02T03:37:38.295Z STEP ghost
+- 2026-11-02T03:38:55.957Z STEP skull
+- 2026-11-02T03:39:51.840Z wizardsTower climb-down -> {"success":true,"message":"Interacted with Ladder"}
+- 2026-11-02T03:40:18.971Z STEP hand-in
+- 2026-11-02T03:41:24.705Z STEP FAILED hand-in
+- 2026-11-02T03:41:24.707Z START The Restless Ghost (attempt 2)
+- 2026-11-02T03:41:24.707Z STEP start
+- 2026-11-02T03:41:24.707Z STEP urhney
+- 2026-11-02T03:41:24.707Z STEP ghost
+- 2026-11-02T03:41:24.707Z STEP skull
+- 2026-11-02T03:41:24.707Z STEP hand-in
+- 2026-11-02T03:41:28.608Z DONE The Restless Ghost
+- 2026-11-02T03:43:19.887Z START Vampyre Slayer (attempt 1)
+- 2026-11-02T03:43:19.888Z STEP morgan-and-garlic
+- 2026-11-02T03:44:39.922Z STEP prep
+- 2026-11-02T03:46:33.319Z STEP stake
+- 2026-11-02T03:49:23.949Z STEP slay
+- 2026-11-02T03:53:47.564Z STEP FAILED slay
+- 2026-11-02T03:53:47.566Z START Vampyre Slayer (attempt 2)
+- 2026-11-02T03:53:47.566Z STEP morgan-and-garlic
+- 2026-11-02T03:54:54.716Z START Doric's Quest (attempt 1)
+- 2026-11-02T03:54:54.717Z STEP prep
+- 2026-11-02T03:54:56.753Z lumbridgeStairs L1->L0 from (3205,3209) -> {"success":true,"message":"Interacted with Staircase"}
+- 2026-11-02T03:55:07.919Z openBank -> {"success":true,"message":"Bank opened (interfaceId: 5292)"}
+- 2026-11-02T03:55:13.067Z STEP mine-ores
+- 2026-11-02T03:57:08.574Z STEP hand-in
+- 2026-11-02T03:58:19.387Z DONE Doric's Quest
+- 2026-11-02T03:58:52.709Z START Vampyre Slayer (attempt 1)
+- 2026-11-02T03:58:52.710Z STEP morgan-and-garlic
+- 2026-11-02T04:00:20.834Z STEP prep
+- 2026-11-02T04:04:51.027Z STEP stake
+- 2026-11-02T04:06:33.742Z STEP slay
+- 2026-11-02T04:09:30.247Z DONE Vampyre Slayer
+- 2026-11-02T04:10:05.925Z START Witch's Potion (attempt 1)
+- 2026-11-02T04:10:05.926Z STEP start-and-rat
+- 2026-11-02T04:10:41.910Z openBank -> {"success":true,"message":"Bank opened (interfaceId: 5292)"}
+- 2026-11-02T04:11:58.333Z STEP ingredients
+- 2026-11-02T04:13:07.940Z STEP hand-in
+- 2026-11-02T04:13:22.396Z DONE Witch's Potion
+- 2026-11-02T04:26:58.342Z START Prince Ali Rescue (attempt 1)
+- 2026-11-02T04:26:58.343Z STEP start-hassan-osman
+- 2026-11-02T04:30:20.832Z STEP varrock-items
+- 2026-11-02T04:38:19.782Z STEP aggie-paste-and-dye
+- 2026-11-02T04:38:19.785Z STEP FAILED aggie-paste-and-dye
+- 2026-11-02T04:38:20.757Z START Prince Ali Rescue (attempt 2)
+- 2026-11-02T04:38:20.757Z STEP start-hassan-osman
+- 2026-11-02T04:41:36.127Z STEP varrock-items
+- 2026-11-02T04:41:36.128Z STEP aggie-paste-and-dye
+- 2026-11-02T04:41:36.128Z STEP FAILED aggie-paste-and-dye
+- 2026-11-02T04:44:23.906Z START Prince Ali Rescue (attempt 1)
+- 2026-11-02T04:44:23.907Z STEP start-hassan-osman
+- 2026-11-02T04:45:30.568Z STEP varrock-items
+- 2026-11-02T04:45:30.570Z STEP aggie-paste-and-dye
+- 2026-11-02T04:52:15.359Z STEP FAILED aggie-paste-and-dye
+- 2026-11-02T04:52:16.325Z START Prince Ali Rescue (attempt 2)
+- 2026-11-02T04:52:16.325Z STEP start-hassan-osman
+- 2026-11-02T04:53:27.705Z STEP varrock-items
+- 2026-11-02T04:53:27.706Z STEP aggie-paste-and-dye
+- 2026-11-02T04:57:33.953Z START Prince Ali Rescue (attempt 1)
+- 2026-11-02T04:57:33.954Z STEP start-hassan-osman
+- 2026-11-02T05:00:39.587Z START Prince Ali Rescue (attempt 1)
+- 2026-11-02T05:00:39.596Z STEP start-hassan-osman
+- 2026-11-02T05:00:39.597Z STEP varrock-items
+- 2026-11-02T05:00:39.599Z STEP aggie-paste-and-dye
+- 2026-11-02T05:04:59.105Z STEP FAILED aggie-paste-and-dye
+- 2026-11-02T05:04:59.112Z START Prince Ali Rescue (attempt 2)
+- 2026-11-02T05:04:59.112Z STEP start-hassan-osman
+- 2026-11-02T05:04:59.112Z STEP varrock-items
+- 2026-11-02T05:04:59.113Z STEP aggie-paste-and-dye
+- 2026-11-02T05:05:18.381Z lit fire at (3165,3290)
+- 2026-11-02T05:05:28.135Z STEP FAILED aggie-paste-and-dye
+- 2026-11-02T05:06:24.783Z START Prince Ali Rescue (attempt 1)
+- 2026-11-02T05:06:24.784Z STEP start-hassan-osman
+- 2026-11-02T05:06:24.785Z STEP varrock-items
+- 2026-11-02T05:06:24.788Z STEP aggie-paste-and-dye
+- 2026-11-02T05:06:45.589Z lit fire at (3165,3290)
+- 2026-11-02T05:07:13.356Z STEP FAILED aggie-paste-and-dye
+- 2026-11-02T05:07:13.358Z START Prince Ali Rescue (attempt 2)
+- 2026-11-02T05:07:13.358Z STEP start-hassan-osman
+- 2026-11-02T05:07:13.358Z STEP varrock-items
+- 2026-11-02T05:07:13.364Z STEP aggie-paste-and-dye
+- 2026-11-02T05:07:28.467Z lit fire at (3169,3285)
+- 2026-11-02T05:08:06.835Z STEP FAILED aggie-paste-and-dye
+- 2026-11-02T05:08:06.835Z START Ernest the Chicken (attempt 1)
+- 2026-11-02T05:08:06.836Z STEP start-veronica-and-oddenstein
+- 2026-11-02T05:08:33.119Z openBank -> {"success":true,"message":"Bank opened (interfaceId: 5292)"}
+- 2026-11-02T05:09:54.219Z STEP pressure-gauge
+- 2026-11-02T05:11:11.773Z STEP rubber-tube
+- 2026-11-02T05:11:59.353Z STEP oil-can
+- 2026-11-02T05:14:02.841Z STEP hand-in
+- 2026-11-02T05:14:37.980Z DONE Ernest the Chicken
+- 2026-11-02T05:15:24.187Z START Prince Ali Rescue (attempt 1)
+- 2026-11-02T05:15:24.188Z STEP start-hassan-osman
+- 2026-11-02T05:16:18.438Z openBank -> {"success":true,"message":"Bank opened (interfaceId: 5292)"}
+- 2026-11-02T05:18:52.752Z STEP varrock-items
+- 2026-11-02T05:23:36.335Z STEP aggie-paste-and-dye
+- 2026-11-02T05:26:02.118Z lit fire at (3165,3290)
+- 2026-11-02T05:28:41.509Z STEP FAILED aggie-paste-and-dye
+- 2026-11-02T05:28:41.512Z START Prince Ali Rescue (attempt 2)
+- 2026-11-02T05:28:41.512Z STEP start-hassan-osman
+- 2026-11-02T05:28:41.512Z STEP varrock-items
+- 2026-11-02T05:28:41.512Z STEP aggie-paste-and-dye
+- 2026-11-02T05:30:00.057Z STEP FAILED aggie-paste-and-dye
+- 2026-11-02T05:30:00.059Z START The Knight's Sword (attempt 1)
+- 2026-11-02T05:30:00.060Z STEP start-squire-and-reldo
+- 2026-11-02T05:30:09.910Z openBank -> {"success":true,"message":"Bank opened (interfaceId: 5292)"}
+- 2026-11-02T05:35:05.454Z STEP redberry-pie-and-iron-bars
+- 2026-11-02T05:35:24.260Z STEP FAILED redberry-pie-and-iron-bars
+- 2026-11-02T05:35:24.264Z START The Knight's Sword (attempt 2)
+- 2026-11-02T05:35:24.264Z STEP start-squire-and-reldo
+- 2026-11-02T05:35:24.264Z STEP FAILED start-squire-and-reldo
+- 2026-11-02T05:35:24.267Z START Black Knights' Fortress (attempt 1)
+- 2026-11-02T05:35:24.269Z STEP prep-and-start
+- 2026-11-02T05:35:24.275Z STEP FAILED prep-and-start
+- 2026-11-02T05:35:24.279Z START Black Knights' Fortress (attempt 2)
+- 2026-11-02T05:35:24.279Z STEP prep-and-start
+- 2026-11-02T05:35:24.279Z STEP FAILED prep-and-start
+- 2026-11-02T05:37:42.817Z START Prince Ali Rescue (attempt 1)
+- 2026-11-02T05:37:42.818Z STEP start-hassan-osman
+- 2026-11-02T05:39:40.495Z openBank -> {"success":true,"message":"Bank opened (interfaceId: 5292)"}
+- 2026-11-02T05:41:36.480Z STEP varrock-items
+- 2026-11-02T05:41:36.482Z STEP aggie-paste-and-dye
+- 2026-11-02T05:43:23.528Z lit fire at (3165,3290)

@@ -1,0 +1,582 @@
+{
+ "quest": "Prince Ali Rescue",
+ "step": "aggie-paste-and-dye",
+ "time": "2026-11-02T05:08:06.835Z",
+ "player": {
+  "name": "Qb123333",
+  "combatLevel": 42,
+  "hp": 19,
+  "maxHp": 19,
+  "x": 6976,
+  "z": 7488,
+  "worldX": 3166,
+  "worldZ": 3306,
+  "level": 0,
+  "runEnergy": 100,
+  "runWeight": 15,
+  "animId": -1,
+  "spotanimId": -1,
+  "combat": {
+   "inCombat": false,
+   "targetIndex": -1,
+   "targetType": "none",
+   "lastDamageTick": 19865
+  },
+  "isDead": false,
+  "lifeId": 2,
+  "respawnCount": 1,
+  "lastDeathTick": 12872
+ },
+ "skills": [
+  {
+   "name": "Attack",
+   "level": 68,
+   "baseLevel": 68,
+   "experience": 122185
+  },
+  {
+   "name": "Defence",
+   "level": 13,
+   "baseLevel": 13,
+   "experience": 1600
+  },
+  {
+   "name": "Strength",
+   "level": 19,
+   "baseLevel": 19,
+   "experience": 2950
+  },
+  {
+   "name": "Hitpoints",
+   "level": 19,
+   "baseLevel": 19,
+   "experience": 2940
+  },
+  {
+   "name": "Ranged",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Prayer",
+   "level": 47,
+   "baseLevel": 47,
+   "experience": 28125
+  },
+  {
+   "name": "Magic",
+   "level": 31,
+   "baseLevel": 31,
+   "experience": 8125
+  },
+  {
+   "name": "Cooking",
+   "level": 30,
+   "baseLevel": 30,
+   "experience": 7500
+  },
+  {
+   "name": "Woodcutting",
+   "level": 15,
+   "baseLevel": 15,
+   "experience": 1875
+  },
+  {
+   "name": "Fletching",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Fishing",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Firemaking",
+   "level": 19,
+   "baseLevel": 19,
+   "experience": 3000
+  },
+  {
+   "name": "Crafting",
+   "level": 25,
+   "baseLevel": 25,
+   "experience": 5000
+  },
+  {
+   "name": "Smithing",
+   "level": 2,
+   "baseLevel": 2,
+   "experience": 155
+  },
+  {
+   "name": "Mining",
+   "level": 52,
+   "baseLevel": 52,
+   "experience": 37750
+  },
+  {
+   "name": "Herblore",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Agility",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Thieving",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Stat18",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Stat19",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Runecraft",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  }
+ ],
+ "inventory": [
+  "Bronze pickaxe",
+  "Coins x105",
+  "Bronze axe",
+  "Tinderbox",
+  "Bucket",
+  "Soft clay",
+  "Pink skirt",
+  "Beer",
+  "Beer",
+  "Beer",
+  "Redberries",
+  "Bronze bar",
+  "Pot",
+  "Grain"
+ ],
+ "locs": [
+  {
+   "n": "Flour bin",
+   "x": 3166,
+   "z": 3307,
+   "id": 1782,
+   "o": [
+    "Empty"
+   ]
+  },
+  {
+   "n": "Crate",
+   "x": 3164,
+   "z": 3305,
+   "id": 354,
+   "o": [
+    "Search"
+   ]
+  },
+  {
+   "n": "Ladder",
+   "x": 3164,
+   "z": 3307,
+   "id": 1747,
+   "o": [
+    "Climb-up"
+   ]
+  },
+  {
+   "n": "Barrel",
+   "x": 3164,
+   "z": 3308,
+   "id": 362,
+   "o": []
+  },
+  {
+   "n": "Crate",
+   "x": 3165,
+   "z": 3304,
+   "id": 355,
+   "o": [
+    "Search"
+   ]
+  },
+  {
+   "n": "Stool",
+   "x": 3163,
+   "z": 3306,
+   "id": 1095,
+   "o": []
+  },
+  {
+   "n": "Sacks",
+   "x": 3163,
+   "z": 3307,
+   "id": 365,
+   "o": [
+    "Search"
+   ]
+  },
+  {
+   "n": "Large door",
+   "x": 3166,
+   "z": 3303,
+   "id": 1517,
+   "o": [
+    "Close"
+   ]
+  },
+  {
+   "n": "Large door",
+   "x": 3167,
+   "z": 3303,
+   "id": 1520,
+   "o": [
+    "Close"
+   ]
+  },
+  {
+   "n": "Crate",
+   "x": 3169,
+   "z": 3306,
+   "id": 366,
+   "o": [
+    "Search"
+   ]
+  },
+  {
+   "n": "Crate",
+   "x": 3169,
+   "z": 3307,
+   "id": 354,
+   "o": [
+    "Search"
+   ]
+  },
+  {
+   "n": "Table",
+   "x": 3166,
+   "z": 3310,
+   "id": 594,
+   "o": []
+  },
+  {
+   "n": "Crate",
+   "x": 3170,
+   "z": 3306,
+   "id": 354,
+   "o": [
+    "Search"
+   ]
+  },
+  {
+   "n": "Crate",
+   "x": 3170,
+   "z": 3307,
+   "id": 355,
+   "o": [
+    "Search"
+   ]
+  },
+  {
+   "n": "Haystack",
+   "x": 3161,
+   "z": 3301,
+   "id": 300,
+   "o": [
+    "Search"
+   ]
+  },
+  {
+   "n": "Sacks",
+   "x": 3165,
+   "z": 3301,
+   "id": 365,
+   "o": [
+    "Search"
+   ]
+  },
+  {
+   "n": "Fern",
+   "x": 3174,
+   "z": 3306,
+   "id": 1300,
+   "o": []
+  },
+  {
+   "n": "Gate",
+   "x": 3174,
+   "z": 3316,
+   "id": 1553,
+   "o": [
+    "Open"
+   ]
+  },
+  {
+   "n": "Gate",
+   "x": 3175,
+   "z": 3316,
+   "id": 1551,
+   "o": [
+    "Open"
+   ]
+  },
+  {
+   "n": "Food trough",
+   "x": 3154,
+   "z": 3317,
+   "id": 301,
+   "o": []
+  },
+  {
+   "n": "Cart",
+   "x": 3178,
+   "z": 3301,
+   "id": 307,
+   "o": []
+  },
+  {
+   "n": "Tree stump",
+   "x": 3170,
+   "z": 3293,
+   "id": 1341,
+   "o": []
+  },
+  {
+   "n": "Food trough",
+   "x": 3154,
+   "z": 3320,
+   "id": 301,
+   "o": []
+  },
+  {
+   "n": "Fern",
+   "x": 3167,
+   "z": 3320,
+   "id": 1299,
+   "o": []
+  },
+  {
+   "n": "Stones",
+   "x": 3180,
+   "z": 3312,
+   "id": 447,
+   "o": []
+  },
+  {
+   "n": "Fern",
+   "x": 3179,
+   "z": 3291,
+   "id": 1298,
+   "o": []
+  },
+  {
+   "n": "Fern",
+   "x": 3181,
+   "z": 3306,
+   "id": 1300,
+   "o": []
+  }
+ ],
+ "npcs": [
+  {
+   "n": "Farmer",
+   "id": 7,
+   "idx": 1793,
+   "x": 3157,
+   "z": 3296,
+   "o": [
+    "Attack",
+    "Pickpocket"
+   ]
+  },
+  {
+   "n": "Cow",
+   "id": 81,
+   "idx": 1795,
+   "x": 3163,
+   "z": 3316,
+   "o": [
+    "Attack"
+   ]
+  },
+  {
+   "n": "Goblin",
+   "id": 101,
+   "idx": 1792,
+   "x": 3151,
+   "z": 3298,
+   "o": [
+    "Attack"
+   ]
+  }
+ ],
+ "ground": [
+  {
+   "id": 1735,
+   "name": "Shears",
+   "count": 1,
+   "x": 3152,
+   "z": 3306,
+   "distance": 14,
+   "reachable": false
+  }
+ ],
+ "dialog": {
+  "isOpen": false,
+  "options": [],
+  "isWaiting": false,
+  "allComponents": []
+ },
+ "interface": {
+  "isOpen": false,
+  "interfaceId": -1,
+  "options": [],
+  "debugInfo": []
+ },
+ "modalOpen": false,
+ "modalInterface": -1,
+ "messages": [
+  {
+   "type": 0,
+   "text": "Congratulations, you just advanced a woodcutting level.",
+   "sender": "",
+   "tick": 23985,
+   "observationId": 29676,
+   "fromSelf": false
+  },
+  {
+   "type": 0,
+   "text": "You attempt to light the logs.",
+   "sender": "",
+   "tick": 24008,
+   "observationId": 29706,
+   "fromSelf": false
+  },
+  {
+   "type": 0,
+   "text": "The fire catches and the logs begin to burn.",
+   "sender": "",
+   "tick": 24017,
+   "observationId": 29714,
+   "fromSelf": false
+  },
+  {
+   "type": 0,
+   "text": "Congratulations, you just advanced a fire making level.",
+   "sender": "",
+   "tick": 24017,
+   "observationId": 29714,
+   "fromSelf": false
+  },
+  {
+   "type": 0,
+   "text": "You put the grain in the hopper.",
+   "sender": "",
+   "tick": 24041,
+   "observationId": 29751,
+   "fromSelf": false
+  },
+  {
+   "type": 0,
+   "text": "The flour bin is already empty.",
+   "sender": "",
+   "tick": 24050,
+   "observationId": 29763,
+   "fromSelf": false
+  },
+  {
+   "type": 0,
+   "text": "You swing your axe at the tree.",
+   "sender": "",
+   "tick": 24103,
+   "observationId": 29819,
+   "fromSelf": false
+  },
+  {
+   "type": 0,
+   "text": "You get some logs.",
+   "sender": "",
+   "tick": 24104,
+   "observationId": 29821,
+   "fromSelf": false
+  },
+  {
+   "type": 0,
+   "text": "Congratulations, you just advanced a woodcutting level.",
+   "sender": "",
+   "tick": 24106,
+   "observationId": 29822,
+   "fromSelf": false
+  },
+  {
+   "type": 0,
+   "text": "You attempt to light the logs.",
+   "sender": "",
+   "tick": 24116,
+   "observationId": 29838,
+   "fromSelf": false
+  },
+  {
+   "type": 0,
+   "text": "The fire catches and the logs begin to burn.",
+   "sender": "",
+   "tick": 24124,
+   "observationId": 29846,
+   "fromSelf": false
+  },
+  {
+   "type": 0,
+   "text": "Congratulations, you just advanced a fire making level.",
+   "sender": "",
+   "tick": 24124,
+   "observationId": 29846,
+   "fromSelf": false
+  },
+  {
+   "type": 0,
+   "text": "You pick some grain.",
+   "sender": "",
+   "tick": 24136,
+   "observationId": 29866,
+   "fromSelf": false
+  },
+  {
+   "type": 0,
+   "text": "There is already grain in the hopper.",
+   "sender": "",
+   "tick": 24162,
+   "observationId": 29901,
+   "fromSelf": false
+  },
+  {
+   "type": 0,
+   "text": "You operate the hopper. The grain slides down the chute.",
+   "sender": "",
+   "tick": 24199,
+   "observationId": 29939,
+   "fromSelf": false
+  }
+ ],
+ "opFeedback": {
+  "mapFlagUnsetCount": 3677,
+  "lastMapFlagUnsetTick": 24209,
+  "opRejectedCount": 967,
+  "lastOpRejectedTick": 24209
+ },
+ "chat": []
+}

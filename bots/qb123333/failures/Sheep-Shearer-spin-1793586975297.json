@@ -1,0 +1,843 @@
+{
+ "quest": "Sheep Shearer",
+ "step": "spin",
+ "time": "2026-11-02T02:36:15.297Z",
+ "player": {
+  "name": "Qb123333",
+  "combatLevel": 3,
+  "hp": 10,
+  "maxHp": 10,
+  "x": 8218,
+  "z": 7194,
+  "worldX": 3216,
+  "worldZ": 3208,
+  "level": 0,
+  "runEnergy": 100,
+  "runWeight": 0,
+  "animId": -1,
+  "spotanimId": -1,
+  "combat": {
+   "inCombat": false,
+   "targetIndex": -1,
+   "targetType": "none",
+   "lastDamageTick": 229
+  },
+  "isDead": false,
+  "lifeId": 1,
+  "respawnCount": 0,
+  "lastDeathTick": null
+ },
+ "inventory": [
+  "Wool",
+  "Wool",
+  "Wool",
+  "Wool",
+  "Shears",
+  "Wool",
+  "Wool",
+  "Wool",
+  "Wool",
+  "Wool",
+  "Wool",
+  "Wool",
+  "Wool",
+  "Wool",
+  "Wool",
+  "Wool",
+  "Wool",
+  "Wool",
+  "Wool",
+  "Wool",
+  "Wool"
+ ],
+ "locs": [
+  {
+   "n": "Candles",
+   "x": 3213,
+   "z": 3209,
+   "id": 202,
+   "o": []
+  },
+  {
+   "n": "Oak",
+   "x": 3218,
+   "z": 3205,
+   "id": 1281,
+   "o": [
+    "Chop down"
+   ]
+  },
+  {
+   "n": "Door",
+   "x": 3215,
+   "z": 3212,
+   "id": 1537,
+   "o": [
+    "Close"
+   ]
+  },
+  {
+   "n": "Candles",
+   "x": 3211,
+   "z": 3209,
+   "id": 202,
+   "o": []
+  },
+  {
+   "n": "Table",
+   "x": 3211,
+   "z": 3212,
+   "id": 594,
+   "o": []
+  },
+  {
+   "n": "Stool",
+   "x": 3211,
+   "z": 3213,
+   "id": 1102,
+   "o": []
+  },
+  {
+   "n": "Flower",
+   "x": 3214,
+   "z": 3203,
+   "id": 1187,
+   "o": []
+  },
+  {
+   "n": "Small fern",
+   "x": 3218,
+   "z": 3203,
+   "id": 1173,
+   "o": []
+  },
+  {
+   "n": "Flower",
+   "x": 3221,
+   "z": 3204,
+   "id": 1188,
+   "o": []
+  },
+  {
+   "n": "Flower",
+   "x": 3221,
+   "z": 3206,
+   "id": 1188,
+   "o": []
+  },
+  {
+   "n": "Fountain",
+   "x": 3221,
+   "z": 3210,
+   "id": 879,
+   "o": []
+  },
+  {
+   "n": "Flowers",
+   "x": 3222,
+   "z": 3205,
+   "id": 1192,
+   "o": []
+  },
+  {
+   "n": "Flower",
+   "x": 3209,
+   "z": 3201,
+   "id": 1187,
+   "o": []
+  },
+  {
+   "n": "Candles",
+   "x": 3209,
+   "z": 3209,
+   "id": 202,
+   "o": []
+  },
+  {
+   "n": "Table",
+   "x": 3209,
+   "z": 3212,
+   "id": 594,
+   "o": []
+  },
+  {
+   "n": "Stool",
+   "x": 3209,
+   "z": 3213,
+   "id": 1102,
+   "o": []
+  },
+  {
+   "n": "Cooking range",
+   "x": 3212,
+   "z": 3215,
+   "id": 114,
+   "o": []
+  },
+  {
+   "n": "Portrait",
+   "x": 3213,
+   "z": 3215,
+   "id": 890,
+   "o": []
+  },
+  {
+   "n": "Flower",
+   "x": 3223,
+   "z": 3206,
+   "id": 1188,
+   "o": []
+  },
+  {
+   "n": "Door",
+   "x": 3208,
+   "z": 3212,
+   "id": 1531,
+   "o": [
+    "Close"
+   ]
+  },
+  {
+   "n": "Trapdoor",
+   "x": 3209,
+   "z": 3216,
+   "id": 1568,
+   "o": [
+    "Open"
+   ]
+  },
+  {
+   "n": "Flower",
+   "x": 3224,
+   "z": 3207,
+   "id": 1188,
+   "o": []
+  },
+  {
+   "n": "Barrel",
+   "x": 3210,
+   "z": 3217,
+   "id": 364,
+   "o": []
+  },
+  {
+   "n": "Barrel",
+   "x": 3211,
+   "z": 3217,
+   "id": 362,
+   "o": []
+  },
+  {
+   "n": "Barrel",
+   "x": 3212,
+   "z": 3217,
+   "id": 362,
+   "o": []
+  },
+  {
+   "n": "Bush",
+   "x": 3217,
+   "z": 3217,
+   "id": 1124,
+   "o": []
+  },
+  {
+   "n": "Bush",
+   "x": 3218,
+   "z": 3217,
+   "id": 1124,
+   "o": []
+  },
+  {
+   "n": "Bush",
+   "x": 3219,
+   "z": 3217,
+   "id": 1124,
+   "o": []
+  },
+  {
+   "n": "Bush",
+   "x": 3220,
+   "z": 3217,
+   "id": 1124,
+   "o": []
+  },
+  {
+   "n": "Bush",
+   "x": 3223,
+   "z": 3217,
+   "id": 1124,
+   "o": []
+  },
+  {
+   "n": "Fern",
+   "x": 3225,
+   "z": 3205,
+   "id": 1300,
+   "o": []
+  },
+  {
+   "n": "Crate",
+   "x": 3206,
+   "z": 3212,
+   "id": 366,
+   "o": [
+    "Search"
+   ]
+  },
+  {
+   "n": "Stool",
+   "x": 3206,
+   "z": 3215,
+   "id": 1102,
+   "o": []
+  },
+  {
+   "n": "Door",
+   "x": 3207,
+   "z": 3218,
+   "id": 1537,
+   "o": [
+    "Close"
+   ]
+  },
+  {
+   "n": "Landscape",
+   "x": 3213,
+   "z": 3218,
+   "id": 894,
+   "o": []
+  },
+  {
+   "n": "Large door",
+   "x": 3216,
+   "z": 3218,
+   "id": 1517,
+   "o": [
+    "Close"
+   ]
+  },
+  {
+   "n": "Flower",
+   "x": 3226,
+   "z": 3210,
+   "id": 1187,
+   "o": []
+  },
+  {
+   "n": "Flowers",
+   "x": 3226,
+   "z": 3211,
+   "id": 1196,
+   "o": []
+  },
+  {
+   "n": "Flowers",
+   "x": 3226,
+   "z": 3212,
+   "id": 1196,
+   "o": []
+  },
+  {
+   "n": "Flower",
+   "x": 3226,
+   "z": 3213,
+   "id": 1187,
+   "o": []
+  },
+  {
+   "n": "Door",
+   "x": 3226,
+   "z": 3214,
+   "id": 1530,
+   "o": [
+    "Open"
+   ]
+  },
+  {
+   "n": "Flower",
+   "x": 3205,
+   "z": 3201,
+   "id": 1187,
+   "o": []
+  },
+  {
+   "n": "Barrel",
+   "x": 3205,
+   "z": 3210,
+   "id": 362,
+   "o": []
+  },
+  {
+   "n": "Barrel",
+   "x": 3205,
+   "z": 3211,
+   "id": 362,
+   "o": []
+  },
+  {
+   "n": "Crate",
+   "x": 3205,
+   "z": 3212,
+   "id": 354,
+   "o": [
+    "Search"
+   ]
+  },
+  {
+   "n": "Cooking shelves",
+   "x": 3205,
+   "z": 3213,
+   "id": 1013,
+   "o": []
+  },
+  {
+   "n": "Sink",
+   "x": 3205,
+   "z": 3215,
+   "id": 873,
+   "o": []
+  },
+  {
+   "n": "Crate",
+   "x": 3205,
+   "z": 3217,
+   "id": 355,
+   "o": [
+    "Search"
+   ]
+  },
+  {
+   "n": "Potted fern",
+   "x": 3205,
+   "z": 3218,
+   "id": 1152,
+   "o": []
+  },
+  {
+   "n": "Throne",
+   "x": 3209,
+   "z": 3219,
+   "id": 1097,
+   "o": []
+  },
+  {
+   "n": "Throne",
+   "x": 3210,
+   "z": 3219,
+   "id": 1097,
+   "o": []
+  },
+  {
+   "n": "Suit of armour",
+   "x": 3213,
+   "z": 3219,
+   "id": 817,
+   "o": []
+  },
+  {
+   "n": "Large door",
+   "x": 3216,
+   "z": 3219,
+   "id": 1520,
+   "o": [
+    "Close"
+   ]
+  },
+  {
+   "n": "Staircase",
+   "x": 3204,
+   "z": 3207,
+   "id": 1738,
+   "o": [
+    "Climb-up"
+   ]
+  },
+  {
+   "n": "Fireplace",
+   "x": 3205,
+   "z": 3220,
+   "id": 2725,
+   "o": []
+  },
+  {
+   "n": "Chair",
+   "x": 3208,
+   "z": 3220,
+   "id": 1088,
+   "o": []
+  },
+  {
+   "n": "Table",
+   "x": 3209,
+   "z": 3220,
+   "id": 597,
+   "o": []
+  },
+  {
+   "n": "Large door",
+   "x": 3212,
+   "z": 3220,
+   "id": 1517,
+   "o": [
+    "Close"
+   ]
+  },
+  {
+   "n": "Bush",
+   "x": 3217,
+   "z": 3220,
+   "id": 1124,
+   "o": []
+  },
+  {
+   "n": "Soil",
+   "x": 3218,
+   "z": 3196,
+   "id": 2382,
+   "o": []
+  }
+ ],
+ "npcs": [
+  {
+   "n": "Woman",
+   "idx": 2833,
+   "o": [
+    "Talk-to",
+    "Attack",
+    "Pickpocket"
+   ]
+  },
+  {
+   "n": "Rat",
+   "idx": 2820,
+   "o": [
+    "Attack"
+   ]
+  },
+  {
+   "n": "Cook",
+   "idx": 2828,
+   "o": [
+    "Talk-to"
+   ]
+  },
+  {
+   "n": "Rat",
+   "idx": 2818,
+   "o": [
+    "Attack"
+   ]
+  },
+  {
+   "n": "Rat",
+   "idx": 2817,
+   "o": [
+    "Attack"
+   ]
+  },
+  {
+   "n": "Rat",
+   "idx": 2816,
+   "o": [
+    "Attack"
+   ]
+  },
+  {
+   "n": "Man",
+   "idx": 2836,
+   "o": [
+    "Talk-to",
+    "Attack",
+    "Pickpocket"
+   ]
+  },
+  {
+   "n": "Rat",
+   "idx": 2821,
+   "o": [
+    "Attack"
+   ]
+  },
+  {
+   "n": "Hans",
+   "idx": 2826,
+   "o": [
+    "Talk-to"
+   ]
+  },
+  {
+   "n": "Man",
+   "idx": 2832,
+   "o": [
+    "Talk-to",
+    "Attack",
+    "Pickpocket"
+   ]
+  },
+  {
+   "n": "Rat",
+   "idx": 1790,
+   "o": [
+    "Attack"
+   ]
+  },
+  {
+   "n": "Rat",
+   "idx": 1783,
+   "o": [
+    "Attack"
+   ]
+  },
+  {
+   "n": "Rat",
+   "idx": 2819,
+   "o": [
+    "Attack"
+   ]
+  },
+  {
+   "n": "Butterfly",
+   "idx": 2846,
+   "o": []
+  },
+  {
+   "n": "Rat",
+   "idx": 2845,
+   "o": [
+    "Attack"
+   ]
+  },
+  {
+   "n": "Rat",
+   "idx": 2823,
+   "o": [
+    "Attack"
+   ]
+  },
+  {
+   "n": "Rat",
+   "idx": 2824,
+   "o": [
+    "Attack"
+   ]
+  },
+  {
+   "n": "Rat",
+   "idx": 2837,
+   "o": [
+    "Attack"
+   ]
+  }
+ ],
+ "ground": [
+  {
+   "id": 1935,
+   "name": "Jug",
+   "count": 1,
+   "x": 3212,
+   "z": 3212,
+   "distance": 4,
+   "reachable": false
+  },
+  {
+   "id": 1931,
+   "name": "Pot",
+   "count": 1,
+   "x": 3210,
+   "z": 3212,
+   "distance": 6,
+   "reachable": false
+  },
+  {
+   "id": 946,
+   "name": "Knife",
+   "count": 1,
+   "x": 3224,
+   "z": 3202,
+   "distance": 8,
+   "reachable": true
+  },
+  {
+   "id": 558,
+   "name": "Mind rune",
+   "count": 1,
+   "x": 3206,
+   "z": 3208,
+   "distance": 10,
+   "reachable": true
+  }
+ ],
+ "dialog": {
+  "isOpen": false,
+  "options": [],
+  "isWaiting": false,
+  "allComponents": []
+ },
+ "interface": {
+  "isOpen": false,
+  "interfaceId": -1,
+  "options": [],
+  "debugInfo": []
+ },
+ "messages": [
+  {
+   "type": 0,
+   "text": "This sheep has already been shorn.",
+   "sender": "",
+   "tick": 402,
+   "observationId": 578,
+   "fromSelf": false
+  },
+  {
+   "type": 0,
+   "text": "You get some wool.",
+   "sender": "",
+   "tick": 440,
+   "observationId": 616,
+   "fromSelf": false
+  },
+  {
+   "type": 0,
+   "text": "This sheep has already been shorn.",
+   "sender": "",
+   "tick": 445,
+   "observationId": 628,
+   "fromSelf": false
+  },
+  {
+   "type": 0,
+   "text": "You get some wool.",
+   "sender": "",
+   "tick": 481,
+   "observationId": 666,
+   "fromSelf": false
+  },
+  {
+   "type": 0,
+   "text": "I can't reach that!",
+   "sender": "",
+   "tick": 484,
+   "observationId": 675,
+   "fromSelf": false
+  },
+  {
+   "type": 0,
+   "text": "You get some wool.",
+   "sender": "",
+   "tick": 503,
+   "observationId": 695,
+   "fromSelf": false
+  },
+  {
+   "type": 0,
+   "text": "This sheep has already been shorn.",
+   "sender": "",
+   "tick": 506,
+   "observationId": 702,
+   "fromSelf": false
+  },
+  {
+   "type": 0,
+   "text": "You get some wool.",
+   "sender": "",
+   "tick": 626,
+   "observationId": 856,
+   "fromSelf": false
+  },
+  {
+   "type": 0,
+   "text": "This sheep has already been shorn.",
+   "sender": "",
+   "tick": 630,
+   "observationId": 863,
+   "fromSelf": false
+  },
+  {
+   "type": 0,
+   "text": "You get some wool.",
+   "sender": "",
+   "tick": 671,
+   "observationId": 906,
+   "fromSelf": false
+  },
+  {
+   "type": 0,
+   "text": "This sheep has already been shorn.",
+   "sender": "",
+   "tick": 674,
+   "observationId": 913,
+   "fromSelf": false
+  },
+  {
+   "type": 0,
+   "text": "You get some wool.",
+   "sender": "",
+   "tick": 714,
+   "observationId": 956,
+   "fromSelf": false
+  },
+  {
+   "type": 0,
+   "text": "I can't reach that!",
+   "sender": "",
+   "tick": 1094,
+   "observationId": 1412,
+   "fromSelf": false
+  },
+  {
+   "type": 0,
+   "text": "I can't reach that!",
+   "sender": "",
+   "tick": 1103,
+   "observationId": 1427,
+   "fromSelf": false
+  },
+  {
+   "type": 0,
+   "text": "I can't reach that!",
+   "sender": "",
+   "tick": 1111,
+   "observationId": 1442,
+   "fromSelf": false
+  }
+ ],
+ "opFeedback": {
+  "mapFlagUnsetCount": 228,
+  "lastMapFlagUnsetTick": 1435,
+  "opRejectedCount": 14,
+  "lastOpRejectedTick": 1375
+ },
+ "stateKeys": [
+  "tick",
+  "combatTargetTelemetryVersion",
+  "revision",
+  "player",
+  "skills",
+  "inventory",
+  "equipment",
+  "combatStyle",
+  "nearbyNpcs",
+  "nearbyPlayers",
+  "nearbyLocs",
+  "groundItems",
+  "gameMessages",
+  "recentDialogs",
+  "menuActions",
+  "shop",
+  "bank",
+  "trade",
+  "ge",
+  "inGame",
+  "combatEvents",
+  "dialog",
+  "interface",
+  "modalOpen",
+  "modalInterface",
+  "prayers",
+  "isSkulled",
+  "autoRetaliateEnabled",
+  "opFeedback"
+ ],
+ "chat": []
+}

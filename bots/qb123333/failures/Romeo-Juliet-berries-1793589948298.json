@@ -1,0 +1,717 @@
+{
+ "quest": "Romeo & Juliet",
+ "step": "berries",
+ "time": "2026-11-02T03:25:48.297Z",
+ "player": {
+  "name": "Qb123333",
+  "combatLevel": 3,
+  "hp": 10,
+  "maxHp": 10,
+  "x": 6336,
+  "z": 6464,
+  "worldX": 3105,
+  "worldZ": 3162,
+  "level": 0,
+  "runEnergy": 100,
+  "runWeight": 0,
+  "animId": -1,
+  "spotanimId": -1,
+  "combat": {
+   "inCombat": false,
+   "targetIndex": -1,
+   "targetType": "none",
+   "lastDamageTick": 8308
+  },
+  "isDead": false,
+  "lifeId": 1,
+  "respawnCount": 0,
+  "lastDeathTick": null
+ },
+ "skills": [
+  {
+   "name": "Attack",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Defence",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Strength",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Hitpoints",
+   "level": 10,
+   "baseLevel": 10,
+   "experience": 980
+  },
+  {
+   "name": "Ranged",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Prayer",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Magic",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Cooking",
+   "level": 30,
+   "baseLevel": 30,
+   "experience": 7500
+  },
+  {
+   "name": "Woodcutting",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Fletching",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Fishing",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Firemaking",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Crafting",
+   "level": 25,
+   "baseLevel": 25,
+   "experience": 5000
+  },
+  {
+   "name": "Smithing",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Mining",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Herblore",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Agility",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Thieving",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Stat18",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Stat19",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Runecraft",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  }
+ ],
+ "inventory": [
+  "Coins x60",
+  "Air talisman",
+  "Shears"
+ ],
+ "locs": [
+  {
+   "n": "Ladder",
+   "x": 3104,
+   "z": 3162,
+   "id": 2147,
+   "o": [
+    "Climb-down"
+   ]
+  },
+  {
+   "n": "Door",
+   "x": 3106,
+   "z": 3162,
+   "id": 1537,
+   "o": [
+    "Close"
+   ]
+  },
+  {
+   "n": "Candles",
+   "x": 3106,
+   "z": 3164,
+   "id": 202,
+   "o": []
+  },
+  {
+   "n": "Candles",
+   "x": 3107,
+   "z": 3163,
+   "id": 202,
+   "o": []
+  },
+  {
+   "n": "Staircase",
+   "x": 3103,
+   "z": 3159,
+   "id": 1738,
+   "o": [
+    "Climb-up"
+   ]
+  },
+  {
+   "n": "Heather",
+   "x": 3101,
+   "z": 3164,
+   "id": 1180,
+   "o": []
+  },
+  {
+   "n": "Bookcase",
+   "x": 3104,
+   "z": 3158,
+   "id": 380,
+   "o": [
+    "Search"
+   ]
+  },
+  {
+   "n": "Mystical wall chart",
+   "x": 3106,
+   "z": 3158,
+   "id": 908,
+   "o": []
+  },
+  {
+   "n": "Door",
+   "x": 3109,
+   "z": 3166,
+   "id": 1536,
+   "o": [
+    "Open"
+   ]
+  },
+  {
+   "n": "Heather",
+   "x": 3101,
+   "z": 3157,
+   "id": 1180,
+   "o": []
+  },
+  {
+   "n": "Evil eye decoration",
+   "x": 3108,
+   "z": 3167,
+   "id": 910,
+   "o": []
+  },
+  {
+   "n": "Heather",
+   "x": 3099,
+   "z": 3159,
+   "id": 1179,
+   "o": []
+  },
+  {
+   "n": "Standing torch",
+   "x": 3099,
+   "z": 3163,
+   "id": 724,
+   "o": []
+  },
+  {
+   "n": "Standing torch",
+   "x": 3102,
+   "z": 3168,
+   "id": 724,
+   "o": []
+  },
+  {
+   "n": "Table",
+   "x": 3111,
+   "z": 3159,
+   "id": 595,
+   "o": []
+  },
+  {
+   "n": "Door",
+   "x": 3111,
+   "z": 3162,
+   "id": 1537,
+   "o": [
+    "Close"
+   ]
+  },
+  {
+   "n": "Bookcase",
+   "x": 3108,
+   "z": 3155,
+   "id": 380,
+   "o": [
+    "Search"
+   ]
+  },
+  {
+   "n": "Bookcase",
+   "x": 3109,
+   "z": 3155,
+   "id": 380,
+   "o": [
+    "Search"
+   ]
+  },
+  {
+   "n": "Table",
+   "x": 3111,
+   "z": 3155,
+   "id": 595,
+   "o": []
+  },
+  {
+   "n": "Heather",
+   "x": 3102,
+   "z": 3170,
+   "id": 1179,
+   "o": []
+  },
+  {
+   "n": "Tree",
+   "x": 3105,
+   "z": 3170,
+   "id": 1278,
+   "o": [
+    "Chop down"
+   ]
+  },
+  {
+   "n": "Heather",
+   "x": 3109,
+   "z": 3170,
+   "id": 1179,
+   "o": []
+  },
+  {
+   "n": "Bookcase",
+   "x": 3113,
+   "z": 3158,
+   "id": 380,
+   "o": [
+    "Search"
+   ]
+  },
+  {
+   "n": "Bookcase",
+   "x": 3113,
+   "z": 3160,
+   "id": 380,
+   "o": [
+    "Search"
+   ]
+  },
+  {
+   "n": "Standing torch",
+   "x": 3101,
+   "z": 3153,
+   "id": 724,
+   "o": []
+  },
+  {
+   "n": "Standing torch",
+   "x": 3109,
+   "z": 3171,
+   "id": 724,
+   "o": []
+  },
+  {
+   "n": "Bookcase",
+   "x": 3114,
+   "z": 3158,
+   "id": 380,
+   "o": [
+    "Search"
+   ]
+  },
+  {
+   "n": "Bookcase",
+   "x": 3114,
+   "z": 3160,
+   "id": 380,
+   "o": [
+    "Search"
+   ]
+  },
+  {
+   "n": "Standing torch",
+   "x": 3105,
+   "z": 3172,
+   "id": 724,
+   "o": []
+  },
+  {
+   "n": "Fern",
+   "x": 3113,
+   "z": 3152,
+   "id": 1300,
+   "o": []
+  },
+  {
+   "n": "Fern",
+   "x": 3110,
+   "z": 3151,
+   "id": 1299,
+   "o": []
+  },
+  {
+   "n": "Standing torch",
+   "x": 3116,
+   "z": 3153,
+   "id": 724,
+   "o": []
+  },
+  {
+   "n": "Bench",
+   "x": 3116,
+   "z": 3165,
+   "id": 1106,
+   "o": []
+  },
+  {
+   "n": "Fountain",
+   "x": 3116,
+   "z": 3167,
+   "id": 879,
+   "o": []
+  },
+  {
+   "n": "Oak",
+   "x": 3104,
+   "z": 3150,
+   "id": 1281,
+   "o": [
+    "Chop down"
+   ]
+  },
+  {
+   "n": "Fern",
+   "x": 3118,
+   "z": 3156,
+   "id": 1300,
+   "o": []
+  },
+  {
+   "n": "Fern",
+   "x": 3118,
+   "z": 3162,
+   "id": 1300,
+   "o": []
+  },
+  {
+   "n": "Standing torch",
+   "x": 3103,
+   "z": 3148,
+   "id": 724,
+   "o": []
+  },
+  {
+   "n": "Standing torch",
+   "x": 3112,
+   "z": 3148,
+   "id": 724,
+   "o": []
+  },
+  {
+   "n": "Tree stump",
+   "x": 3119,
+   "z": 3165,
+   "id": 1341,
+   "o": []
+  },
+  {
+   "n": "Standing torch",
+   "x": 3119,
+   "z": 3169,
+   "id": 724,
+   "o": []
+  },
+  {
+   "n": "Standing torch",
+   "x": 3120,
+   "z": 3157,
+   "id": 724,
+   "o": []
+  },
+  {
+   "n": "Standing torch",
+   "x": 3120,
+   "z": 3163,
+   "id": 724,
+   "o": []
+  }
+ ],
+ "npcs": [
+  {
+   "n": "Wizard",
+   "id": 13,
+   "idx": 4282,
+   "x": 3107,
+   "z": 3162,
+   "o": [
+    "Attack"
+   ]
+  },
+  {
+   "n": "Wizard",
+   "id": 13,
+   "idx": 4281,
+   "x": 3106,
+   "z": 3158,
+   "o": [
+    "Attack"
+   ]
+  },
+  {
+   "n": "Wizard",
+   "id": 13,
+   "idx": 4283,
+   "x": 3111,
+   "z": 3167,
+   "o": [
+    "Attack"
+   ]
+  },
+  {
+   "n": "Wizard",
+   "id": 13,
+   "idx": 4284,
+   "x": 3111,
+   "z": 3171,
+   "o": [
+    "Attack"
+   ]
+  }
+ ],
+ "ground": [
+  {
+   "id": 1511,
+   "name": "Logs",
+   "count": 1,
+   "x": 3106,
+   "z": 3160,
+   "distance": 2,
+   "reachable": true
+  },
+  {
+   "id": 1511,
+   "name": "Logs",
+   "count": 1,
+   "x": 3105,
+   "z": 3159,
+   "distance": 3,
+   "reachable": true
+  },
+  {
+   "id": 1511,
+   "name": "Logs",
+   "count": 1,
+   "x": 3106,
+   "z": 3159,
+   "distance": 3,
+   "reachable": true
+  },
+  {
+   "id": 1061,
+   "name": "Leather boots",
+   "count": 1,
+   "x": 3111,
+   "z": 3159,
+   "distance": 6,
+   "reachable": false
+  }
+ ],
+ "dialog": {
+  "isOpen": false,
+  "options": [],
+  "isWaiting": false,
+  "allComponents": []
+ },
+ "interface": {
+  "isOpen": false,
+  "interfaceId": -1,
+  "options": [],
+  "debugInfo": []
+ },
+ "modalOpen": false,
+ "modalInterface": -1,
+ "messages": [
+  {
+   "type": 0,
+   "text": "I can't reach that!",
+   "sender": "",
+   "tick": 6495,
+   "observationId": 7374,
+   "fromSelf": false
+  },
+  {
+   "type": 0,
+   "text": "I can't reach that!",
+   "sender": "",
+   "tick": 6497,
+   "observationId": 7378,
+   "fromSelf": false
+  },
+  {
+   "type": 0,
+   "text": "I can't reach that!",
+   "sender": "",
+   "tick": 6519,
+   "observationId": 7400,
+   "fromSelf": false
+  },
+  {
+   "type": 0,
+   "text": "I can't reach that!",
+   "sender": "",
+   "tick": 6521,
+   "observationId": 7405,
+   "fromSelf": false
+  },
+  {
+   "type": 0,
+   "text": "I can't reach that!",
+   "sender": "",
+   "tick": 6525,
+   "observationId": 7410,
+   "fromSelf": false
+  },
+  {
+   "type": 0,
+   "text": "I can't reach that!",
+   "sender": "",
+   "tick": 6546,
+   "observationId": 7432,
+   "fromSelf": false
+  },
+  {
+   "type": 0,
+   "text": "I can't reach that!",
+   "sender": "",
+   "tick": 6548,
+   "observationId": 7437,
+   "fromSelf": false
+  },
+  {
+   "type": 0,
+   "text": "I can't reach that!",
+   "sender": "",
+   "tick": 6551,
+   "observationId": 7441,
+   "fromSelf": false
+  },
+  {
+   "type": 0,
+   "text": "You try and open the door...",
+   "sender": "",
+   "tick": 8081,
+   "observationId": 9244,
+   "fromSelf": false
+  },
+  {
+   "type": 0,
+   "text": "The door is locked tight, I can't open it.",
+   "sender": "",
+   "tick": 8083,
+   "observationId": 9246,
+   "fromSelf": false
+  },
+  {
+   "type": 0,
+   "text": "I can't reach that!",
+   "sender": "",
+   "tick": 8376,
+   "observationId": 9681,
+   "fromSelf": false
+  },
+  {
+   "type": 0,
+   "text": "I can't reach that!",
+   "sender": "",
+   "tick": 8396,
+   "observationId": 9702,
+   "fromSelf": false
+  },
+  {
+   "type": 0,
+   "text": "I can't reach that!",
+   "sender": "",
+   "tick": 8398,
+   "observationId": 9706,
+   "fromSelf": false
+  },
+  {
+   "type": 0,
+   "text": "I can't reach that!",
+   "sender": "",
+   "tick": 8400,
+   "observationId": 9710,
+   "fromSelf": false
+  },
+  {
+   "type": 0,
+   "text": "Congratulations! Quest complete!",
+   "sender": "",
+   "tick": 8500,
+   "observationId": 9876,
+   "fromSelf": false
+  }
+ ],
+ "opFeedback": {
+  "mapFlagUnsetCount": 719,
+  "lastMapFlagUnsetTick": 8468,
+  "opRejectedCount": 47,
+  "lastOpRejectedTick": 8458
+ },
+ "chat": []
+}

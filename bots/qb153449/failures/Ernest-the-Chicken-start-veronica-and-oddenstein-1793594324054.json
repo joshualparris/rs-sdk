@@ -1,0 +1,701 @@
+{
+ "quest": "Ernest the Chicken",
+ "step": "start-veronica-and-oddenstein",
+ "time": "2026-11-02T04:38:44.053Z",
+ "player": {
+  "name": "Qb153449",
+  "combatLevel": 3,
+  "hp": 10,
+  "maxHp": 10,
+  "x": 5871,
+  "z": 6080,
+  "worldX": 3109,
+  "worldZ": 3367,
+  "level": 1,
+  "runEnergy": 100,
+  "runWeight": 0,
+  "animId": -1,
+  "spotanimId": -1,
+  "combat": {
+   "inCombat": false,
+   "targetIndex": -1,
+   "targetType": "none",
+   "lastDamageTick": 104
+  },
+  "isDead": false,
+  "lifeId": 1,
+  "respawnCount": 0,
+  "lastDeathTick": null
+ },
+ "skills": [
+  {
+   "name": "Attack",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Defence",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Strength",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Hitpoints",
+   "level": 10,
+   "baseLevel": 10,
+   "experience": 980
+  },
+  {
+   "name": "Ranged",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Prayer",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Magic",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Cooking",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Woodcutting",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Fletching",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Fishing",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Firemaking",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Crafting",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Smithing",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Mining",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Herblore",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Agility",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Thieving",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Stat18",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Stat19",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Runecraft",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  }
+ ],
+ "inventory": [
+  "Fish food"
+ ],
+ "locs": [
+  {
+   "n": "Spooky picture",
+   "x": 3109,
+   "z": 3368,
+   "id": 955,
+   "o": []
+  },
+  {
+   "n": "Suit of armour",
+   "x": 3108,
+   "z": 3369,
+   "id": 817,
+   "o": []
+  },
+  {
+   "n": "Suit of armour",
+   "x": 3110,
+   "z": 3369,
+   "id": 817,
+   "o": []
+  },
+  {
+   "n": "Candles",
+   "x": 3106,
+   "z": 3369,
+   "id": 208,
+   "o": []
+  },
+  {
+   "n": "Staircase",
+   "x": 3108,
+   "z": 3364,
+   "id": 1731,
+   "o": [
+    "Walk-down"
+   ]
+  },
+  {
+   "n": "Candles",
+   "x": 3112,
+   "z": 3369,
+   "id": 208,
+   "o": []
+  },
+  {
+   "n": "Door",
+   "x": 3113,
+   "z": 3367,
+   "id": 1531,
+   "o": [
+    "Close"
+   ]
+  },
+  {
+   "n": "Wardrobe",
+   "x": 3113,
+   "z": 3368,
+   "id": 388,
+   "o": [
+    "Open"
+   ]
+  },
+  {
+   "n": "Staircase",
+   "x": 3104,
+   "z": 3362,
+   "id": 1738,
+   "o": [
+    "Climb-up"
+   ]
+  },
+  {
+   "n": "Wardrobe",
+   "x": 3104,
+   "z": 3368,
+   "id": 388,
+   "o": [
+    "Open"
+   ]
+  },
+  {
+   "n": "Wardrobe",
+   "x": 3114,
+   "z": 3362,
+   "id": 388,
+   "o": [
+    "Open"
+   ]
+  },
+  {
+   "n": "Candles",
+   "x": 3114,
+   "z": 3365,
+   "id": 208,
+   "o": []
+  },
+  {
+   "n": "Candles",
+   "x": 3114,
+   "z": 3368,
+   "id": 208,
+   "o": []
+  },
+  {
+   "n": "Statue",
+   "x": 3103,
+   "z": 3362,
+   "id": 575,
+   "o": []
+  },
+  {
+   "n": "Statue",
+   "x": 3103,
+   "z": 3364,
+   "id": 575,
+   "o": []
+  },
+  {
+   "n": "Statue",
+   "x": 3103,
+   "z": 3366,
+   "id": 576,
+   "o": []
+  },
+  {
+   "n": "Candles",
+   "x": 3106,
+   "z": 3373,
+   "id": 208,
+   "o": []
+  },
+  {
+   "n": "Standing torch",
+   "x": 3107,
+   "z": 3361,
+   "id": 724,
+   "o": []
+  },
+  {
+   "n": "Suit of armour",
+   "x": 3108,
+   "z": 3373,
+   "id": 817,
+   "o": []
+  },
+  {
+   "n": "Standing torch",
+   "x": 3110,
+   "z": 3361,
+   "id": 724,
+   "o": []
+  },
+  {
+   "n": "Suit of armour",
+   "x": 3110,
+   "z": 3373,
+   "id": 817,
+   "o": []
+  },
+  {
+   "n": "Wardrobe",
+   "x": 3112,
+   "z": 3361,
+   "id": 388,
+   "o": [
+    "Open"
+   ]
+  },
+  {
+   "n": "Candles",
+   "x": 3112,
+   "z": 3373,
+   "id": 208,
+   "o": []
+  },
+  {
+   "n": "Wardrobe",
+   "x": 3114,
+   "z": 3361,
+   "id": 388,
+   "o": [
+    "Open"
+   ]
+  },
+  {
+   "n": "Candles",
+   "x": 3115,
+   "z": 3362,
+   "id": 208,
+   "o": []
+  },
+  {
+   "n": "Standing torch",
+   "x": 3102,
+   "z": 3363,
+   "id": 724,
+   "o": []
+  },
+  {
+   "n": "Door",
+   "x": 3116,
+   "z": 3362,
+   "id": 1531,
+   "o": [
+    "Close"
+   ]
+  },
+  {
+   "n": "Chair",
+   "x": 3101,
+   "z": 3369,
+   "id": 1111,
+   "o": []
+  },
+  {
+   "n": "Table",
+   "x": 3101,
+   "z": 3370,
+   "id": 616,
+   "o": []
+  },
+  {
+   "n": "Table",
+   "x": 3101,
+   "z": 3371,
+   "id": 616,
+   "o": []
+  },
+  {
+   "n": "Chair",
+   "x": 3101,
+   "z": 3372,
+   "id": 1111,
+   "o": []
+  },
+  {
+   "n": "Broken cart wheel",
+   "x": 3105,
+   "z": 3359,
+   "id": 327,
+   "o": []
+  },
+  {
+   "n": "Mystical wall chart",
+   "x": 3107,
+   "z": 3359,
+   "id": 908,
+   "o": []
+  },
+  {
+   "n": "Candles",
+   "x": 3117,
+   "z": 3362,
+   "id": 208,
+   "o": []
+  },
+  {
+   "n": "Candles",
+   "x": 3117,
+   "z": 3373,
+   "id": 208,
+   "o": []
+  },
+  {
+   "n": "Chair",
+   "x": 3100,
+   "z": 3369,
+   "id": 1111,
+   "o": []
+  },
+  {
+   "n": "Table",
+   "x": 3100,
+   "z": 3370,
+   "id": 616,
+   "o": []
+  },
+  {
+   "n": "Table",
+   "x": 3100,
+   "z": 3371,
+   "id": 616,
+   "o": []
+  },
+  {
+   "n": "Chair",
+   "x": 3100,
+   "z": 3372,
+   "id": 1111,
+   "o": []
+  },
+  {
+   "n": "Door",
+   "x": 3110,
+   "z": 3358,
+   "id": 1531,
+   "o": [
+    "Close"
+   ]
+  },
+  {
+   "n": "Wardrobe",
+   "x": 3118,
+   "z": 3359,
+   "id": 388,
+   "o": [
+    "Open"
+   ]
+  },
+  {
+   "n": "Bookshelves",
+   "x": 3118,
+   "z": 3360,
+   "id": 387,
+   "o": []
+  },
+  {
+   "n": "Wardrobe",
+   "x": 3118,
+   "z": 3362,
+   "id": 388,
+   "o": [
+    "Open"
+   ]
+  },
+  {
+   "n": "Candles",
+   "x": 3118,
+   "z": 3365,
+   "id": 208,
+   "o": []
+  },
+  {
+   "n": "Candles",
+   "x": 3118,
+   "z": 3368,
+   "id": 208,
+   "o": []
+  },
+  {
+   "n": "Table",
+   "x": 3118,
+   "z": 3372,
+   "id": 616,
+   "o": []
+  },
+  {
+   "n": "Standing torch",
+   "x": 3099,
+   "z": 3363,
+   "id": 724,
+   "o": []
+  },
+  {
+   "n": "Chair",
+   "x": 3099,
+   "z": 3372,
+   "id": 1111,
+   "o": []
+  },
+  {
+   "n": "Mirror",
+   "x": 3119,
+   "z": 3359,
+   "id": 689,
+   "o": []
+  },
+  {
+   "n": "Statue",
+   "x": 3098,
+   "z": 3362,
+   "id": 576,
+   "o": []
+  },
+  {
+   "n": "Statue",
+   "x": 3098,
+   "z": 3364,
+   "id": 574,
+   "o": []
+  },
+  {
+   "n": "Statue",
+   "x": 3098,
+   "z": 3366,
+   "id": 575,
+   "o": []
+  },
+  {
+   "n": "Bull's head",
+   "x": 3098,
+   "z": 3371,
+   "id": 906,
+   "o": []
+  },
+  {
+   "n": "Mystical wall chart",
+   "x": 3107,
+   "z": 3356,
+   "id": 908,
+   "o": []
+  },
+  {
+   "n": "Mystical wall chart",
+   "x": 3110,
+   "z": 3356,
+   "id": 908,
+   "o": []
+  },
+  {
+   "n": "Chair",
+   "x": 3112,
+   "z": 3356,
+   "id": 1111,
+   "o": []
+  },
+  {
+   "n": "Chair",
+   "x": 3113,
+   "z": 3356,
+   "id": 1111,
+   "o": []
+  },
+  {
+   "n": "Door",
+   "x": 3118,
+   "z": 3356,
+   "id": 1530,
+   "o": [
+    "Open"
+   ]
+  },
+  {
+   "n": "Smashed chair",
+   "x": 3101,
+   "z": 3355,
+   "id": 1089,
+   "o": []
+  },
+  {
+   "n": "Corpse",
+   "x": 3106,
+   "z": 3355,
+   "id": 661,
+   "o": []
+  }
+ ],
+ "npcs": [
+  {
+   "n": "Ghost",
+   "id": 104,
+   "idx": 4341,
+   "x": 3108,
+   "z": 3361,
+   "o": [
+    "Attack"
+   ]
+  },
+  {
+   "n": "Ghost",
+   "id": 104,
+   "idx": 4342,
+   "x": 3120,
+   "z": 3358,
+   "o": [
+    "Attack"
+   ]
+  },
+  {
+   "n": "Ghost",
+   "id": 104,
+   "idx": 4340,
+   "x": 3098,
+   "z": 3356,
+   "o": [
+    "Attack"
+   ]
+  },
+  {
+   "n": "Ghost",
+   "id": 104,
+   "idx": 4339,
+   "x": 3094,
+   "z": 3361,
+   "o": [
+    "Attack"
+   ]
+  }
+ ],
+ "ground": [
+  {
+   "id": 272,
+   "name": "Fish food",
+   "count": 1,
+   "x": 3108,
+   "z": 3356,
+   "distance": 11,
+   "reachable": true
+  }
+ ],
+ "dialog": {
+  "isOpen": false,
+  "options": [],
+  "isWaiting": false,
+  "allComponents": []
+ },
+ "interface": {
+  "isOpen": false,
+  "interfaceId": -1,
+  "options": [],
+  "debugInfo": []
+ },
+ "modalOpen": false,
+ "modalInterface": -1,
+ "messages": [
+  {
+   "type": 0,
+   "text": "Welcome to RuneScape.",
+   "sender": "",
+   "tick": 0,
+   "observationId": 1,
+   "fromSelf": false
+  },
+  {
+   "type": 0,
+   "text": "The doors slam shut behind you.",
+   "sender": "",
+   "tick": 252,
+   "observationId": 366,
+   "fromSelf": false
+  }
+ ],
+ "opFeedback": {
+  "mapFlagUnsetCount": 143,
+  "lastMapFlagUnsetTick": 530,
+  "opRejectedCount": 10,
+  "lastOpRejectedTick": 427
+ },
+ "chat": []
+}

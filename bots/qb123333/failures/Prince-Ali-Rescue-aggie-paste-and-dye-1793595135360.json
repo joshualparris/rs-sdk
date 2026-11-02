@@ -1,0 +1,771 @@
+{
+ "quest": "Prince Ali Rescue",
+ "step": "aggie-paste-and-dye",
+ "time": "2026-11-02T04:52:15.359Z",
+ "player": {
+  "name": "Qb123333",
+  "combatLevel": 42,
+  "hp": 19,
+  "maxHp": 19,
+  "x": 6720,
+  "z": 6720,
+  "worldX": 3268,
+  "worldZ": 3228,
+  "level": 0,
+  "runEnergy": 100,
+  "runWeight": 14,
+  "animId": -1,
+  "spotanimId": -1,
+  "combat": {
+   "inCombat": false,
+   "targetIndex": -1,
+   "targetType": "none",
+   "lastDamageTick": 19865
+  },
+  "isDead": false,
+  "lifeId": 2,
+  "respawnCount": 1,
+  "lastDeathTick": 12872
+ },
+ "skills": [
+  {
+   "name": "Attack",
+   "level": 68,
+   "baseLevel": 68,
+   "experience": 122185
+  },
+  {
+   "name": "Defence",
+   "level": 13,
+   "baseLevel": 13,
+   "experience": 1600
+  },
+  {
+   "name": "Strength",
+   "level": 19,
+   "baseLevel": 19,
+   "experience": 2950
+  },
+  {
+   "name": "Hitpoints",
+   "level": 19,
+   "baseLevel": 19,
+   "experience": 2940
+  },
+  {
+   "name": "Ranged",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Prayer",
+   "level": 47,
+   "baseLevel": 47,
+   "experience": 28125
+  },
+  {
+   "name": "Magic",
+   "level": 31,
+   "baseLevel": 31,
+   "experience": 8125
+  },
+  {
+   "name": "Cooking",
+   "level": 30,
+   "baseLevel": 30,
+   "experience": 7500
+  },
+  {
+   "name": "Woodcutting",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Fletching",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Fishing",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Firemaking",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Crafting",
+   "level": 25,
+   "baseLevel": 25,
+   "experience": 5000
+  },
+  {
+   "name": "Smithing",
+   "level": 2,
+   "baseLevel": 2,
+   "experience": 155
+  },
+  {
+   "name": "Mining",
+   "level": 52,
+   "baseLevel": 52,
+   "experience": 37750
+  },
+  {
+   "name": "Herblore",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Agility",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Thieving",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Stat18",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Stat19",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Runecraft",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  }
+ ],
+ "inventory": [
+  "Bronze pickaxe",
+  "Coins x135",
+  "Bronze axe",
+  "Tinderbox",
+  "Bucket",
+  "Soft clay",
+  "Pink skirt",
+  "Beer",
+  "Beer",
+  "Beer",
+  "Redberries",
+  "Bronze bar"
+ ],
+ "locs": [
+  {
+   "n": "Gate",
+   "x": 3268,
+   "z": 3228,
+   "id": 2883,
+   "o": [
+    "Open"
+   ]
+  },
+  {
+   "n": "Gate",
+   "x": 3268,
+   "z": 3227,
+   "id": 2882,
+   "o": [
+    "Open"
+   ]
+  },
+  {
+   "n": "Tree",
+   "x": 3266,
+   "z": 3230,
+   "id": 1276,
+   "o": [
+    "Chop down"
+   ]
+  },
+  {
+   "n": "Tree",
+   "x": 3264,
+   "z": 3225,
+   "id": 1276,
+   "o": [
+    "Chop down"
+   ]
+  },
+  {
+   "n": "Tree",
+   "x": 3265,
+   "z": 3222,
+   "id": 1276,
+   "o": [
+    "Chop down"
+   ]
+  },
+  {
+   "n": "Signpost",
+   "x": 3261,
+   "z": 3230,
+   "id": 1079,
+   "o": []
+  },
+  {
+   "n": "Tree",
+   "x": 3264,
+   "z": 3235,
+   "id": 1276,
+   "o": [
+    "Chop down"
+   ]
+  },
+  {
+   "n": "Oak",
+   "x": 3260,
+   "z": 3223,
+   "id": 1281,
+   "o": [
+    "Chop down"
+   ]
+  },
+  {
+   "n": "Tree",
+   "x": 3264,
+   "z": 3220,
+   "id": 1276,
+   "o": [
+    "Chop down"
+   ]
+  },
+  {
+   "n": "Tree",
+   "x": 3259,
+   "z": 3219,
+   "id": 1276,
+   "o": [
+    "Chop down"
+   ]
+  },
+  {
+   "n": "Tree stump",
+   "x": 3257,
+   "z": 3224,
+   "id": 1341,
+   "o": []
+  },
+  {
+   "n": "Plant",
+   "x": 3257,
+   "z": 3231,
+   "id": 1394,
+   "o": []
+  },
+  {
+   "n": "Plant",
+   "x": 3257,
+   "z": 3234,
+   "id": 1394,
+   "o": []
+  },
+  {
+   "n": "Cactus",
+   "x": 3279,
+   "z": 3233,
+   "id": 1406,
+   "o": []
+  },
+  {
+   "n": "Cactus",
+   "x": 3279,
+   "z": 3235,
+   "id": 1406,
+   "o": []
+  },
+  {
+   "n": "Tree",
+   "x": 3256,
+   "z": 3221,
+   "id": 1276,
+   "o": [
+    "Chop down"
+   ]
+  },
+  {
+   "n": "Plant",
+   "x": 3256,
+   "z": 3237,
+   "id": 1393,
+   "o": []
+  },
+  {
+   "n": "Plant",
+   "x": 3256,
+   "z": 3239,
+   "id": 1394,
+   "o": []
+  },
+  {
+   "n": "Boulder",
+   "x": 3255,
+   "z": 3232,
+   "id": 445,
+   "o": []
+  },
+  {
+   "n": "Tree",
+   "x": 3255,
+   "z": 3241,
+   "id": 1276,
+   "o": [
+    "Chop down"
+   ]
+  },
+  {
+   "n": "Tree",
+   "x": 3265,
+   "z": 3215,
+   "id": 1276,
+   "o": [
+    "Chop down"
+   ]
+  },
+  {
+   "n": "Daisies",
+   "x": 3254,
+   "z": 3224,
+   "id": 1189,
+   "o": []
+  },
+  {
+   "n": "Tree stump",
+   "x": 3254,
+   "z": 3232,
+   "id": 1341,
+   "o": []
+  },
+  {
+   "n": "Plant",
+   "x": 3254,
+   "z": 3234,
+   "id": 1394,
+   "o": []
+  },
+  {
+   "n": "Dead tree",
+   "x": 3262,
+   "z": 3242,
+   "id": 1286,
+   "o": [
+    "Chop down"
+   ]
+  },
+  {
+   "n": "Tropical tree",
+   "x": 3282,
+   "z": 3225,
+   "id": 1326,
+   "o": []
+  },
+  {
+   "n": "Tree stump",
+   "x": 3253,
+   "z": 3224,
+   "id": 1341,
+   "o": []
+  },
+  {
+   "n": "gnomeglider_icon1",
+   "x": 3280,
+   "z": 3213,
+   "id": 771,
+   "o": []
+  },
+  {
+   "n": "Bush",
+   "x": 3283,
+   "z": 3227,
+   "id": 1123,
+   "o": []
+  }
+ ],
+ "npcs": [
+  {
+   "n": "Border Guard",
+   "id": 925,
+   "idx": 257,
+   "x": 3267,
+   "z": 3229,
+   "o": [
+    "Talk-to"
+   ]
+  },
+  {
+   "n": "Border Guard",
+   "id": 926,
+   "idx": 259,
+   "x": 3268,
+   "z": 3229,
+   "o": [
+    "Talk-to"
+   ]
+  },
+  {
+   "n": "Border Guard",
+   "id": 925,
+   "idx": 256,
+   "x": 3267,
+   "z": 3226,
+   "o": [
+    "Talk-to"
+   ]
+  },
+  {
+   "n": "Border Guard",
+   "id": 926,
+   "idx": 258,
+   "x": 3268,
+   "z": 3226,
+   "o": [
+    "Talk-to"
+   ]
+  },
+  {
+   "n": "Goblin",
+   "id": 100,
+   "idx": 2881,
+   "x": 3265,
+   "z": 3228,
+   "o": [
+    "Attack"
+   ]
+  },
+  {
+   "n": "Goblin",
+   "id": 100,
+   "idx": 2882,
+   "x": 3263,
+   "z": 3236,
+   "o": [
+    "Attack"
+   ]
+  },
+  {
+   "n": "Butterfly",
+   "id": 155,
+   "idx": 2876,
+   "x": 3258,
+   "z": 3233,
+   "o": []
+  },
+  {
+   "n": "Goblin",
+   "id": 100,
+   "idx": 2888,
+   "x": 3263,
+   "z": 3237,
+   "o": [
+    "Attack"
+   ]
+  },
+  {
+   "n": "Goblin",
+   "id": 100,
+   "idx": 2879,
+   "x": 3261,
+   "z": 3239,
+   "o": [
+    "Attack"
+   ]
+  },
+  {
+   "n": "Goblin",
+   "id": 100,
+   "idx": 2883,
+   "x": 3262,
+   "z": 3238,
+   "o": [
+    "Attack"
+   ]
+  },
+  {
+   "n": "Goblin",
+   "id": 100,
+   "idx": 2878,
+   "x": 3257,
+   "z": 3220,
+   "o": [
+    "Attack"
+   ]
+  },
+  {
+   "n": "Goblin",
+   "id": 100,
+   "idx": 2889,
+   "x": 3256,
+   "z": 3236,
+   "o": [
+    "Attack"
+   ]
+  },
+  {
+   "n": "Duck",
+   "id": 44,
+   "idx": 2871,
+   "x": 3259,
+   "z": 3215,
+   "o": [
+    "Attack"
+   ]
+  },
+  {
+   "n": "Goblin",
+   "id": 100,
+   "idx": 2874,
+   "x": 3254,
+   "z": 3224,
+   "o": [
+    "Attack"
+   ]
+  },
+  {
+   "n": "Duck",
+   "id": 44,
+   "idx": 2886,
+   "x": 3254,
+   "z": 3220,
+   "o": [
+    "Attack"
+   ]
+  },
+  {
+   "n": "Goblin",
+   "id": 100,
+   "idx": 2880,
+   "x": 3263,
+   "z": 3243,
+   "o": [
+    "Attack"
+   ]
+  },
+  {
+   "n": "Duck",
+   "id": 44,
+   "idx": 2868,
+   "x": 3256,
+   "z": 3214,
+   "o": [
+    "Attack"
+   ]
+  },
+  {
+   "n": "Goblin",
+   "id": 100,
+   "idx": 2872,
+   "x": 3253,
+   "z": 3243,
+   "o": [
+    "Attack"
+   ]
+  }
+ ],
+ "ground": [],
+ "dialog": {
+  "isOpen": true,
+  "options": [
+   {
+    "index": 1,
+    "text": "Click here to continue",
+    "componentId": 972,
+    "buttonType": 6
+   }
+  ],
+  "isWaiting": false,
+  "pageId": "mvyn11xy-34726rg1qog:1090",
+  "allComponents": [
+   {
+    "id": 968,
+    "type": 0,
+    "buttonType": 0,
+    "option": "",
+    "text": ""
+   },
+   {
+    "id": 969,
+    "type": 6,
+    "buttonType": 0,
+    "option": "",
+    "text": ""
+   },
+   {
+    "id": 970,
+    "type": 4,
+    "buttonType": 0,
+    "option": "",
+    "text": "Qb123333"
+   },
+   {
+    "id": 971,
+    "type": 4,
+    "buttonType": 0,
+    "option": "",
+    "text": "Can I come through this gate?"
+   },
+   {
+    "id": 972,
+    "type": 4,
+    "buttonType": 6,
+    "option": "Continue",
+    "text": "Click here to continue"
+   }
+  ]
+ },
+ "interface": {
+  "isOpen": false,
+  "interfaceId": -1,
+  "options": [],
+  "debugInfo": []
+ },
+ "modalOpen": false,
+ "modalInterface": -1,
+ "messages": [
+  {
+   "type": 0,
+   "text": "You buy a pint of beer.",
+   "sender": "",
+   "tick": 19448,
+   "observationId": 24038,
+   "fromSelf": false
+  },
+  {
+   "type": 0,
+   "text": "You buy a pint of beer.",
+   "sender": "",
+   "tick": 19459,
+   "observationId": 24055,
+   "fromSelf": false
+  },
+  {
+   "type": 0,
+   "text": "You swing your pick at the rock.",
+   "sender": "",
+   "tick": 19532,
+   "observationId": 24156,
+   "fromSelf": false
+  },
+  {
+   "type": 0,
+   "text": "You manage to mine some copper.",
+   "sender": "",
+   "tick": 19539,
+   "observationId": 24163,
+   "fromSelf": false
+  },
+  {
+   "type": 0,
+   "text": "You swing your pick at the rock.",
+   "sender": "",
+   "tick": 19543,
+   "observationId": 24168,
+   "fromSelf": false
+  },
+  {
+   "type": 0,
+   "text": "You manage to mine some tin.",
+   "sender": "",
+   "tick": 19550,
+   "observationId": 24175,
+   "fromSelf": false
+  },
+  {
+   "type": 0,
+   "text": "Congratulations, you just advanced a mining level.",
+   "sender": "",
+   "tick": 19550,
+   "observationId": 24175,
+   "fromSelf": false
+  },
+  {
+   "type": 0,
+   "text": "You smelt the copper and tin together in the furnace.",
+   "sender": "",
+   "tick": 19749,
+   "observationId": 24460,
+   "fromSelf": false
+  },
+  {
+   "type": 0,
+   "text": "You retrieve a bar of bronze.",
+   "sender": "",
+   "tick": 19752,
+   "observationId": 24463,
+   "fromSelf": false
+  },
+  {
+   "type": 0,
+   "text": "Congratulations, you just advanced a smithing level.",
+   "sender": "",
+   "tick": 19752,
+   "observationId": 24463,
+   "fromSelf": false
+  },
+  {
+   "type": 0,
+   "text": "You pay the guard.",
+   "sender": "",
+   "tick": 19956,
+   "observationId": 24765,
+   "fromSelf": false
+  },
+  {
+   "type": 0,
+   "text": "I can't reach that!",
+   "sender": "",
+   "tick": 21134,
+   "observationId": 26372,
+   "fromSelf": false
+  },
+  {
+   "type": 0,
+   "text": "I can't reach that!",
+   "sender": "",
+   "tick": 21209,
+   "observationId": 26448,
+   "fromSelf": false
+  },
+  {
+   "type": 0,
+   "text": "I can't reach that!",
+   "sender": "",
+   "tick": 21285,
+   "observationId": 26525,
+   "fromSelf": false
+  },
+  {
+   "type": 0,
+   "text": "I can't reach that!",
+   "sender": "",
+   "tick": 21360,
+   "observationId": 26601,
+   "fromSelf": false
+  }
+ ],
+ "opFeedback": {
+  "mapFlagUnsetCount": 3506,
+  "lastMapFlagUnsetTick": 21786,
+  "opRejectedCount": 900,
+  "lastOpRejectedTick": 21785
+ },
+ "chat": []
+}

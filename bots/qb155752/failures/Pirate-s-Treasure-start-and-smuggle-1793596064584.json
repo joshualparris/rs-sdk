@@ -1,0 +1,761 @@
+{
+ "quest": "Pirate's Treasure",
+ "step": "start-and-smuggle",
+ "time": "2026-11-02T05:07:44.583Z",
+ "player": {
+  "name": "Qb155752",
+  "combatLevel": 12,
+  "hp": 14,
+  "maxHp": 17,
+  "x": 2880,
+  "z": 7104,
+  "worldX": 2926,
+  "worldZ": 3143,
+  "level": 0,
+  "runEnergy": 100,
+  "runWeight": 4,
+  "animId": -1,
+  "spotanimId": -1,
+  "combat": {
+   "inCombat": false,
+   "targetIndex": -1,
+   "targetType": "none",
+   "lastDamageTick": 1221
+  },
+  "isDead": false,
+  "lifeId": 1,
+  "respawnCount": 0,
+  "lastDeathTick": null
+ },
+ "skills": [
+  {
+   "name": "Attack",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Defence",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Strength",
+   "level": 23,
+   "baseLevel": 23,
+   "experience": 4300
+  },
+  {
+   "name": "Hitpoints",
+   "level": 14,
+   "baseLevel": 17,
+   "experience": 2377
+  },
+  {
+   "name": "Ranged",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Prayer",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Magic",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Cooking",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Woodcutting",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Fletching",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Fishing",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Firemaking",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Crafting",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Smithing",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Mining",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Herblore",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Agility",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Thieving",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Stat18",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Stat19",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  },
+  {
+   "name": "Runecraft",
+   "level": 1,
+   "baseLevel": 1,
+   "experience": 0
+  }
+ ],
+ "inventory": [
+  "Coins x21",
+  "White apron"
+ ],
+ "locs": [
+  {
+   "n": "Shelves",
+   "x": 2925,
+   "z": 3142,
+   "id": 1012,
+   "o": []
+  },
+  {
+   "n": "Bar pumps",
+   "x": 2925,
+   "z": 3144,
+   "id": 885,
+   "o": []
+  },
+  {
+   "n": "Shelves",
+   "x": 2926,
+   "z": 3142,
+   "id": 1010,
+   "o": []
+  },
+  {
+   "n": "Counter",
+   "x": 2926,
+   "z": 3144,
+   "id": 612,
+   "o": []
+  },
+  {
+   "n": "Jungle plant",
+   "x": 2924,
+   "z": 3141,
+   "id": 1390,
+   "o": []
+  },
+  {
+   "n": "Shelves",
+   "x": 2924,
+   "z": 3142,
+   "id": 1011,
+   "o": []
+  },
+  {
+   "n": "Bar pumps",
+   "x": 2924,
+   "z": 3144,
+   "id": 885,
+   "o": []
+  },
+  {
+   "n": "Stool",
+   "x": 2924,
+   "z": 3145,
+   "id": 1102,
+   "o": []
+  },
+  {
+   "n": "Creeping plant",
+   "x": 2925,
+   "z": 3141,
+   "id": 1184,
+   "o": []
+  },
+  {
+   "n": "Stool",
+   "x": 2926,
+   "z": 3145,
+   "id": 1102,
+   "o": []
+  },
+  {
+   "n": "Jungle plant",
+   "x": 2927,
+   "z": 3141,
+   "id": 1390,
+   "o": []
+  },
+  {
+   "n": "Stool",
+   "x": 2927,
+   "z": 3145,
+   "id": 1102,
+   "o": []
+  },
+  {
+   "n": "Creeping plant",
+   "x": 2928,
+   "z": 3141,
+   "id": 1184,
+   "o": []
+  },
+  {
+   "n": "Creeping plant",
+   "x": 2923,
+   "z": 3141,
+   "id": 1184,
+   "o": []
+  },
+  {
+   "n": "Counter",
+   "x": 2923,
+   "z": 3143,
+   "id": 612,
+   "o": []
+  },
+  {
+   "n": "Stool",
+   "x": 2923,
+   "z": 3145,
+   "id": 1102,
+   "o": []
+  },
+  {
+   "n": "Jungle plant",
+   "x": 2929,
+   "z": 3141,
+   "id": 1390,
+   "o": []
+  },
+  {
+   "n": "Stool",
+   "x": 2929,
+   "z": 3146,
+   "id": 1102,
+   "o": []
+  },
+  {
+   "n": "Hanging wheel",
+   "x": 2925,
+   "z": 3147,
+   "id": 967,
+   "o": []
+  },
+  {
+   "n": "Stool",
+   "x": 2928,
+   "z": 3147,
+   "id": 1102,
+   "o": []
+  },
+  {
+   "n": "Table",
+   "x": 2929,
+   "z": 3147,
+   "id": 598,
+   "o": []
+  },
+  {
+   "n": "Jungle plant",
+   "x": 2930,
+   "z": 3141,
+   "id": 1390,
+   "o": []
+  },
+  {
+   "n": "Barrel",
+   "x": 2930,
+   "z": 3143,
+   "id": 362,
+   "o": []
+  },
+  {
+   "n": "Barrel",
+   "x": 2930,
+   "z": 3144,
+   "id": 362,
+   "o": []
+  },
+  {
+   "n": "Jungle plant",
+   "x": 2921,
+   "z": 3141,
+   "id": 1390,
+   "o": []
+  },
+  {
+   "n": "Barrel",
+   "x": 2921,
+   "z": 3142,
+   "id": 362,
+   "o": []
+  },
+  {
+   "n": "Stool",
+   "x": 2921,
+   "z": 3143,
+   "id": 1102,
+   "o": []
+  },
+  {
+   "n": "Creeping plant",
+   "x": 2925,
+   "z": 3148,
+   "id": 1184,
+   "o": []
+  },
+  {
+   "n": "Sign",
+   "x": 2925,
+   "z": 3148,
+   "id": 1078,
+   "o": []
+  },
+  {
+   "n": "Jungle plant",
+   "x": 2926,
+   "z": 3148,
+   "id": 1390,
+   "o": []
+  },
+  {
+   "n": "Fishing net",
+   "x": 2926,
+   "z": 3148,
+   "id": 969,
+   "o": []
+  },
+  {
+   "n": "Creeping plant",
+   "x": 2927,
+   "z": 3148,
+   "id": 1184,
+   "o": []
+  },
+  {
+   "n": "Jungle plant",
+   "x": 2928,
+   "z": 3148,
+   "id": 1390,
+   "o": []
+  },
+  {
+   "n": "Fishing net",
+   "x": 2928,
+   "z": 3148,
+   "id": 969,
+   "o": []
+  },
+  {
+   "n": "Creeping plant",
+   "x": 2929,
+   "z": 3148,
+   "id": 1184,
+   "o": []
+  },
+  {
+   "n": "Creeping plant",
+   "x": 2930,
+   "z": 3148,
+   "id": 1184,
+   "o": []
+  },
+  {
+   "n": "Tree",
+   "x": 2931,
+   "z": 3139,
+   "id": 1304,
+   "o": []
+  },
+  {
+   "n": "Jungle plant",
+   "x": 2931,
+   "z": 3141,
+   "id": 1399,
+   "o": []
+  },
+  {
+   "n": "Jungle plant",
+   "x": 2931,
+   "z": 3142,
+   "id": 1400,
+   "o": []
+  },
+  {
+   "n": "Fern",
+   "x": 2931,
+   "z": 3144,
+   "id": 1298,
+   "o": []
+  },
+  {
+   "n": "Fern",
+   "x": 2931,
+   "z": 3145,
+   "id": 1298,
+   "o": []
+  },
+  {
+   "n": "Small fern",
+   "x": 2931,
+   "z": 3146,
+   "id": 1173,
+   "o": []
+  },
+  {
+   "n": "Creeping plant",
+   "x": 2931,
+   "z": 3147,
+   "id": 1184,
+   "o": []
+  },
+  {
+   "n": "Jungle plant",
+   "x": 2920,
+   "z": 3140,
+   "id": 1390,
+   "o": []
+  },
+  {
+   "n": "Barrel",
+   "x": 2920,
+   "z": 3142,
+   "id": 362,
+   "o": []
+  },
+  {
+   "n": "Picnic bench",
+   "x": 2920,
+   "z": 3147,
+   "id": 611,
+   "o": []
+  },
+  {
+   "n": "Creeping plant",
+   "x": 2924,
+   "z": 3149,
+   "id": 1184,
+   "o": []
+  },
+  {
+   "n": "Jungle plant",
+   "x": 2925,
+   "z": 3149,
+   "id": 1390,
+   "o": []
+  },
+  {
+   "n": "Jungle plant",
+   "x": 2926,
+   "z": 3149,
+   "id": 1390,
+   "o": []
+  },
+  {
+   "n": "Jungle plant",
+   "x": 2927,
+   "z": 3149,
+   "id": 1390,
+   "o": []
+  },
+  {
+   "n": "Creeping plant",
+   "x": 2929,
+   "z": 3149,
+   "id": 1184,
+   "o": []
+  },
+  {
+   "n": "Jungle plant",
+   "x": 2930,
+   "z": 3149,
+   "id": 1390,
+   "o": []
+  },
+  {
+   "n": "Small fern",
+   "x": 2932,
+   "z": 3143,
+   "id": 1173,
+   "o": []
+  },
+  {
+   "n": "Creeping plant",
+   "x": 2932,
+   "z": 3146,
+   "id": 1184,
+   "o": []
+  },
+  {
+   "n": "Jungle plant",
+   "x": 2919,
+   "z": 3140,
+   "id": 1398,
+   "o": []
+  },
+  {
+   "n": "Stool",
+   "x": 2919,
+   "z": 3144,
+   "id": 1102,
+   "o": []
+  },
+  {
+   "n": "Jungle plant",
+   "x": 2919,
+   "z": 3150,
+   "id": 1390,
+   "o": []
+  },
+  {
+   "n": "Creeping plant",
+   "x": 2920,
+   "z": 3150,
+   "id": 1184,
+   "o": []
+  },
+  {
+   "n": "Jungle plant",
+   "x": 2925,
+   "z": 3150,
+   "id": 1390,
+   "o": []
+  },
+  {
+   "n": "Creeping plant",
+   "x": 2927,
+   "z": 3150,
+   "id": 1184,
+   "o": []
+  }
+ ],
+ "npcs": [
+  {
+   "n": "Zambo",
+   "id": 568,
+   "idx": 5537,
+   "x": 2925,
+   "z": 3143,
+   "o": [
+    "Talk-to",
+    "Trade"
+   ]
+  },
+  {
+   "n": "Luthas",
+   "id": 379,
+   "idx": 5541,
+   "x": 2938,
+   "z": 3155,
+   "o": [
+    "Talk-to"
+   ]
+  }
+ ],
+ "ground": [
+  {
+   "id": 556,
+   "name": "Air rune",
+   "count": 1,
+   "x": 2938,
+   "z": 3158,
+   "distance": 15,
+   "reachable": true
+  }
+ ],
+ "dialog": {
+  "isOpen": false,
+  "options": [],
+  "isWaiting": false,
+  "allComponents": []
+ },
+ "interface": {
+  "isOpen": false,
+  "interfaceId": -1,
+  "options": [],
+  "debugInfo": []
+ },
+ "modalOpen": false,
+ "modalInterface": -1,
+ "messages": [
+  {
+   "type": 0,
+   "text": "Congratulations, you just advanced a strength level.",
+   "sender": "",
+   "tick": 482,
+   "observationId": 651,
+   "fromSelf": false
+  },
+  {
+   "type": 0,
+   "text": "Congratulations, you just advanced a strength level.",
+   "sender": "",
+   "tick": 485,
+   "observationId": 656,
+   "fromSelf": false
+  },
+  {
+   "type": 0,
+   "text": "Congratulations, you just advanced a hitpoints level.",
+   "sender": "",
+   "tick": 489,
+   "observationId": 660,
+   "fromSelf": false
+  },
+  {
+   "type": 0,
+   "text": "Congratulations, you just advanced a strength level.",
+   "sender": "",
+   "tick": 524,
+   "observationId": 701,
+   "fromSelf": false
+  },
+  {
+   "type": 0,
+   "text": "Congratulations, you just advanced a strength level.",
+   "sender": "",
+   "tick": 532,
+   "observationId": 710,
+   "fromSelf": false
+  },
+  {
+   "type": 0,
+   "text": "Congratulations, you just advanced a strength level.",
+   "sender": "",
+   "tick": 552,
+   "observationId": 741,
+   "fromSelf": false
+  },
+  {
+   "type": 0,
+   "text": "Congratulations, you just advanced a hitpoints level.",
+   "sender": "",
+   "tick": 554,
+   "observationId": 747,
+   "fromSelf": false
+  },
+  {
+   "type": 0,
+   "text": "Congratulations, you just advanced a strength level.",
+   "sender": "",
+   "tick": 588,
+   "observationId": 784,
+   "fromSelf": false
+  },
+  {
+   "type": 0,
+   "text": "Congratulations, you just advanced a strength level.",
+   "sender": "",
+   "tick": 609,
+   "observationId": 813,
+   "fromSelf": false
+  },
+  {
+   "type": 0,
+   "text": "Congratulations, you just advanced a hitpoints level.",
+   "sender": "",
+   "tick": 611,
+   "observationId": 815,
+   "fromSelf": false
+  },
+  {
+   "type": 0,
+   "text": "Congratulations, you just advanced a strength level.",
+   "sender": "",
+   "tick": 625,
+   "observationId": 836,
+   "fromSelf": false
+  },
+  {
+   "type": 0,
+   "text": "Congratulations, you just advanced a strength level.",
+   "sender": "",
+   "tick": 688,
+   "observationId": 904,
+   "fromSelf": false
+  },
+  {
+   "type": 0,
+   "text": "Congratulations, you just advanced a hitpoints level.",
+   "sender": "",
+   "tick": 689,
+   "observationId": 906,
+   "fromSelf": false
+  },
+  {
+   "type": 0,
+   "text": "You pay the 30 coins...",
+   "sender": "",
+   "tick": 1334,
+   "observationId": 1810,
+   "fromSelf": false
+  },
+  {
+   "type": 0,
+   "text": "and board the ship.",
+   "sender": "",
+   "tick": 1334,
+   "observationId": 1810,
+   "fromSelf": false
+  }
+ ],
+ "opFeedback": {
+  "mapFlagUnsetCount": 796,
+  "lastMapFlagUnsetTick": 1381,
+  "opRejectedCount": 516,
+  "lastOpRejectedTick": 1381
+ },
+ "chat": []
+}
